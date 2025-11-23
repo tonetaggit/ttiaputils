@@ -4,7 +4,7 @@ Pod::Spec.new do |spec|
   spec.summary      = "Static variant of MyLibrary"
   spec.description  = "Contains static iap framework for integration with other static SDKs."
   spec.homepage     = "https://github.com/tonetaggit/ttiaputils.git"
-  spec.license      = { :type => "MIT", :file => "LICENSE" }
+  spec.license      = { :type => "Proprietary", :file => "LICENSE" }
   spec.author       = { "Tonetag" => "dev@tonetag.com" }
   spec.platform     = :ios, "14.0"
   spec.swift_version = "6.1"
@@ -16,6 +16,7 @@ Pod::Spec.new do |spec|
     "Frameworks/FlutterPluginRegistrant.xcframework",
     "Frameworks/google_maps_flutter_ios.xcframework",
     "Frameworks/InAppChargingSDKiOS.xcframework",
+    # "/Users/madhan/Desktop/InAppChargingSDKiOS.xcframework",
   ]
   spec.xcconfig = {
     'LIBRARY_SEARCH_PATHS' => '$(inherited) $(TOOLCHAIN_DIR)/usr/lib/swift/$(PLATFORM_NAME)/ $(SDKROOT)/usr/lib/swift',
