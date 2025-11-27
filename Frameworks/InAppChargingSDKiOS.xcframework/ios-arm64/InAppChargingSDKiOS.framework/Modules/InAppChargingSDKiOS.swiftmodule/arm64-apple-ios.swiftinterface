@@ -15,17 +15,10 @@ final internal class TTDeviceIDManager {
   @objc @usableFromInline
   deinit
 }
-@_hasMissingDesignatedInitializers public class InAppChargingSDkiOS {
-  public static func getHelperFlowViewController(with request: InAppChargingSDKiOS.IACFlowRequest, viewController: UIKit.UIViewController) throws -> UIKit.UIViewController
-  public static func requestToRegisterDevice(with request: InAppChargingSDKiOS.IACFlowRequest, completion: @escaping (Swift.Result<Swift.Bool, any Swift.Error>) -> Swift.Void)
-  public static func setIsRfidSessionStarted(with request: Swift.Bool)
-  public static func clearIAPData(completion: @escaping (_ isSuccess: Swift.Bool) -> Swift.Void)
-  @objc deinit
-}
 public struct IACFlowRequest {
   public var userLocation: (latitude: Swift.Double, longitude: Swift.Double)
   public var oneSignalID: Swift.String?
-  public init(sdkMode: InAppChargingSDKiOS.IACSDKMode, phoneNumber: Swift.String, userName: Swift.String? = nil, vehicleRegNumber: Swift.String, vehicleID: Swift.String, vehicleType: InAppChargingSDKiOS.IACVehicleType, carProductLineName: Swift.String, carModelName: Swift.String? = nil, userLocation: (latitude: Swift.Double, longitude: Swift.Double)? = nil, oneSignalID: Swift.String? = nil)
+  public init(sdkMode: InAppChargingSDKiOS.IACSDKMode, phoneNumber: Swift.String, userName: Swift.String? = nil, vehicleRegNumber: Swift.String, vehicleID: Swift.String, vehicleType: InAppChargingSDKiOS.IACVehicleType, carProductLineName: Swift.String, carModelName: Swift.String? = nil, userLocation: (latitude: Swift.Double, longitude: Swift.Double)? = nil, oneSignalID: Swift.String? = nil, carImageUrl: Swift.String)
 }
 public enum IACFlowRequestError : Swift.Error {
   case invalidVehicleRegNumber
@@ -58,6 +51,13 @@ public enum IACVehicleType : Swift.String, Swift.CaseIterable, Swift.Codable {
   public var rawValue: Swift.String {
     get
   }
+}
+@_hasMissingDesignatedInitializers public class InAppChargingSDkiOS {
+  public static func getHelperFlowViewController(with request: InAppChargingSDKiOS.IACFlowRequest, viewController: UIKit.UIViewController) throws -> UIKit.UIViewController
+  public static func requestToRegisterDevice(with request: InAppChargingSDKiOS.IACFlowRequest, completion: @escaping (Swift.Result<Swift.Bool, any Swift.Error>) -> Swift.Void)
+  public static func setIsRfidSessionStarted(with request: Swift.Bool)
+  public static func clearIAPData(completion: @escaping (_ isSuccess: Swift.Bool) -> Swift.Void)
+  @objc deinit
 }
 extension InAppChargingSDKiOS.IACFlowRequestError : Swift.Equatable {}
 extension InAppChargingSDKiOS.IACFlowRequestError : Swift.Hashable {}
