@@ -6,152 +6,6 @@
     "children": [
       {
         "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "InAppChargingSDKiOS",
-        "declAttributes": [
-          "AccessControl",
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "Flutter",
-        "printedName": "Flutter",
-        "declKind": "Import",
-        "moduleName": "InAppChargingSDKiOS"
-      },
-      {
-        "kind": "Import",
-        "name": "CryptoKit",
-        "printedName": "CryptoKit",
-        "declKind": "Import",
-        "moduleName": "InAppChargingSDKiOS",
-        "declAttributes": [
-          "AccessControl",
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "Security",
-        "printedName": "Security",
-        "declKind": "Import",
-        "moduleName": "InAppChargingSDKiOS",
-        "declAttributes": [
-          "AccessControl"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "CoreLocation",
-        "printedName": "CoreLocation",
-        "declKind": "Import",
-        "moduleName": "InAppChargingSDKiOS",
-        "declAttributes": [
-          "AccessControl"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "UIKit",
-        "printedName": "UIKit",
-        "declKind": "Import",
-        "moduleName": "InAppChargingSDKiOS"
-      },
-      {
-        "kind": "Import",
-        "name": "FlutterPluginRegistrant",
-        "printedName": "FlutterPluginRegistrant",
-        "declKind": "Import",
-        "moduleName": "InAppChargingSDKiOS",
-        "declAttributes": [
-          "AccessControl",
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "CoreTelephony",
-        "printedName": "CoreTelephony",
-        "declKind": "Import",
-        "moduleName": "InAppChargingSDKiOS",
-        "declAttributes": [
-          "AccessControl"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "CoreLocation",
-        "printedName": "CoreLocation",
-        "declKind": "Import",
-        "moduleName": "InAppChargingSDKiOS",
-        "declAttributes": [
-          "AccessControl",
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "InAppChargingSDKiOS",
-        "declAttributes": [
-          "AccessControl",
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "Security",
-        "printedName": "Security",
-        "declKind": "Import",
-        "moduleName": "InAppChargingSDKiOS",
-        "declAttributes": [
-          "AccessControl"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "SystemConfiguration.CaptiveNetwork",
-        "printedName": "SystemConfiguration.CaptiveNetwork",
-        "declKind": "Import",
-        "moduleName": "InAppChargingSDKiOS"
-      },
-      {
-        "kind": "TypeDecl",
-        "name": "TTDeviceIDManager",
-        "printedName": "TTDeviceIDManager",
-        "declKind": "Class",
-        "usr": "s:19InAppChargingSDKiOS17TTDeviceIDManagerC",
-        "mangledName": "$s19InAppChargingSDKiOS17TTDeviceIDManagerC",
-        "moduleName": "InAppChargingSDKiOS",
-        "declAttributes": [
-          "Final",
-          "UsableFromInline"
-        ],
-        "hasMissingDesignatedInitializers": true,
-        "conformances": [
-          {
-            "kind": "Conformance",
-            "name": "Copyable",
-            "printedName": "Copyable",
-            "usr": "s:s8CopyableP",
-            "mangledName": "$ss8CopyableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          }
-        ]
-      },
-      {
-        "kind": "Import",
         "name": "UIKit",
         "printedName": "UIKit",
         "declKind": "Import",
@@ -230,213 +84,6 @@
         "moduleName": "InAppChargingSDKiOS",
         "declAttributes": [
           "AccessControl"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "UIKit",
-        "printedName": "UIKit",
-        "declKind": "Import",
-        "moduleName": "InAppChargingSDKiOS",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "TypeDecl",
-        "name": "InAppChargingSDkiOS",
-        "printedName": "InAppChargingSDkiOS",
-        "children": [
-          {
-            "kind": "Function",
-            "name": "getHelperFlowViewController",
-            "printedName": "getHelperFlowViewController(with:viewController:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "UIViewController",
-                "printedName": "UIKit.UIViewController",
-                "usr": "c:objc(cs)UIViewController"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "IACFlowRequest",
-                "printedName": "InAppChargingSDKiOS.IACFlowRequest",
-                "usr": "s:19InAppChargingSDKiOS14IACFlowRequestV"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "UIViewController",
-                "printedName": "UIKit.UIViewController",
-                "usr": "c:objc(cs)UIViewController"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:19InAppChargingSDKiOS0abc4SDkiE0C27getHelperFlowViewController4with04viewK0So06UIViewK0CAA14IACFlowRequestV_AHtKFZ",
-            "mangledName": "$s19InAppChargingSDKiOS0abc4SDkiE0C27getHelperFlowViewController4with04viewK0So06UIViewK0CAA14IACFlowRequestV_AHtKFZ",
-            "moduleName": "InAppChargingSDKiOS",
-            "static": true,
-            "declAttributes": [
-              "Final",
-              "AccessControl",
-              "RawDocComment"
-            ],
-            "throwing": true,
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "requestToRegisterDevice",
-            "printedName": "requestToRegisterDevice(with:completion:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "IACFlowRequest",
-                "printedName": "InAppChargingSDKiOS.IACFlowRequest",
-                "usr": "s:19InAppChargingSDKiOS14IACFlowRequestV"
-              },
-              {
-                "kind": "TypeFunc",
-                "name": "Function",
-                "printedName": "(Swift.Result<Swift.Bool, any Swift.Error>) -> ()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Result",
-                    "printedName": "Swift.Result<Swift.Bool, any Swift.Error>",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Bool",
-                        "printedName": "Swift.Bool",
-                        "usr": "s:Sb"
-                      },
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Error",
-                        "printedName": "any Swift.Error",
-                        "usr": "s:s5ErrorP"
-                      }
-                    ],
-                    "usr": "s:s6ResultO"
-                  }
-                ]
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:19InAppChargingSDKiOS0abc4SDkiE0C23requestToRegisterDevice4with10completionyAA14IACFlowRequestV_ys6ResultOySbs5Error_pGctFZ",
-            "mangledName": "$s19InAppChargingSDKiOS0abc4SDkiE0C23requestToRegisterDevice4with10completionyAA14IACFlowRequestV_ys6ResultOySbs5Error_pGctFZ",
-            "moduleName": "InAppChargingSDKiOS",
-            "static": true,
-            "declAttributes": [
-              "Final",
-              "AccessControl"
-            ],
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "setIsRfidSessionStarted",
-            "printedName": "setIsRfidSessionStarted(with:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Bool",
-                "printedName": "Swift.Bool",
-                "usr": "s:Sb"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:19InAppChargingSDKiOS0abc4SDkiE0C23setIsRfidSessionStarted4withySb_tFZ",
-            "mangledName": "$s19InAppChargingSDKiOS0abc4SDkiE0C23setIsRfidSessionStarted4withySb_tFZ",
-            "moduleName": "InAppChargingSDKiOS",
-            "static": true,
-            "declAttributes": [
-              "Final",
-              "AccessControl"
-            ],
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "clearIAPData",
-            "printedName": "clearIAPData(completion:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeFunc",
-                "name": "Function",
-                "printedName": "(Swift.Bool) -> ()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Bool",
-                    "printedName": "Swift.Bool",
-                    "usr": "s:Sb"
-                  }
-                ]
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:19InAppChargingSDKiOS0abc4SDkiE0C12clearIAPData10completionyySbc_tFZ",
-            "mangledName": "$s19InAppChargingSDKiOS0abc4SDkiE0C12clearIAPData10completionyySbc_tFZ",
-            "moduleName": "InAppChargingSDKiOS",
-            "static": true,
-            "declAttributes": [
-              "Final",
-              "AccessControl"
-            ],
-            "funcSelfKind": "NonMutating"
-          }
-        ],
-        "declKind": "Class",
-        "usr": "s:19InAppChargingSDKiOS0abc4SDkiE0C",
-        "mangledName": "$s19InAppChargingSDKiOS0abc4SDkiE0C",
-        "moduleName": "InAppChargingSDKiOS",
-        "declAttributes": [
-          "AccessControl",
-          "RawDocComment"
-        ],
-        "hasMissingDesignatedInitializers": true,
-        "conformances": [
-          {
-            "kind": "Conformance",
-            "name": "Copyable",
-            "printedName": "Copyable",
-            "usr": "s:s8CopyableP",
-            "mangledName": "$ss8CopyableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          }
         ]
       },
       {
@@ -753,7 +400,7 @@
           {
             "kind": "Constructor",
             "name": "init",
-            "printedName": "init(sdkMode:phoneNumber:userName:vehicleRegNumber:vehicleID:vehicleType:carProductLineName:carModelName:userLocation:oneSignalID:)",
+            "printedName": "init(sdkMode:phoneNumber:userName:vehicleRegNumber:vehicleID:vehicleType:carProductLineName:carModelName:userLocation:oneSignalID:carImageUrl:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -869,11 +516,17 @@
                 ],
                 "hasDefaultArg": true,
                 "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
               }
             ],
             "declKind": "Constructor",
-            "usr": "s:19InAppChargingSDKiOS14IACFlowRequestV7sdkMode11phoneNumber8userName010vehicleRegK00N2ID0N4Type014carProductLineM00r5ModelM00L8Location09oneSignalP0AcA10IACSDKModeO_S2SSgS2SAA010IACVehicleQ0OSSAPSd8latitude_Sd9longitudetSgAPtcfc",
-            "mangledName": "$s19InAppChargingSDKiOS14IACFlowRequestV7sdkMode11phoneNumber8userName010vehicleRegK00N2ID0N4Type014carProductLineM00r5ModelM00L8Location09oneSignalP0AcA10IACSDKModeO_S2SSgS2SAA010IACVehicleQ0OSSAPSd8latitude_Sd9longitudetSgAPtcfc",
+            "usr": "s:19InAppChargingSDKiOS14IACFlowRequestV7sdkMode11phoneNumber8userName010vehicleRegK00N2ID0N4Type014carProductLineM00r5ModelM00L8Location09oneSignalP00R8ImageUrlAcA10IACSDKModeO_S2SSgS2SAA010IACVehicleQ0OSSAQSd8latitude_Sd9longitudetSgAQSStcfc",
+            "mangledName": "$s19InAppChargingSDKiOS14IACFlowRequestV7sdkMode11phoneNumber8userName010vehicleRegK00N2ID0N4Type014carProductLineM00r5ModelM00L8Location09oneSignalP00R8ImageUrlAcA10IACSDKModeO_S2SSgS2SAA010IACVehicleQ0OSSAQSd8latitude_Sd9longitudetSgAQSStcfc",
             "moduleName": "InAppChargingSDKiOS",
             "declAttributes": [
               "AccessControl",
@@ -1774,6 +1427,13 @@
       },
       {
         "kind": "Import",
+        "name": "Flutter",
+        "printedName": "Flutter",
+        "declKind": "Import",
+        "moduleName": "InAppChargingSDKiOS"
+      },
+      {
+        "kind": "Import",
         "name": "UIKit",
         "printedName": "UIKit",
         "declKind": "Import",
@@ -1781,39 +1441,587 @@
         "declAttributes": [
           "RawDocComment"
         ]
+      },
+      {
+        "kind": "Import",
+        "name": "Flutter",
+        "printedName": "Flutter",
+        "declKind": "Import",
+        "moduleName": "InAppChargingSDKiOS"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "InAppChargingSDKiOS"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "InAppChargingSDKiOS",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "InAppChargingSDkiOS",
+        "printedName": "InAppChargingSDkiOS",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "getHelperFlowViewController",
+            "printedName": "getHelperFlowViewController(with:viewController:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UIViewController",
+                "printedName": "UIKit.UIViewController",
+                "usr": "c:objc(cs)UIViewController"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "IACFlowRequest",
+                "printedName": "InAppChargingSDKiOS.IACFlowRequest",
+                "usr": "s:19InAppChargingSDKiOS14IACFlowRequestV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIViewController",
+                "printedName": "UIKit.UIViewController",
+                "usr": "c:objc(cs)UIViewController"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:19InAppChargingSDKiOS0abc4SDkiE0C27getHelperFlowViewController4with04viewK0So06UIViewK0CAA14IACFlowRequestV_AHtKFZ",
+            "mangledName": "$s19InAppChargingSDKiOS0abc4SDkiE0C27getHelperFlowViewController4with04viewK0So06UIViewK0CAA14IACFlowRequestV_AHtKFZ",
+            "moduleName": "InAppChargingSDKiOS",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "requestToRegisterDevice",
+            "printedName": "requestToRegisterDevice(with:completion:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "IACFlowRequest",
+                "printedName": "InAppChargingSDKiOS.IACFlowRequest",
+                "usr": "s:19InAppChargingSDKiOS14IACFlowRequestV"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Swift.Result<Swift.Bool, any Swift.Error>) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Result",
+                    "printedName": "Swift.Result<Swift.Bool, any Swift.Error>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Bool",
+                        "printedName": "Swift.Bool",
+                        "usr": "s:Sb"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Error",
+                        "printedName": "any Swift.Error",
+                        "usr": "s:s5ErrorP"
+                      }
+                    ],
+                    "usr": "s:s6ResultO"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:19InAppChargingSDKiOS0abc4SDkiE0C23requestToRegisterDevice4with10completionyAA14IACFlowRequestV_ys6ResultOySbs5Error_pGctFZ",
+            "mangledName": "$s19InAppChargingSDKiOS0abc4SDkiE0C23requestToRegisterDevice4with10completionyAA14IACFlowRequestV_ys6ResultOySbs5Error_pGctFZ",
+            "moduleName": "InAppChargingSDKiOS",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setIsRfidSessionStarted",
+            "printedName": "setIsRfidSessionStarted(with:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:19InAppChargingSDKiOS0abc4SDkiE0C23setIsRfidSessionStarted4withySb_tFZ",
+            "mangledName": "$s19InAppChargingSDKiOS0abc4SDkiE0C23setIsRfidSessionStarted4withySb_tFZ",
+            "moduleName": "InAppChargingSDKiOS",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "clearIAPData",
+            "printedName": "clearIAPData(completion:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Swift.Bool) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:19InAppChargingSDKiOS0abc4SDkiE0C12clearIAPData10completionyySbc_tFZ",
+            "mangledName": "$s19InAppChargingSDKiOS0abc4SDkiE0C12clearIAPData10completionyySbc_tFZ",
+            "moduleName": "InAppChargingSDKiOS",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:19InAppChargingSDKiOS0abc4SDkiE0C",
+        "mangledName": "$s19InAppChargingSDKiOS0abc4SDkiE0C",
+        "moduleName": "InAppChargingSDKiOS",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "hasMissingDesignatedInitializers": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "FastagSdk",
+        "printedName": "FastagSdk",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "openFastag",
+            "printedName": "openFastag(from:userId:vrn:vehicleVariant:theme:vin:userName:carImageUrl:pplName:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIViewController",
+                "printedName": "UIKit.UIViewController",
+                "usr": "c:objc(cs)UIViewController"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:19InAppChargingSDKiOS9FastagSdkC04openF04from6userId3vrn14vehicleVariant5theme3vin0J4Name11carImageUrl03pplQ0ySo16UIViewControllerC_S8StFZ",
+            "mangledName": "$s19InAppChargingSDKiOS9FastagSdkC04openF04from6userId3vrn14vehicleVariant5theme3vin0J4Name11carImageUrl03pplQ0ySo16UIViewControllerC_S8StFZ",
+            "moduleName": "InAppChargingSDKiOS",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "validateVRN",
+            "printedName": "validateVRN(userId:vrn:vehicleVariant:theme:vin:userName:carImageUrl:pplName:completion:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Swift.Result<Swift.Bool, any Swift.Error>) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Result",
+                    "printedName": "Swift.Result<Swift.Bool, any Swift.Error>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Bool",
+                        "printedName": "Swift.Bool",
+                        "usr": "s:Sb"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Error",
+                        "printedName": "any Swift.Error",
+                        "usr": "s:s5ErrorP"
+                      }
+                    ],
+                    "usr": "s:s6ResultO"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:19InAppChargingSDKiOS9FastagSdkC11validateVRN6userId3vrn14vehicleVariant5theme3vin0J4Name11carImageUrl03pplQ010completionySS_S7Sys6ResultOySbs5Error_pGctFZ",
+            "mangledName": "$s19InAppChargingSDKiOS9FastagSdkC11validateVRN6userId3vrn14vehicleVariant5theme3vin0J4Name11carImageUrl03pplQ010completionySS_S7Sys6ResultOySbs5Error_pGctFZ",
+            "moduleName": "InAppChargingSDKiOS",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:19InAppChargingSDKiOS9FastagSdkC",
+        "mangledName": "$s19InAppChargingSDKiOS9FastagSdkC",
+        "moduleName": "InAppChargingSDKiOS",
+        "declAttributes": [
+          "Final",
+          "AccessControl"
+        ],
+        "hasMissingDesignatedInitializers": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "InAppChargingSDKiOS",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Flutter",
+        "printedName": "Flutter",
+        "declKind": "Import",
+        "moduleName": "InAppChargingSDKiOS"
+      },
+      {
+        "kind": "Import",
+        "name": "FlutterPluginRegistrant",
+        "printedName": "FlutterPluginRegistrant",
+        "declKind": "Import",
+        "moduleName": "InAppChargingSDKiOS",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "CryptoKit",
+        "printedName": "CryptoKit",
+        "declKind": "Import",
+        "moduleName": "InAppChargingSDKiOS",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Security",
+        "printedName": "Security",
+        "declKind": "Import",
+        "moduleName": "InAppChargingSDKiOS",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "CoreLocation",
+        "printedName": "CoreLocation",
+        "declKind": "Import",
+        "moduleName": "InAppChargingSDKiOS",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "InAppChargingSDKiOS"
+      },
+      {
+        "kind": "Import",
+        "name": "CoreTelephony",
+        "printedName": "CoreTelephony",
+        "declKind": "Import",
+        "moduleName": "InAppChargingSDKiOS",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "CoreLocation",
+        "printedName": "CoreLocation",
+        "declKind": "Import",
+        "moduleName": "InAppChargingSDKiOS",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "InAppChargingSDKiOS",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Security",
+        "printedName": "Security",
+        "declKind": "Import",
+        "moduleName": "InAppChargingSDKiOS",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SystemConfiguration.CaptiveNetwork",
+        "printedName": "SystemConfiguration.CaptiveNetwork",
+        "declKind": "Import",
+        "moduleName": "InAppChargingSDKiOS"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "TTDeviceIDManager",
+        "printedName": "TTDeviceIDManager",
+        "declKind": "Class",
+        "usr": "s:19InAppChargingSDKiOS17TTDeviceIDManagerC",
+        "mangledName": "$s19InAppChargingSDKiOS17TTDeviceIDManagerC",
+        "moduleName": "InAppChargingSDKiOS",
+        "declAttributes": [
+          "Final",
+          "UsableFromInline"
+        ],
+        "hasMissingDesignatedInitializers": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
       }
     ],
     "json_format_version": 8
   },
   "ConstValues": [
-    {
-      "filePath": "\/Users\/madhan\/Projects\/IAP\/InAppChargingSDKiOS\/InAppChargingSDKiOS\/InternalFlutterEngine.swift",
-      "kind": "BooleanLiteral",
-      "offset": 694,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/madhan\/Projects\/IAP\/InAppChargingSDKiOS\/InAppChargingSDKiOS\/InternalFlutterEngine.swift",
-      "kind": "StringLiteral",
-      "offset": 779,
-      "length": 12,
-      "value": "\"vehicle_id\""
-    },
-    {
-      "filePath": "\/Users\/madhan\/Projects\/IAP\/InAppChargingSDKiOS\/InAppChargingSDKiOS\/InternalFlutterEngine.swift",
-      "kind": "StringLiteral",
-      "offset": 1020,
-      "length": 5,
-      "value": "\"ira\""
-    },
-    {
-      "filePath": "\/Users\/madhan\/Projects\/IAP\/InAppChargingSDKiOS\/InAppChargingSDKiOS\/TTDeviceIDManager.swift",
-      "kind": "StringLiteral",
-      "offset": 308,
-      "length": 28,
-      "value": "\"com.tonetag.icpsdkDeviceID\""
-    },
     {
       "filePath": "\/Users\/madhan\/Projects\/IAP\/InAppChargingSDKiOS\/InAppChargingSDKiOS\/TTDeviceRegisterResponse.swift",
       "kind": "StringLiteral",
@@ -1864,13 +2072,6 @@
       "value": "false"
     },
     {
-      "filePath": "\/Users\/madhan\/Projects\/IAP\/InAppChargingSDKiOS\/InAppChargingSDKiOS\/AppSecrets.swift",
-      "kind": "Dictionary",
-      "offset": 367,
-      "length": 337,
-      "value": "[(\"q\", \"p\"), (\"w\", \"o\"), (\"e\", \"i\"), (\"r\", \"u\"), (\"t\", \"y\"), (\"p\", \"q\"), (\"o\", \"w\"), (\"i\", \"e\"), (\"u\", \"r\"), (\"y\", \"t\"), (\"a\", \"l\"), (\"s\", \"k\"), (\"d\", \"j\"), (\"f\", \"h\"), (\"g\", \"g\"), (\"l\", \"a\"), (\"k\", \"s\"), (\"j\", \"d\"), (\"h\", \"f\"), (\"z\", \"m\"), (\"x\", \"n\"), (\"c\", \"b\"), (\"v\", \"v\"), (\"m\", \"z\"), (\"n\", \"x\"), (\"b\", \"c\")]"
-    },
-    {
       "filePath": "\/Users\/madhan\/Projects\/IAP\/InAppChargingSDKiOS\/InAppChargingSDKiOS\/TTUpiUtility.swift",
       "kind": "Array",
       "offset": 233,
@@ -1878,11 +2079,88 @@
       "value": "[\"phonepe:\/\/\", \"gpay:\/\/\", \"paytm:\/\/\", \"bhim:\/\/\", \"upi:\/\/pay\"]"
     },
     {
+      "filePath": "\/Users\/madhan\/Projects\/IAP\/InAppChargingSDKiOS\/InAppChargingSDKiOS\/Generated\/ICPPigeon.swift",
+      "kind": "StringLiteral",
+      "offset": 10867,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/madhan\/Projects\/IAP\/InAppChargingSDKiOS\/InAppChargingSDKiOS\/AppSecrets.swift",
+      "kind": "StringLiteral",
+      "offset": 168,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/madhan\/Projects\/IAP\/InAppChargingSDKiOS\/InAppChargingSDKiOS\/AppSecrets.swift",
+      "kind": "Dictionary",
+      "offset": 355,
+      "length": 337,
+      "value": "[(\"q\", \"p\"), (\"w\", \"o\"), (\"e\", \"i\"), (\"r\", \"u\"), (\"t\", \"y\"), (\"p\", \"q\"), (\"o\", \"w\"), (\"i\", \"e\"), (\"u\", \"r\"), (\"y\", \"t\"), (\"a\", \"l\"), (\"s\", \"k\"), (\"d\", \"j\"), (\"f\", \"h\"), (\"g\", \"g\"), (\"l\", \"a\"), (\"k\", \"s\"), (\"j\", \"d\"), (\"h\", \"f\"), (\"z\", \"m\"), (\"x\", \"n\"), (\"c\", \"b\"), (\"v\", \"v\"), (\"m\", \"z\"), (\"n\", \"x\"), (\"b\", \"c\")]"
+    },
+    {
       "filePath": "\/Users\/madhan\/Projects\/IAP\/InAppChargingSDKiOS\/InAppChargingSDKiOS\/IACServiceHelper.swift",
       "kind": "StringLiteral",
       "offset": 455,
       "length": 28,
       "value": "\"https:\/\/iotpay.tonetag.com\""
+    },
+    {
+      "filePath": "\/Users\/madhan\/Projects\/IAP\/InAppChargingSDKiOS\/InAppChargingSDKiOS\/InternalFlutterEngine.swift",
+      "kind": "BooleanLiteral",
+      "offset": 538,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/madhan\/Projects\/IAP\/InAppChargingSDKiOS\/InAppChargingSDKiOS\/InternalFlutterEngine.swift",
+      "kind": "BooleanLiteral",
+      "offset": 827,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/madhan\/Projects\/IAP\/InAppChargingSDKiOS\/InAppChargingSDKiOS\/InternalFlutterEngine.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1059,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/madhan\/Projects\/IAP\/InAppChargingSDKiOS\/InAppChargingSDKiOS\/InternalFlutterEngine.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1162,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/madhan\/Projects\/IAP\/InAppChargingSDKiOS\/InAppChargingSDKiOS\/InternalFlutterEngine.swift",
+      "kind": "StringLiteral",
+      "offset": 1199,
+      "length": 12,
+      "value": "\"vehicle_id\""
+    },
+    {
+      "filePath": "\/Users\/madhan\/Projects\/IAP\/InAppChargingSDKiOS\/InAppChargingSDKiOS\/InternalFlutterEngine.swift",
+      "kind": "StringLiteral",
+      "offset": 1485,
+      "length": 5,
+      "value": "\"ira\""
+    },
+    {
+      "filePath": "\/Users\/madhan\/Projects\/IAP\/InAppChargingSDKiOS\/InAppChargingSDKiOS\/InternalFlutterEngine.swift",
+      "kind": "StringLiteral",
+      "offset": 5455,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/madhan\/Projects\/IAP\/InAppChargingSDKiOS\/InAppChargingSDKiOS\/TTDeviceIDManager.swift",
+      "kind": "StringLiteral",
+      "offset": 308,
+      "length": 28,
+      "value": "\"com.tonetag.icpsdkDeviceID\""
     }
   ]
 }
