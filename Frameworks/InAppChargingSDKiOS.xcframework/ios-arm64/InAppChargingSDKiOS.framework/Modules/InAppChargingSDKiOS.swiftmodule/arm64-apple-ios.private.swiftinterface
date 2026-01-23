@@ -10,6 +10,11 @@ import UIKit
 import _Concurrency
 import _StringProcessing
 import _SwiftConcurrencyShims
+@_hasMissingDesignatedInitializers @usableFromInline
+final internal class TTDeviceIDManager {
+  @objc @usableFromInline
+  deinit
+}
 @_hasMissingDesignatedInitializers public class InAppChargingSDkiOS {
   public static func getHelperFlowViewController(with request: InAppChargingSDKiOS.IACFlowRequest, viewController: UIKit.UIViewController) throws -> UIKit.UIViewController
   public static func requestToRegisterDevice(with request: InAppChargingSDKiOS.IACFlowRequest, completion: @escaping (Swift.Result<Swift.Bool, any Swift.Error>) -> Swift.Void)
@@ -53,11 +58,6 @@ public enum IACVehicleType : Swift.String, Swift.CaseIterable, Swift.Codable {
   public var rawValue: Swift.String {
     get
   }
-}
-@_hasMissingDesignatedInitializers @usableFromInline
-final internal class TTDeviceIDManager {
-  @objc @usableFromInline
-  deinit
 }
 extension InAppChargingSDKiOS.IACFlowRequestError : Swift.Equatable {}
 extension InAppChargingSDKiOS.IACFlowRequestError : Swift.Hashable {}
