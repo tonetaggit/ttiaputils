@@ -1,7 +1,7 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 6.1.2 effective-5.10 (swiftlang-6.1.2.1.2 clang-1700.0.13.5)
+// swift-compiler-version: Apple Swift version 6.2.3 effective-5.10 (swiftlang-6.2.3.3.21 clang-1700.6.3.2)
 // swift-module-flags: -target arm64-apple-ios14 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-experimental-feature DebugDescriptionMacro -enable-bare-slash-regex -module-name InAppChargingSDKiOS
-// swift-module-flags-ignorable:  -interface-compiler-version 6.1.2
+// swift-module-flags-ignorable:  -formal-cxx-interoperability-mode=off -interface-compiler-version 6.2.3
 import SystemConfiguration.CaptiveNetwork
 import Flutter
 import Swift
@@ -10,22 +10,26 @@ import UIKit
 import _Concurrency
 import _StringProcessing
 import _SwiftConcurrencyShims
+@_hasMissingDesignatedInitializers public class InAppChargingSDkiOS {
+  public static func getHelperFlowViewController(with request: InAppChargingSDKiOS.IACFlowRequest, viewController: UIKit.UIViewController) throws -> UIKit.UIViewController
+  #if compiler(>=5.3) && $NonescapableTypes
+  public static func requestToRegisterDevice(with request: InAppChargingSDKiOS.IACFlowRequest, completion: @escaping (Swift.Result<Swift.Bool, any Swift.Error>) -> Swift.Void)
+  #endif
+  public static func setIsRfidSessionStarted(with request: Swift.Bool)
+  public static func clearIAPData(completion: @escaping (_ isSuccess: Swift.Bool) -> Swift.Void)
+  @objc deinit
+}
 @_hasMissingDesignatedInitializers @usableFromInline
 final internal class TTDeviceIDManager {
   @objc @usableFromInline
   deinit
 }
-@_hasMissingDesignatedInitializers public class InAppChargingSDkiOS {
-  public static func getHelperFlowViewController(with request: InAppChargingSDKiOS.IACFlowRequest, viewController: UIKit.UIViewController) throws -> UIKit.UIViewController
-  public static func requestToRegisterDevice(with request: InAppChargingSDKiOS.IACFlowRequest, completion: @escaping (Swift.Result<Swift.Bool, any Swift.Error>) -> Swift.Void)
-  public static func setIsRfidSessionStarted(with request: Swift.Bool)
-  public static func clearIAPData(completion: @escaping (_ isSuccess: Swift.Bool) -> Swift.Void)
-  @objc deinit
-}
 public struct IACFlowRequest {
   public var userLocation: (latitude: Swift.Double, longitude: Swift.Double)
   public var oneSignalID: Swift.String?
+  #if compiler(>=5.3) && $NonescapableTypes
   public init(sdkMode: InAppChargingSDKiOS.IACSDKMode, phoneNumber: Swift.String, userName: Swift.String? = nil, vehicleRegNumber: Swift.String, vehicleID: Swift.String, vehicleType: InAppChargingSDKiOS.IACVehicleType, carProductLineName: Swift.String, carModelName: Swift.String? = nil, userLocation: (latitude: Swift.Double, longitude: Swift.Double)? = nil, oneSignalID: Swift.String? = nil, carImageUrl: Swift.String, customerHash: Swift.String)
+  #endif
 }
 public enum IACFlowRequestError : Swift.Error {
   case invalidVehicleRegNumber
@@ -37,7 +41,9 @@ public enum IACFlowRequestError : Swift.Error {
 }
 public enum IACSDKMode : Swift.String, Swift.CaseIterable, Swift.Codable {
   case iap, drivepay, fastag
+  #if compiler(>=5.3) && $NonescapableTypes
   public init?(rawValue: Swift.String)
+  #endif
   public typealias AllCases = [InAppChargingSDKiOS.IACSDKMode]
   public typealias RawValue = Swift.String
   nonisolated public static var allCases: [InAppChargingSDKiOS.IACSDKMode] {
@@ -49,7 +55,9 @@ public enum IACSDKMode : Swift.String, Swift.CaseIterable, Swift.Codable {
 }
 public enum IACVehicleType : Swift.String, Swift.CaseIterable, Swift.Codable {
   case ev, ice
+  #if compiler(>=5.3) && $NonescapableTypes
   public init?(rawValue: Swift.String)
+  #endif
   public typealias AllCases = [InAppChargingSDKiOS.IACVehicleType]
   public typealias RawValue = Swift.String
   nonisolated public static var allCases: [InAppChargingSDKiOS.IACVehicleType] {

@@ -822,31 +822,31 @@
 		</data>
 		<key>GoogleMapsResources.bundle/Info.plist</key>
 		<data>
-		kssFr3sSNEwlN6iZf4bZfGllJqY=
+		SFb3vkuEtOXh9lO2/AmJIn37aEA=
 		</data>
 		<key>Info.plist</key>
 		<data>
-		JXnGn+WNr5xBXWi9hvqYpzGVhhU=
+		acoysqnx680WP7jtaBDv8FG1qi0=
 		</data>
 		<key>Modules/InAppChargingSDKiOS.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
-		5tDT82lHORlKhFLa+TbCkkZBd64=
+		6q++zYDF6oJbyP+jwzCKOlcBaY0=
 		</data>
 		<key>Modules/InAppChargingSDKiOS.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
-		c4wFd+2mwvPq7V2+OwZjDwwou/8=
+		m7/hmyN2Ycf4y3Y8Rod08IvA97U=
 		</data>
 		<key>Modules/InAppChargingSDKiOS.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
-		ZXkcL1FabcNAOk3665RutpXygtk=
+		ReWdypKX/a/M5juPUWvvT0jf2sQ=
 		</data>
 		<key>Modules/InAppChargingSDKiOS.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		c4wFd+2mwvPq7V2+OwZjDwwou/8=
+		m7/hmyN2Ycf4y3Y8Rod08IvA97U=
 		</data>
 		<key>Modules/InAppChargingSDKiOS.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		tWeDB44HKwf2JHwEnbSCmCl/1nw=
+		7X2QUnswkSY2MqdNnsJcoKXKonM=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -2488,66 +2488,66 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			kssFr3sSNEwlN6iZf4bZfGllJqY=
+			SFb3vkuEtOXh9lO2/AmJIn37aEA=
 			</data>
 			<key>hash2</key>
 			<data>
-			9ovZD6T5skwKkUB6hk4Ioub2v8DEEEyRub8grJQmgcQ=
+			1RVpFxakzJWMAesGXs/peHRqC0vFcVUV1+wJTYq5UMI=
 			</data>
 		</dict>
 		<key>Modules/InAppChargingSDKiOS.swiftmodule/arm64-apple-ios.abi.json</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			5tDT82lHORlKhFLa+TbCkkZBd64=
+			6q++zYDF6oJbyP+jwzCKOlcBaY0=
 			</data>
 			<key>hash2</key>
 			<data>
-			xf4kSiULvaHGTAbi6Kqh3IIbWSihTbOnQiM4b0A8lXw=
+			c2VgTDSbEhx8uHOCttxozAjUIXfJ4IwqcJN+xxNet9M=
 			</data>
 		</dict>
 		<key>Modules/InAppChargingSDKiOS.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			c4wFd+2mwvPq7V2+OwZjDwwou/8=
+			m7/hmyN2Ycf4y3Y8Rod08IvA97U=
 			</data>
 			<key>hash2</key>
 			<data>
-			leVVmq8frZ88TIEBrnWI0cTwJMe6d3HxaaeVMVdd+KI=
+			y59GY8Dz9bEV0CTvQXV753BK0OWDLgPJTqP8YMvr/H8=
 			</data>
 		</dict>
 		<key>Modules/InAppChargingSDKiOS.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			ZXkcL1FabcNAOk3665RutpXygtk=
+			ReWdypKX/a/M5juPUWvvT0jf2sQ=
 			</data>
 			<key>hash2</key>
 			<data>
-			LoJdq5XoH0MdXOMb9lkNEopptLGao2rxtMBK+9HB4dM=
+			h1Bcfp0azx/S61tQ0U7GfQP7s3e4WX4o+NRStl5vgAE=
 			</data>
 		</dict>
 		<key>Modules/InAppChargingSDKiOS.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			c4wFd+2mwvPq7V2+OwZjDwwou/8=
+			m7/hmyN2Ycf4y3Y8Rod08IvA97U=
 			</data>
 			<key>hash2</key>
 			<data>
-			leVVmq8frZ88TIEBrnWI0cTwJMe6d3HxaaeVMVdd+KI=
+			y59GY8Dz9bEV0CTvQXV753BK0OWDLgPJTqP8YMvr/H8=
 			</data>
 		</dict>
 		<key>Modules/InAppChargingSDKiOS.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			tWeDB44HKwf2JHwEnbSCmCl/1nw=
+			7X2QUnswkSY2MqdNnsJcoKXKonM=
 			</data>
 			<key>hash2</key>
 			<data>
-			WNb1GRXoCFrsQMcfReC8VF2o3z+rH8TFBvzAn9Oqo3M=
+			iSVXc/YH0HUVCT66YE5mpWovLpEorkQV4riX/pj1yx0=
 			</data>
 		</dict>
 	</dict>
