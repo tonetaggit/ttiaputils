@@ -17,6 +17,15 @@ import _SwiftConcurrencyShims
   #endif
   public static func setIsRfidSessionStarted(with request: Swift.Bool)
   public static func clearIAPData(completion: @escaping (_ isSuccess: Swift.Bool) -> Swift.Void)
+  #if compiler(>=5.3) && $NonescapableTypes
+  public static func checkPromotion(with request: InAppChargingSDKiOS.IACFlowRequest, completion: @escaping (Swift.Result<Swift.String, any Swift.Error>) -> Swift.Void)
+  #endif
+  @objc deinit
+}
+final public class FastagSdkIos {
+  public init()
+  public static func openFastag(from rootViewController: UIKit.UIViewController, userId: Swift.String, vrn: Swift.String, vehicleVariant: Swift.String, theme: Swift.String, vin: Swift.String, userName: Swift.String, carImageUrl: Swift.String, pplName: Swift.String)
+  public static func ValidateVRN(vrn: Swift.String, userId: Swift.String) async -> Swift.Bool
   @objc deinit
 }
 @_hasMissingDesignatedInitializers @usableFromInline
