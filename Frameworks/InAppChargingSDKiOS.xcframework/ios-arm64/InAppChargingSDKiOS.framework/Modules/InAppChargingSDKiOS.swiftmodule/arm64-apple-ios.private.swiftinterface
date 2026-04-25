@@ -26,6 +26,7 @@ final public class FastagSdkIos {
   public init()
   public static func openFastag(from rootViewController: UIKit.UIViewController, userId: Swift.String, vrn: Swift.String, vehicleVariant: Swift.String, theme: Swift.String, vin: Swift.String, userName: Swift.String, carImageUrl: Swift.String, pplName: Swift.String)
   public static func ValidateVRN(vrn: Swift.String, userId: Swift.String) async -> Swift.Bool
+  public static func ValidateVRN(vrn: Swift.String, userId: Swift.String, completion: @escaping (Swift.Bool) -> Swift.Void)
   @objc deinit
 }
 @_hasMissingDesignatedInitializers @usableFromInline

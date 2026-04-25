@@ -830,23 +830,23 @@
 		</data>
 		<key>Modules/InAppChargingSDKiOS.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
-		Si4vwLVJeTBjQFMUvTbELKaUuoM=
+		gdT4EV8NBkbcfP4eqHdzOeq4itE=
 		</data>
 		<key>Modules/InAppChargingSDKiOS.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
-		ZGZLTlzP1wnRe7gVb/en9G2T148=
+		Ihh+1xiY+osJ3iMnvEg90SVLHVk=
 		</data>
 		<key>Modules/InAppChargingSDKiOS.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
-		QiGUjELteZE/HgFnT7zoz+jLYfc=
+		L/ACfZa/JjCXQ8ZquwhOqW5ZONU=
 		</data>
 		<key>Modules/InAppChargingSDKiOS.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		ZGZLTlzP1wnRe7gVb/en9G2T148=
+		Ihh+1xiY+osJ3iMnvEg90SVLHVk=
 		</data>
 		<key>Modules/InAppChargingSDKiOS.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		4JZE/IC3yiQZ6QcTr5AOqFRn4Dw=
+		xUaBcbjs4AbUFzffJ/9mi+Qelhc=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -2499,55 +2499,55 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			Si4vwLVJeTBjQFMUvTbELKaUuoM=
+			gdT4EV8NBkbcfP4eqHdzOeq4itE=
 			</data>
 			<key>hash2</key>
 			<data>
-			n7i6z6+x9DeyXc9K7Rg4ses1XQsP1HFHO/zfLUZSykU=
+			oP11eErTW2+RfcIyOJsrkwrhBeZMszS291FcmPhpVUM=
 			</data>
 		</dict>
 		<key>Modules/InAppChargingSDKiOS.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			ZGZLTlzP1wnRe7gVb/en9G2T148=
+			Ihh+1xiY+osJ3iMnvEg90SVLHVk=
 			</data>
 			<key>hash2</key>
 			<data>
-			U3wJk1XdortR1O7FBUEUTkami7ORXTG63LkGBt97s6U=
+			kkSGqQ7j25KKeWoVbXPjkNLEuCihTFItrjFwqhb6HR8=
 			</data>
 		</dict>
 		<key>Modules/InAppChargingSDKiOS.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			QiGUjELteZE/HgFnT7zoz+jLYfc=
+			L/ACfZa/JjCXQ8ZquwhOqW5ZONU=
 			</data>
 			<key>hash2</key>
 			<data>
-			XYLVctazJ5hLCnN5g6UCYg2hhpl9lG67fNvb09Z8QmM=
+			BCCvqc8tA5OC+1HGhswbSLQds2I4W+mdFBUwNxrLV9o=
 			</data>
 		</dict>
 		<key>Modules/InAppChargingSDKiOS.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			ZGZLTlzP1wnRe7gVb/en9G2T148=
+			Ihh+1xiY+osJ3iMnvEg90SVLHVk=
 			</data>
 			<key>hash2</key>
 			<data>
-			U3wJk1XdortR1O7FBUEUTkami7ORXTG63LkGBt97s6U=
+			kkSGqQ7j25KKeWoVbXPjkNLEuCihTFItrjFwqhb6HR8=
 			</data>
 		</dict>
 		<key>Modules/InAppChargingSDKiOS.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			4JZE/IC3yiQZ6QcTr5AOqFRn4Dw=
+			xUaBcbjs4AbUFzffJ/9mi+Qelhc=
 			</data>
 			<key>hash2</key>
 			<data>
-			5BPnyBAcuIkScBKmYrhBugaBXEr3l7wwEnz0etOJsBk=
+			OT+HlwSW3KOQujI+pOwYUSly7dEcaJ0u92R846f9N78=
 			</data>
 		</dict>
 	</dict>

@@ -13,6 +13,17 @@
       },
       {
         "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "InAppChargingSDKiOS",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
         "name": "UIKit",
         "printedName": "UIKit",
         "declKind": "Import",
@@ -433,6 +444,59 @@
             "declKind": "Func",
             "usr": "s:19InAppChargingSDKiOS12FastagSdkIosC11ValidateVRN3vrn6userIdSbSS_SStYaFZ",
             "mangledName": "$s19InAppChargingSDKiOS12FastagSdkIosC11ValidateVRN3vrn6userIdSbSS_SStYaFZ",
+            "moduleName": "InAppChargingSDKiOS",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "ValidateVRN",
+            "printedName": "ValidateVRN(vrn:userId:completion:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Swift.Bool) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:19InAppChargingSDKiOS12FastagSdkIosC11ValidateVRN3vrn6userId10completionySS_SSySbctFZ",
+            "mangledName": "$s19InAppChargingSDKiOS12FastagSdkIosC11ValidateVRN3vrn6userId10completionySS_SSySbctFZ",
             "moduleName": "InAppChargingSDKiOS",
             "static": true,
             "declAttributes": [
@@ -2107,6 +2171,20 @@
       "value": "[(\"q\", \"p\"), (\"w\", \"o\"), (\"e\", \"i\"), (\"r\", \"u\"), (\"t\", \"y\"), (\"p\", \"q\"), (\"o\", \"w\"), (\"i\", \"e\"), (\"u\", \"r\"), (\"y\", \"t\"), (\"a\", \"l\"), (\"s\", \"k\"), (\"d\", \"j\"), (\"f\", \"h\"), (\"g\", \"g\"), (\"l\", \"a\"), (\"k\", \"s\"), (\"j\", \"d\"), (\"h\", \"f\"), (\"z\", \"m\"), (\"x\", \"n\"), (\"c\", \"b\"), (\"v\", \"v\"), (\"m\", \"z\"), (\"n\", \"x\"), (\"b\", \"c\")]"
     },
     {
+      "filePath": "\/Users\/madhan\/Projects\/IAP\/InAppChargingSDKiOS\/InAppChargingSDKiOS\/FastagServiceHelper.swift",
+      "kind": "StringLiteral",
+      "offset": 166,
+      "length": 346,
+      "value": "\"StNdYpejpMHj2NkxY0UiAyBvRzdPQKA0PjvIjy2xbGD36CHJbr6z\/OWXh59CGiCkVNC2EPkbsUPveOy6j22SXNmdZH8biu26mm3bIBj5\/HvqMTfQ8IdeDrKSQ0eEjzaIaOb9kkBX+YYNSxz3o93IY3pzaQyS2WLicNTAysvRgt5q6zDRRqnJiqK43T\/8ejPBOsOe8cEwxoMvX\/MwZmL+dluK+Ubsxr5XM1ruALYaJZ8RBhEeGoOEGx3opEPizBmuSriR65dHoqrhBxJ9l66uIrQxoZmdl35kASCNu1gcBOwSctAKox1ICqxkFAwJ4KGEtACJqQw57ueSz9FL9I0Kmw==\""
+    },
+    {
+      "filePath": "\/Users\/madhan\/Projects\/IAP\/InAppChargingSDKiOS\/InAppChargingSDKiOS\/FastagServiceHelper.swift",
+      "kind": "StringLiteral",
+      "offset": 542,
+      "length": 7,
+      "value": "\"1.0.0\""
+    },
+    {
       "filePath": "\/Users\/madhan\/Projects\/IAP\/InAppChargingSDKiOS\/InAppChargingSDKiOS\/IACServiceHelper.swift",
       "kind": "StringLiteral",
       "offset": 169,
@@ -2165,7 +2243,7 @@
     {
       "filePath": "\/Users\/madhan\/Projects\/IAP\/InAppChargingSDKiOS\/InAppChargingSDKiOS\/InternalFlutterEngine.swift",
       "kind": "StringLiteral",
-      "offset": 5459,
+      "offset": 5537,
       "length": 2,
       "value": "\"\""
     },
