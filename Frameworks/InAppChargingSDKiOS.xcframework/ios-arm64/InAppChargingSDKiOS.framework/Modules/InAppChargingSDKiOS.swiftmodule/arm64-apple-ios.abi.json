@@ -41,6 +41,93 @@
       },
       {
         "kind": "Import",
+        "name": "device_info_plus",
+        "printedName": "device_info_plus",
+        "declKind": "Import",
+        "moduleName": "InAppChargingSDKiOS",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "google_maps_flutter_ios",
+        "printedName": "google_maps_flutter_ios",
+        "declKind": "Import",
+        "moduleName": "InAppChargingSDKiOS",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "image_picker_ios",
+        "printedName": "image_picker_ios",
+        "declKind": "Import",
+        "moduleName": "InAppChargingSDKiOS",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "mobile_scanner",
+        "printedName": "mobile_scanner",
+        "declKind": "Import",
+        "moduleName": "InAppChargingSDKiOS",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "path_provider_foundation",
+        "printedName": "path_provider_foundation",
+        "declKind": "Import",
+        "moduleName": "InAppChargingSDKiOS",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "share_plus",
+        "printedName": "share_plus",
+        "declKind": "Import",
+        "moduleName": "InAppChargingSDKiOS",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "vibration",
+        "printedName": "vibration",
+        "declKind": "Import",
+        "moduleName": "InAppChargingSDKiOS",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "webview_flutter_wkwebview",
+        "printedName": "webview_flutter_wkwebview",
+        "declKind": "Import",
+        "moduleName": "InAppChargingSDKiOS",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Flutter",
+        "printedName": "Flutter",
+        "declKind": "Import",
+        "moduleName": "InAppChargingSDKiOS"
+      },
+      {
+        "kind": "Import",
         "name": "UIKit",
         "printedName": "UIKit",
         "declKind": "Import",
@@ -548,16 +635,6 @@
         "printedName": "Flutter",
         "declKind": "Import",
         "moduleName": "InAppChargingSDKiOS"
-      },
-      {
-        "kind": "Import",
-        "name": "FlutterPluginRegistrant",
-        "printedName": "FlutterPluginRegistrant",
-        "declKind": "Import",
-        "moduleName": "InAppChargingSDKiOS",
-        "declAttributes": [
-          "AccessControl"
-        ]
       },
       {
         "kind": "Import",
@@ -2201,49 +2278,49 @@
     {
       "filePath": "\/Users\/madhan\/Projects\/IAP\/InAppChargingSDKiOS\/InAppChargingSDKiOS\/InternalFlutterEngine.swift",
       "kind": "BooleanLiteral",
-      "offset": 538,
+      "offset": 498,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/madhan\/Projects\/IAP\/InAppChargingSDKiOS\/InAppChargingSDKiOS\/InternalFlutterEngine.swift",
       "kind": "BooleanLiteral",
-      "offset": 827,
+      "offset": 787,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/madhan\/Projects\/IAP\/InAppChargingSDKiOS\/InAppChargingSDKiOS\/InternalFlutterEngine.swift",
       "kind": "BooleanLiteral",
-      "offset": 1059,
+      "offset": 1019,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/madhan\/Projects\/IAP\/InAppChargingSDKiOS\/InAppChargingSDKiOS\/InternalFlutterEngine.swift",
       "kind": "BooleanLiteral",
-      "offset": 1162,
+      "offset": 1122,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/madhan\/Projects\/IAP\/InAppChargingSDKiOS\/InAppChargingSDKiOS\/InternalFlutterEngine.swift",
       "kind": "StringLiteral",
-      "offset": 1199,
+      "offset": 1159,
       "length": 12,
       "value": "\"vehicle_id\""
     },
     {
       "filePath": "\/Users\/madhan\/Projects\/IAP\/InAppChargingSDKiOS\/InAppChargingSDKiOS\/InternalFlutterEngine.swift",
       "kind": "StringLiteral",
-      "offset": 1485,
+      "offset": 1445,
       "length": 5,
       "value": "\"ira\""
     },
     {
       "filePath": "\/Users\/madhan\/Projects\/IAP\/InAppChargingSDKiOS\/InAppChargingSDKiOS\/InternalFlutterEngine.swift",
       "kind": "StringLiteral",
-      "offset": 5537,
+      "offset": 7212,
       "length": 2,
       "value": "\"\""
     },
