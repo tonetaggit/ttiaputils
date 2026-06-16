@@ -11,6 +11,9 @@ import _Concurrency
 import _StringProcessing
 import _SwiftConcurrencyShims
 @_hasMissingDesignatedInitializers public class InAppChargingSDkiOS {
+  public static var isIapSdkOpen: Swift.Bool
+  public static var isDrivepaySdkOpen: Swift.Bool
+  public static var isFastagSdkOpen: Swift.Bool
   public static func getHelperFlowViewController(with request: InAppChargingSDKiOS.IACFlowRequest, viewController: UIKit.UIViewController) throws -> UIKit.UIViewController
   #if compiler(>=5.3) && $NonescapableTypes
   public static func requestToRegisterDevice(with request: InAppChargingSDKiOS.IACFlowRequest, completion: @escaping (Swift.Result<Swift.Bool, any Swift.Error>) -> Swift.Void)
@@ -19,6 +22,9 @@ import _SwiftConcurrencyShims
   public static func clearIAPData(completion: @escaping (_ isSuccess: Swift.Bool) -> Swift.Void)
   #if compiler(>=5.3) && $NonescapableTypes
   public static func checkPromotion(with request: InAppChargingSDKiOS.IACFlowRequest, completion: @escaping (Swift.Result<Swift.String, any Swift.Error>) -> Swift.Void)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  public static func stopCharging(vin: Swift.String, appId: Swift.String, locationId: Swift.String, sdkType: Swift.String, appType: Swift.String, enc: Swift.Bool, evseId: Swift.String, stopSessionId: Swift.String, sessionId: Swift.String, partner: Swift.String, powerUnit: Swift.String, partnerId: Swift.String, completion: @escaping (Swift.Result<Swift.String, any Swift.Error>) -> Swift.Void)
   #endif
   @objc deinit
 }
@@ -37,8 +43,9 @@ final internal class TTDeviceIDManager {
 public struct IACFlowRequest {
   public var userLocation: (latitude: Swift.Double, longitude: Swift.Double)
   public var oneSignalID: Swift.String?
+  public var drivepayTxnId: Swift.String?
   #if compiler(>=5.3) && $NonescapableTypes
-  public init(sdkMode: InAppChargingSDKiOS.IACSDKMode, phoneNumber: Swift.String, userName: Swift.String? = nil, vehicleRegNumber: Swift.String, vehicleID: Swift.String, vehicleType: InAppChargingSDKiOS.IACVehicleType, carProductLineName: Swift.String, carModelName: Swift.String? = nil, userLocation: (latitude: Swift.Double, longitude: Swift.Double)? = nil, oneSignalID: Swift.String? = nil, carImageUrl: Swift.String, customerHash: Swift.String)
+  public init(sdkMode: InAppChargingSDKiOS.IACSDKMode, phoneNumber: Swift.String, userName: Swift.String? = nil, vehicleRegNumber: Swift.String, vehicleID: Swift.String, vehicleType: InAppChargingSDKiOS.IACVehicleType, carProductLineName: Swift.String, carModelName: Swift.String? = nil, userLocation: (latitude: Swift.Double, longitude: Swift.Double)? = nil, oneSignalID: Swift.String? = nil, drivepayTxnId: Swift.String? = nil, carImageUrl: Swift.String, customerHash: Swift.String)
   #endif
 }
 public enum IACFlowRequestError : Swift.Error {
