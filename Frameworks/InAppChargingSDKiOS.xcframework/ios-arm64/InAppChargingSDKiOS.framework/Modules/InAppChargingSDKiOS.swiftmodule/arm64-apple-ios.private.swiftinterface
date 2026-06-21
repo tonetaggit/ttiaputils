@@ -51,7 +51,7 @@ public struct IACFlowRequest {
   public var oneSignalID: Swift.String?
   public var drivepayTxnId: Swift.String?
   #if compiler(>=5.3) && $NonescapableTypes
-  public init(sdkMode: InAppChargingSDKiOS.IACSDKMode, phoneNumber: Swift.String, userName: Swift.String? = nil, vehicleRegNumber: Swift.String, vehicleID: Swift.String, vehicleType: InAppChargingSDKiOS.IACVehicleType, carProductLineName: Swift.String, carModelName: Swift.String? = nil, userLocation: (latitude: Swift.Double, longitude: Swift.Double)? = nil, oneSignalID: Swift.String? = nil, drivepayTxnId: Swift.String? = nil, carImageUrl: Swift.String, customerHash: Swift.String)
+  public init(sdkMode: InAppChargingSDKiOS.IACSDKMode, phoneNumber: Swift.String, userName: Swift.String? = nil, vehicleRegNumber: Swift.String, vehicleID: Swift.String, vehicleType: InAppChargingSDKiOS.IACVehicleType, carProductLineName: Swift.String, carModelName: Swift.String? = nil, userLocation: (latitude: Swift.Double, longitude: Swift.Double)? = nil, oneSignalID: Swift.String? = nil, drivepayTxnId: Swift.String? = nil, carImageUrl: Swift.String, customerHash: Swift.String, bearerToken: Swift.String, vehicleLineType: Swift.String)
   #endif
 }
 public enum IACFlowRequestError : Swift.Error {

@@ -1560,7 +1560,7 @@
           {
             "kind": "Constructor",
             "name": "init",
-            "printedName": "init(sdkMode:phoneNumber:userName:vehicleRegNumber:vehicleID:vehicleType:carProductLineName:carModelName:userLocation:oneSignalID:drivepayTxnId:carImageUrl:customerHash:)",
+            "printedName": "init(sdkMode:phoneNumber:userName:vehicleRegNumber:vehicleID:vehicleType:carProductLineName:carModelName:userLocation:oneSignalID:drivepayTxnId:carImageUrl:customerHash:bearerToken:vehicleLineType:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -1703,11 +1703,23 @@
                 "name": "String",
                 "printedName": "Swift.String",
                 "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
               }
             ],
             "declKind": "Constructor",
-            "usr": "s:19InAppChargingSDKiOS14IACFlowRequestV7sdkMode11phoneNumber8userName010vehicleRegK00N2ID0N4Type014carProductLineM00r5ModelM00L8Location09oneSignalP013drivepayTxnId0R8ImageUrl12customerHashAcA10IACSDKModeO_S2SSgS2SAA010IACVehicleQ0OSSASSd8latitude_Sd9longitudetSgA2SS2Stcfc",
-            "mangledName": "$s19InAppChargingSDKiOS14IACFlowRequestV7sdkMode11phoneNumber8userName010vehicleRegK00N2ID0N4Type014carProductLineM00r5ModelM00L8Location09oneSignalP013drivepayTxnId0R8ImageUrl12customerHashAcA10IACSDKModeO_S2SSgS2SAA010IACVehicleQ0OSSASSd8latitude_Sd9longitudetSgA2SS2Stcfc",
+            "usr": "s:19InAppChargingSDKiOS14IACFlowRequestV7sdkMode11phoneNumber8userName010vehicleRegK00N2ID0N4Type014carProductLineM00r5ModelM00L8Location09oneSignalP013drivepayTxnId0R8ImageUrl12customerHash11bearerToken0ntQ0AcA10IACSDKModeO_S2SSgS2SAA010IACVehicleQ0OSSAUSd8latitude_Sd9longitudetSgA2US4Stcfc",
+            "mangledName": "$s19InAppChargingSDKiOS14IACFlowRequestV7sdkMode11phoneNumber8userName010vehicleRegK00N2ID0N4Type014carProductLineM00r5ModelM00L8Location09oneSignalP013drivepayTxnId0R8ImageUrl12customerHash11bearerToken0ntQ0AcA10IACSDKModeO_S2SSgS2SAA010IACVehicleQ0OSSAUSd8latitude_Sd9longitudetSgA2US4Stcfc",
             "moduleName": "InAppChargingSDKiOS",
             "declAttributes": [
               "AccessControl",
@@ -2751,6 +2763,34 @@
       "value": "\"\""
     },
     {
+      "filePath": "\/Users\/madhan\/Projects\/IAP\/InAppChargingSDKiOS\/InAppChargingSDKiOS\/InternalFlutterEngine.swift",
+      "kind": "StringLiteral",
+      "offset": 19137,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/madhan\/Projects\/IAP\/InAppChargingSDKiOS\/InAppChargingSDKiOS\/InternalFlutterEngine.swift",
+      "kind": "StringLiteral",
+      "offset": 19175,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/madhan\/Projects\/IAP\/InAppChargingSDKiOS\/InAppChargingSDKiOS\/InternalFlutterEngine.swift",
+      "kind": "StringLiteral",
+      "offset": 24273,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/madhan\/Projects\/IAP\/InAppChargingSDKiOS\/InAppChargingSDKiOS\/InternalFlutterEngine.swift",
+      "kind": "StringLiteral",
+      "offset": 24311,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
       "filePath": "\/Users\/madhan\/Projects\/IAP\/InAppChargingSDKiOS\/InAppChargingSDKiOS\/TTDeviceIDManager.swift",
       "kind": "StringLiteral",
       "offset": 308,
@@ -2795,37 +2835,149 @@
     {
       "filePath": "\/Users\/madhan\/Projects\/IAP\/InAppChargingSDKiOS\/InAppChargingSDKiOS\/TTDomainService.swift",
       "kind": "StringLiteral",
-      "offset": 374,
+      "offset": 915,
       "length": 12,
       "value": "\"clear_data\""
     },
     {
       "filePath": "\/Users\/madhan\/Projects\/IAP\/InAppChargingSDKiOS\/InAppChargingSDKiOS\/TTDomainService.swift",
       "kind": "StringLiteral",
-      "offset": 1023,
+      "offset": 957,
+      "length": 17,
+      "value": "\"auto_zoom_limit\""
+    },
+    {
+      "filePath": "\/Users\/madhan\/Projects\/IAP\/InAppChargingSDKiOS\/InAppChargingSDKiOS\/TTDomainService.swift",
+      "kind": "StringLiteral",
+      "offset": 1005,
+      "length": 19,
+      "value": "\"zoom_out_per_time\""
+    },
+    {
+      "filePath": "\/Users\/madhan\/Projects\/IAP\/InAppChargingSDKiOS\/InAppChargingSDKiOS\/TTDomainService.swift",
+      "kind": "StringLiteral",
+      "offset": 1048,
+      "length": 10,
+      "value": "\"min_zoom\""
+    },
+    {
+      "filePath": "\/Users\/madhan\/Projects\/IAP\/InAppChargingSDKiOS\/InAppChargingSDKiOS\/TTDomainService.swift",
+      "kind": "StringLiteral",
+      "offset": 1082,
+      "length": 10,
+      "value": "\"max_zoom\""
+    },
+    {
+      "filePath": "\/Users\/madhan\/Projects\/IAP\/InAppChargingSDKiOS\/InAppChargingSDKiOS\/TTDomainService.swift",
+      "kind": "StringLiteral",
+      "offset": 1130,
+      "length": 25,
+      "value": "\"marker_polling_duration\""
+    },
+    {
+      "filePath": "\/Users\/madhan\/Projects\/IAP\/InAppChargingSDKiOS\/InAppChargingSDKiOS\/TTDomainService.swift",
+      "kind": "StringLiteral",
+      "offset": 1191,
+      "length": 23,
+      "value": "\"enable_marker_polling\""
+    },
+    {
+      "filePath": "\/Users\/madhan\/Projects\/IAP\/InAppChargingSDKiOS\/InAppChargingSDKiOS\/TTDomainService.swift",
+      "kind": "StringLiteral",
+      "offset": 1243,
+      "length": 15,
+      "value": "\"max_waypoints\""
+    },
+    {
+      "filePath": "\/Users\/madhan\/Projects\/IAP\/InAppChargingSDKiOS\/InAppChargingSDKiOS\/TTDomainService.swift",
+      "kind": "StringLiteral",
+      "offset": 1291,
+      "length": 20,
+      "value": "\"max_charging_stops\""
+    },
+    {
+      "filePath": "\/Users\/madhan\/Projects\/IAP\/InAppChargingSDKiOS\/InAppChargingSDKiOS\/TTDomainService.swift",
+      "kind": "StringLiteral",
+      "offset": 1347,
+      "length": 23,
+      "value": "\"max_waypoints_message\""
+    },
+    {
+      "filePath": "\/Users\/madhan\/Projects\/IAP\/InAppChargingSDKiOS\/InAppChargingSDKiOS\/TTDomainService.swift",
+      "kind": "StringLiteral",
+      "offset": 1410,
+      "length": 28,
+      "value": "\"max_charging_stops_message\""
+    },
+    {
+      "filePath": "\/Users\/madhan\/Projects\/IAP\/InAppChargingSDKiOS\/InAppChargingSDKiOS\/TTDomainService.swift",
+      "kind": "StringLiteral",
+      "offset": 1478,
+      "length": 28,
+      "value": "\"add_charging_stops_message\""
+    },
+    {
+      "filePath": "\/Users\/madhan\/Projects\/IAP\/InAppChargingSDKiOS\/InAppChargingSDKiOS\/TTDomainService.swift",
+      "kind": "StringLiteral",
+      "offset": 1539,
+      "length": 19,
+      "value": "\"complaint_reasons\""
+    },
+    {
+      "filePath": "\/Users\/madhan\/Projects\/IAP\/InAppChargingSDKiOS\/InAppChargingSDKiOS\/TTDomainService.swift",
+      "kind": "StringLiteral",
+      "offset": 1588,
+      "length": 16,
+      "value": "\"route_distance\""
+    },
+    {
+      "filePath": "\/Users\/madhan\/Projects\/IAP\/InAppChargingSDKiOS\/InAppChargingSDKiOS\/TTDomainService.swift",
+      "kind": "StringLiteral",
+      "offset": 3548,
       "length": 15,
       "value": "\"stored_domain\""
     },
     {
       "filePath": "\/Users\/madhan\/Projects\/IAP\/InAppChargingSDKiOS\/InAppChargingSDKiOS\/TTDomainService.swift",
       "kind": "StringLiteral",
-      "offset": 1071,
+      "offset": 3596,
       "length": 28,
       "value": "\"https:\/\/iotpay.tonetag.com\""
     },
     {
       "filePath": "\/Users\/madhan\/Projects\/IAP\/InAppChargingSDKiOS\/InAppChargingSDKiOS\/TTDomainService.swift",
       "kind": "StringLiteral",
-      "offset": 1137,
+      "offset": 3662,
       "length": 36,
       "value": "\"https:\/\/app-server-uat.tonetag.com\""
     },
     {
       "filePath": "\/Users\/madhan\/Projects\/IAP\/InAppChargingSDKiOS\/InAppChargingSDKiOS\/TTDomainService.swift",
       "kind": "StringLiteral",
-      "offset": 1273,
+      "offset": 3798,
       "length": 27,
       "value": "\"com.tonetag.domainservice\""
+    },
+    {
+      "filePath": "\/Users\/madhan\/Projects\/IAP\/InAppChargingSDKiOS\/InAppChargingSDKiOS\/TTDomainService.swift",
+      "kind": "StringLiteral",
+      "offset": 5405,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/madhan\/Projects\/IAP\/InAppChargingSDKiOS\/InAppChargingSDKiOS\/TTDomainService.swift",
+      "kind": "StringLiteral",
+      "offset": 5435,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/madhan\/Projects\/IAP\/InAppChargingSDKiOS\/InAppChargingSDKiOS\/TTDomainService.swift",
+      "kind": "StringLiteral",
+      "offset": 5457,
+      "length": 2,
+      "value": "\"\""
     },
     {
       "filePath": "\/Users\/madhan\/Projects\/IAP\/InAppChargingSDKiOS\/InAppChargingSDKiOS\/TTLogger.swift",
