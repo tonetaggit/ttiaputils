@@ -830,11 +830,11 @@
 		</data>
 		<key>Modules/InAppChargingSDKiOS.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
-		L3JRVP+s5ycSE1Xxz7m5faYo5/c=
+		uG5BmegHALH0WirDmKM94K+2yow=
 		</data>
 		<key>Modules/InAppChargingSDKiOS.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
-		CVYYTCcVfQfDMqai9qDonkSTqhQ=
+		On3BswTsOJy+J+1wymGk2qB3Tco=
 		</data>
 		<key>Modules/InAppChargingSDKiOS.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
@@ -842,11 +842,11 @@
 		</data>
 		<key>Modules/InAppChargingSDKiOS.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		CVYYTCcVfQfDMqai9qDonkSTqhQ=
+		On3BswTsOJy+J+1wymGk2qB3Tco=
 		</data>
 		<key>Modules/InAppChargingSDKiOS.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		3VTgGviqMatgo31RHM3KuESfpPw=
+		QX4G7Pd9vwfZImwGyuHLd+zeNSk=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -2499,22 +2499,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			L3JRVP+s5ycSE1Xxz7m5faYo5/c=
+			uG5BmegHALH0WirDmKM94K+2yow=
 			</data>
 			<key>hash2</key>
 			<data>
-			k2sY8CSe4tixq0TjfSUifOTaRSLYaRc1zae/h6aLuEY=
+			BTti7rIiwvIxAuTfroRjtnlUmz+lq+8T9/1CaDlawk4=
 			</data>
 		</dict>
 		<key>Modules/InAppChargingSDKiOS.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			CVYYTCcVfQfDMqai9qDonkSTqhQ=
+			On3BswTsOJy+J+1wymGk2qB3Tco=
 			</data>
 			<key>hash2</key>
 			<data>
-			yxrnqYbFOdVpGuAjXmP/rcTNu8qb+HbDzn0VSUwLDnE=
+			6yXaUzbVb5VM5b+AtaTna1Bc2j8o3CgvTeaoQo++tFU=
 			</data>
 		</dict>
 		<key>Modules/InAppChargingSDKiOS.swiftmodule/arm64-apple-ios.swiftdoc</key>
@@ -2532,22 +2532,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			CVYYTCcVfQfDMqai9qDonkSTqhQ=
+			On3BswTsOJy+J+1wymGk2qB3Tco=
 			</data>
 			<key>hash2</key>
 			<data>
-			yxrnqYbFOdVpGuAjXmP/rcTNu8qb+HbDzn0VSUwLDnE=
+			6yXaUzbVb5VM5b+AtaTna1Bc2j8o3CgvTeaoQo++tFU=
 			</data>
 		</dict>
 		<key>Modules/InAppChargingSDKiOS.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			3VTgGviqMatgo31RHM3KuESfpPw=
+			QX4G7Pd9vwfZImwGyuHLd+zeNSk=
 			</data>
 			<key>hash2</key>
 			<data>
-			Z6LEy4BWE/nZ0g4vdrSi9yJOrMNV7FXDGH3gXGkpooc=
+			Kf6v9RiMOCamkHq3YFoGhjjyEnEyYfKMLlkQw7MWLOg=
 			</data>
 		</dict>
 	</dict>
