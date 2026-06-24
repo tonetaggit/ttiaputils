@@ -1407,7 +1407,7 @@
           {
             "kind": "Constructor",
             "name": "init",
-            "printedName": "init(sdkMode:phoneNumber:userName:vehicleRegNumber:vehicleID:vehicleType:carProductLineName:carModelName:userLocation:oneSignalID:drivepayTxnId:carImageUrl:customerHash:bearerToken:vehicleLineType:)",
+            "printedName": "init(sdkMode:phoneNumber:userName:vehicleRegNumber:vehicleID:vehicleType:carProductLineName:carModelName:userLocation:oneSignalID:drivepayTxnId:carImageUrl:customerHash:bearerToken:vehicleLineType:xapiKey:vid:clientId:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -1562,11 +1562,29 @@
                 "name": "String",
                 "printedName": "Swift.String",
                 "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
               }
             ],
             "declKind": "Constructor",
-            "usr": "s:19InAppChargingSDKiOS14IACFlowRequestV7sdkMode11phoneNumber8userName010vehicleRegK00N2ID0N4Type014carProductLineM00r5ModelM00L8Location09oneSignalP013drivepayTxnId0R8ImageUrl12customerHash11bearerToken0ntQ0AcA10IACSDKModeO_S2SSgS2SAA010IACVehicleQ0OSSAUSd8latitude_Sd9longitudetSgA2US4Stcfc",
-            "mangledName": "$s19InAppChargingSDKiOS14IACFlowRequestV7sdkMode11phoneNumber8userName010vehicleRegK00N2ID0N4Type014carProductLineM00r5ModelM00L8Location09oneSignalP013drivepayTxnId0R8ImageUrl12customerHash11bearerToken0ntQ0AcA10IACSDKModeO_S2SSgS2SAA010IACVehicleQ0OSSAUSd8latitude_Sd9longitudetSgA2US4Stcfc",
+            "usr": "s:19InAppChargingSDKiOS14IACFlowRequestV7sdkMode11phoneNumber8userName010vehicleRegK00N2ID0N4Type014carProductLineM00r5ModelM00L8Location09oneSignalP013drivepayTxnId0R8ImageUrl12customerHash11bearerToken0ntQ07xapiKey3vid8clientIdAcA10IACSDKModeO_S2SSgS2SAA010IACVehicleQ0OSSAXSd8latitude_Sd9longitudetSgA2XS7Stcfc",
+            "mangledName": "$s19InAppChargingSDKiOS14IACFlowRequestV7sdkMode11phoneNumber8userName010vehicleRegK00N2ID0N4Type014carProductLineM00r5ModelM00L8Location09oneSignalP013drivepayTxnId0R8ImageUrl12customerHash11bearerToken0ntQ07xapiKey3vid8clientIdAcA10IACSDKModeO_S2SSgS2SAA010IACVehicleQ0OSSAXSd8latitude_Sd9longitudetSgA2XS7Stcfc",
             "moduleName": "InAppChargingSDKiOS",
             "declAttributes": [
               "AccessControl",
@@ -2605,14 +2623,56 @@
     {
       "filePath": "\/Users\/madhan\/Projects\/IAP\/InAppChargingSDKiOS\/InAppChargingSDKiOS\/InternalFlutterEngine.swift",
       "kind": "StringLiteral",
-      "offset": 24289,
+      "offset": 19221,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/madhan\/Projects\/IAP\/InAppChargingSDKiOS\/InAppChargingSDKiOS\/InternalFlutterEngine.swift",
       "kind": "StringLiteral",
-      "offset": 24327,
+      "offset": 19247,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/madhan\/Projects\/IAP\/InAppChargingSDKiOS\/InAppChargingSDKiOS\/InternalFlutterEngine.swift",
+      "kind": "StringLiteral",
+      "offset": 19278,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/madhan\/Projects\/IAP\/InAppChargingSDKiOS\/InAppChargingSDKiOS\/InternalFlutterEngine.swift",
+      "kind": "StringLiteral",
+      "offset": 24700,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/madhan\/Projects\/IAP\/InAppChargingSDKiOS\/InAppChargingSDKiOS\/InternalFlutterEngine.swift",
+      "kind": "StringLiteral",
+      "offset": 24738,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/madhan\/Projects\/IAP\/InAppChargingSDKiOS\/InAppChargingSDKiOS\/InternalFlutterEngine.swift",
+      "kind": "StringLiteral",
+      "offset": 24768,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/madhan\/Projects\/IAP\/InAppChargingSDKiOS\/InAppChargingSDKiOS\/InternalFlutterEngine.swift",
+      "kind": "StringLiteral",
+      "offset": 24794,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/madhan\/Projects\/IAP\/InAppChargingSDKiOS\/InAppChargingSDKiOS\/InternalFlutterEngine.swift",
+      "kind": "StringLiteral",
+      "offset": 24825,
       "length": 2,
       "value": "\"\""
     },
