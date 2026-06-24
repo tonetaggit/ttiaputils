@@ -47,11 +47,23 @@ public struct IACFlowRequest {
 }
 public enum IACFlowRequestError : Swift.Error {
   case invalidVehicleRegNumber
+  case missingBearerToken
+  case missingVehicleLineType
+  case missingXapiKey
+  case missingVid
+  case missingClientId
   public static func == (a: InAppChargingSDKiOS.IACFlowRequestError, b: InAppChargingSDKiOS.IACFlowRequestError) -> Swift.Bool
   public func hash(into hasher: inout Swift.Hasher)
   public var hashValue: Swift.Int {
     get
   }
+}
+extension InAppChargingSDKiOS.IACFlowRequestError : Foundation.LocalizedError {
+  #if compiler(>=5.3) && $NonescapableTypes
+  public var errorDescription: Swift.String? {
+    get
+  }
+  #endif
 }
 public enum IACSDKMode : Swift.String, Swift.CaseIterable, Swift.Codable {
   case iap, drivepay, fastag

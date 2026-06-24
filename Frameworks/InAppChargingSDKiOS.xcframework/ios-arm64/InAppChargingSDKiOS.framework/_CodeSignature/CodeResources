@@ -830,11 +830,11 @@
 		</data>
 		<key>Modules/InAppChargingSDKiOS.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
-		+6M25PWOR4q3yWLRhW3VE393THg=
+		utyI8atFRMZ1elGPIVbA8kFvq6Q=
 		</data>
 		<key>Modules/InAppChargingSDKiOS.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
-		8fmBW6ARJGBqQ3SvUxA4OV0BTEs=
+		Dgk1MKtQ7LtKSk1S2sVwtZdHDgs=
 		</data>
 		<key>Modules/InAppChargingSDKiOS.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
@@ -842,11 +842,11 @@
 		</data>
 		<key>Modules/InAppChargingSDKiOS.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		8fmBW6ARJGBqQ3SvUxA4OV0BTEs=
+		Dgk1MKtQ7LtKSk1S2sVwtZdHDgs=
 		</data>
 		<key>Modules/InAppChargingSDKiOS.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		FAqbWBdTMjepzTXKidaf78fg4g4=
+		kU2KN6/5My5/Dah+VOubcpHFQIc=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -2499,22 +2499,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			+6M25PWOR4q3yWLRhW3VE393THg=
+			utyI8atFRMZ1elGPIVbA8kFvq6Q=
 			</data>
 			<key>hash2</key>
 			<data>
-			zYh732PfwXAFx3OMdU6mOMjO9wlotzMrvqo1mQulbbA=
+			qM84lRCnH0wTgUHOX0DmTvKMF2HfNdSKMmdP/H4+pV4=
 			</data>
 		</dict>
 		<key>Modules/InAppChargingSDKiOS.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			8fmBW6ARJGBqQ3SvUxA4OV0BTEs=
+			Dgk1MKtQ7LtKSk1S2sVwtZdHDgs=
 			</data>
 			<key>hash2</key>
 			<data>
-			+/YHhod01K6Gkl1+c+ymY9mfb/D9zC9Xl7JoaeHmBr0=
+			FvHAJs+/N4bcuXngSTlXowFStR6WmtWP0WjrxizHqY4=
 			</data>
 		</dict>
 		<key>Modules/InAppChargingSDKiOS.swiftmodule/arm64-apple-ios.swiftdoc</key>
@@ -2532,22 +2532,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			8fmBW6ARJGBqQ3SvUxA4OV0BTEs=
+			Dgk1MKtQ7LtKSk1S2sVwtZdHDgs=
 			</data>
 			<key>hash2</key>
 			<data>
-			+/YHhod01K6Gkl1+c+ymY9mfb/D9zC9Xl7JoaeHmBr0=
+			FvHAJs+/N4bcuXngSTlXowFStR6WmtWP0WjrxizHqY4=
 			</data>
 		</dict>
 		<key>Modules/InAppChargingSDKiOS.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			FAqbWBdTMjepzTXKidaf78fg4g4=
+			kU2KN6/5My5/Dah+VOubcpHFQIc=
 			</data>
 			<key>hash2</key>
 			<data>
-			dW3/awpiQY2poF+eHZ2lJ2zxuovjTv+lJWNbzgtpUCY=
+			4Y4oNB5rnjVHyi9u23jdAUknaMZ7Z0q0etzgFhOc+ak=
 			</data>
 		</dict>
 	</dict>
