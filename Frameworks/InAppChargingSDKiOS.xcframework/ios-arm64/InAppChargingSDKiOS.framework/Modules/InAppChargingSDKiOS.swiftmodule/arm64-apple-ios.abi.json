@@ -2798,7 +2798,7 @@
       "kind": "StringLiteral",
       "offset": 169,
       "length": 7,
-      "value": "\"1.1.1\""
+      "value": "\"1.1.2\""
     },
     {
       "filePath": "\/Users\/madhan\/Projects\/IAP\/InAppChargingSDKiOS\/InAppChargingSDKiOS\/IACServiceHelper.swift",
@@ -2859,70 +2859,70 @@
     {
       "filePath": "\/Users\/madhan\/Projects\/IAP\/InAppChargingSDKiOS\/InAppChargingSDKiOS\/InternalFlutterEngine.swift",
       "kind": "StringLiteral",
-      "offset": 19153,
+      "offset": 19945,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/madhan\/Projects\/IAP\/InAppChargingSDKiOS\/InAppChargingSDKiOS\/InternalFlutterEngine.swift",
       "kind": "StringLiteral",
-      "offset": 19191,
+      "offset": 19983,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/madhan\/Projects\/IAP\/InAppChargingSDKiOS\/InAppChargingSDKiOS\/InternalFlutterEngine.swift",
       "kind": "StringLiteral",
-      "offset": 19221,
+      "offset": 20013,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/madhan\/Projects\/IAP\/InAppChargingSDKiOS\/InAppChargingSDKiOS\/InternalFlutterEngine.swift",
       "kind": "StringLiteral",
-      "offset": 19247,
+      "offset": 20039,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/madhan\/Projects\/IAP\/InAppChargingSDKiOS\/InAppChargingSDKiOS\/InternalFlutterEngine.swift",
       "kind": "StringLiteral",
-      "offset": 19278,
+      "offset": 20070,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/madhan\/Projects\/IAP\/InAppChargingSDKiOS\/InAppChargingSDKiOS\/InternalFlutterEngine.swift",
       "kind": "StringLiteral",
-      "offset": 24700,
+      "offset": 25569,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/madhan\/Projects\/IAP\/InAppChargingSDKiOS\/InAppChargingSDKiOS\/InternalFlutterEngine.swift",
       "kind": "StringLiteral",
-      "offset": 24738,
+      "offset": 25607,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/madhan\/Projects\/IAP\/InAppChargingSDKiOS\/InAppChargingSDKiOS\/InternalFlutterEngine.swift",
       "kind": "StringLiteral",
-      "offset": 24768,
+      "offset": 25637,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/madhan\/Projects\/IAP\/InAppChargingSDKiOS\/InAppChargingSDKiOS\/InternalFlutterEngine.swift",
       "kind": "StringLiteral",
-      "offset": 24794,
+      "offset": 25663,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/madhan\/Projects\/IAP\/InAppChargingSDKiOS\/InAppChargingSDKiOS\/InternalFlutterEngine.swift",
       "kind": "StringLiteral",
-      "offset": 24825,
+      "offset": 25694,
       "length": 2,
       "value": "\"\""
     },
