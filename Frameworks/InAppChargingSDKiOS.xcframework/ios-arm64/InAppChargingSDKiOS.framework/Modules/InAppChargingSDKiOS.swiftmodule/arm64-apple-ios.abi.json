@@ -556,6 +556,35 @@
           },
           {
             "kind": "Function",
+            "name": "setupGlobalTheme",
+            "printedName": "setupGlobalTheme(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:19InAppChargingSDKiOS12FastagSdkIosC16setupGlobalThemeyySSFZ",
+            "mangledName": "$s19InAppChargingSDKiOS12FastagSdkIosC16setupGlobalThemeyySSFZ",
+            "moduleName": "InAppChargingSDKiOS",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
             "name": "openFastag",
             "printedName": "openFastag(from:userId:vrn:vehicleVariant:theme:vin:userName:carImageUrl:pplName:)",
             "children": [
@@ -2859,70 +2888,77 @@
     {
       "filePath": "\/Users\/madhan\/Projects\/IAP\/InAppChargingSDKiOS\/InAppChargingSDKiOS\/InternalFlutterEngine.swift",
       "kind": "StringLiteral",
-      "offset": 20111,
+      "offset": 8535,
+      "length": 21,
+      "value": "\"fastag_global_theme\""
+    },
+    {
+      "filePath": "\/Users\/madhan\/Projects\/IAP\/InAppChargingSDKiOS\/InAppChargingSDKiOS\/InternalFlutterEngine.swift",
+      "kind": "StringLiteral",
+      "offset": 19752,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/madhan\/Projects\/IAP\/InAppChargingSDKiOS\/InAppChargingSDKiOS\/InternalFlutterEngine.swift",
       "kind": "StringLiteral",
-      "offset": 20149,
+      "offset": 19790,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/madhan\/Projects\/IAP\/InAppChargingSDKiOS\/InAppChargingSDKiOS\/InternalFlutterEngine.swift",
       "kind": "StringLiteral",
-      "offset": 20179,
+      "offset": 19820,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/madhan\/Projects\/IAP\/InAppChargingSDKiOS\/InAppChargingSDKiOS\/InternalFlutterEngine.swift",
       "kind": "StringLiteral",
-      "offset": 20205,
+      "offset": 19846,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/madhan\/Projects\/IAP\/InAppChargingSDKiOS\/InAppChargingSDKiOS\/InternalFlutterEngine.swift",
       "kind": "StringLiteral",
-      "offset": 20236,
+      "offset": 19877,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/madhan\/Projects\/IAP\/InAppChargingSDKiOS\/InAppChargingSDKiOS\/InternalFlutterEngine.swift",
       "kind": "StringLiteral",
-      "offset": 25735,
+      "offset": 25299,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/madhan\/Projects\/IAP\/InAppChargingSDKiOS\/InAppChargingSDKiOS\/InternalFlutterEngine.swift",
       "kind": "StringLiteral",
-      "offset": 25773,
+      "offset": 25337,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/madhan\/Projects\/IAP\/InAppChargingSDKiOS\/InAppChargingSDKiOS\/InternalFlutterEngine.swift",
       "kind": "StringLiteral",
-      "offset": 25803,
+      "offset": 25367,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/madhan\/Projects\/IAP\/InAppChargingSDKiOS\/InAppChargingSDKiOS\/InternalFlutterEngine.swift",
       "kind": "StringLiteral",
-      "offset": 25829,
+      "offset": 25393,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/madhan\/Projects\/IAP\/InAppChargingSDKiOS\/InAppChargingSDKiOS\/InternalFlutterEngine.swift",
       "kind": "StringLiteral",
-      "offset": 25860,
+      "offset": 25424,
       "length": 2,
       "value": "\"\""
     },
@@ -3084,34 +3120,34 @@
       "filePath": "\/Users\/madhan\/Projects\/IAP\/InAppChargingSDKiOS\/InAppChargingSDKiOS\/TTDomainService.swift",
       "kind": "StringLiteral",
       "offset": 3662,
-      "length": 36,
-      "value": "\"https:\/\/app-server-uat.tonetag.com\""
+      "length": 33,
+      "value": "\"https:\/\/icp-preprod.tonetag.com\""
     },
     {
       "filePath": "\/Users\/madhan\/Projects\/IAP\/InAppChargingSDKiOS\/InAppChargingSDKiOS\/TTDomainService.swift",
       "kind": "StringLiteral",
-      "offset": 3798,
+      "offset": 3800,
       "length": 27,
       "value": "\"com.tonetag.domainservice\""
     },
     {
       "filePath": "\/Users\/madhan\/Projects\/IAP\/InAppChargingSDKiOS\/InAppChargingSDKiOS\/TTDomainService.swift",
       "kind": "StringLiteral",
-      "offset": 5405,
+      "offset": 5407,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/madhan\/Projects\/IAP\/InAppChargingSDKiOS\/InAppChargingSDKiOS\/TTDomainService.swift",
       "kind": "StringLiteral",
-      "offset": 5435,
+      "offset": 5437,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/madhan\/Projects\/IAP\/InAppChargingSDKiOS\/InAppChargingSDKiOS\/TTDomainService.swift",
       "kind": "StringLiteral",
-      "offset": 5457,
+      "offset": 5459,
       "length": 2,
       "value": "\"\""
     },
