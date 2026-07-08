@@ -25,6 +25,12 @@ import _SwiftConcurrencyShims
   public static func requestToRegisterDevice(with request: InAppChargingSDKiOS.IACFlowRequest, completion: @escaping (Swift.Result<Swift.Bool, any Swift.Error>) -> Swift.Void)
   #endif
   public static func setIsRfidSessionStarted(with request: Swift.Bool)
+  #if compiler(>=5.3) && $NonescapableTypes
+  public static func closeIAP(completion: (() -> Swift.Void)? = nil)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  public static func closeDrivepay(completion: (() -> Swift.Void)? = nil)
+  #endif
   public static func clearIAPData(completion: @escaping (_ isSuccess: Swift.Bool) -> Swift.Void)
   #if compiler(>=5.3) && $NonescapableTypes
   public static func checkPromotion(with request: InAppChargingSDKiOS.IACFlowRequest, completion: @escaping (Swift.Result<Swift.String, any Swift.Error>) -> Swift.Void)
@@ -38,6 +44,9 @@ final public class FastagSdkIos {
   public init()
   public static func setupGlobalTheme(_ theme: Swift.String)
   public static func openFastag(from rootViewController: UIKit.UIViewController, userId: Swift.String, vrn: Swift.String, vehicleVariant: Swift.String, theme: Swift.String, vin: Swift.String, userName: Swift.String, carImageUrl: Swift.String, pplName: Swift.String)
+  #if compiler(>=5.3) && $NonescapableTypes
+  public static func closeFastag(completion: (() -> Swift.Void)? = nil)
+  #endif
   public static func ValidateVRN(vrn: Swift.String, userId: Swift.String) async -> Swift.Bool
   public static func ValidateVRN(vrn: Swift.String, userId: Swift.String, completion: @escaping (Swift.Bool) -> Swift.Void)
   @objc deinit
