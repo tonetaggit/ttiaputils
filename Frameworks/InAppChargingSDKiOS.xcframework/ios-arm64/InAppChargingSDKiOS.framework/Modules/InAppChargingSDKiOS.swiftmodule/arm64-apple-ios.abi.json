@@ -149,6 +149,147 @@
         "printedName": "InAppChargingSDkiOS",
         "children": [
           {
+            "kind": "Var",
+            "name": "isIapSdkOpen",
+            "printedName": "isIapSdkOpen",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:19InAppChargingSDKiOS0abc4SDkiE0C12isIapSdkOpenSbvpZ",
+            "mangledName": "$s19InAppChargingSDKiOS0abc4SDkiE0C12isIapSdkOpenSbvpZ",
+            "moduleName": "InAppChargingSDKiOS",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:19InAppChargingSDKiOS0abc4SDkiE0C12isIapSdkOpenSbvgZ",
+                "mangledName": "$s19InAppChargingSDKiOS0abc4SDkiE0C12isIapSdkOpenSbvgZ",
+                "moduleName": "InAppChargingSDKiOS",
+                "static": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "isDrivepaySdkOpen",
+            "printedName": "isDrivepaySdkOpen",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:19InAppChargingSDKiOS0abc4SDkiE0C17isDrivepaySdkOpenSbvpZ",
+            "mangledName": "$s19InAppChargingSDKiOS0abc4SDkiE0C17isDrivepaySdkOpenSbvpZ",
+            "moduleName": "InAppChargingSDKiOS",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:19InAppChargingSDKiOS0abc4SDkiE0C17isDrivepaySdkOpenSbvgZ",
+                "mangledName": "$s19InAppChargingSDKiOS0abc4SDkiE0C17isDrivepaySdkOpenSbvgZ",
+                "moduleName": "InAppChargingSDKiOS",
+                "static": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "isFastagSdkOpen",
+            "printedName": "isFastagSdkOpen",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:19InAppChargingSDKiOS0abc4SDkiE0C15isFastagSdkOpenSbvpZ",
+            "mangledName": "$s19InAppChargingSDKiOS0abc4SDkiE0C15isFastagSdkOpenSbvpZ",
+            "moduleName": "InAppChargingSDKiOS",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:19InAppChargingSDKiOS0abc4SDkiE0C15isFastagSdkOpenSbvgZ",
+                "mangledName": "$s19InAppChargingSDKiOS0abc4SDkiE0C15isFastagSdkOpenSbvgZ",
+                "moduleName": "InAppChargingSDKiOS",
+                "static": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
             "kind": "Function",
             "name": "getHelperFlowViewController",
             "printedName": "getHelperFlowViewController(with:viewController:)",
@@ -2827,7 +2968,7 @@
       "kind": "StringLiteral",
       "offset": 169,
       "length": 7,
-      "value": "\"1.1.3\""
+      "value": "\"1.1.4\""
     },
     {
       "filePath": "\/Users\/madhan\/Projects\/IAP\/InAppChargingSDKiOS\/InAppChargingSDKiOS\/IACServiceHelper.swift",
@@ -2867,98 +3008,98 @@
     {
       "filePath": "\/Users\/madhan\/Projects\/IAP\/InAppChargingSDKiOS\/InAppChargingSDKiOS\/InternalFlutterEngine.swift",
       "kind": "StringLiteral",
-      "offset": 1159,
+      "offset": 1438,
       "length": 12,
       "value": "\"vehicle_id\""
     },
     {
       "filePath": "\/Users\/madhan\/Projects\/IAP\/InAppChargingSDKiOS\/InAppChargingSDKiOS\/InternalFlutterEngine.swift",
       "kind": "StringLiteral",
-      "offset": 1445,
+      "offset": 1724,
       "length": 5,
       "value": "\"ira\""
     },
     {
       "filePath": "\/Users\/madhan\/Projects\/IAP\/InAppChargingSDKiOS\/InAppChargingSDKiOS\/InternalFlutterEngine.swift",
       "kind": "StringLiteral",
-      "offset": 7212,
+      "offset": 7491,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/madhan\/Projects\/IAP\/InAppChargingSDKiOS\/InAppChargingSDKiOS\/InternalFlutterEngine.swift",
       "kind": "StringLiteral",
-      "offset": 8535,
+      "offset": 8814,
       "length": 21,
       "value": "\"fastag_global_theme\""
     },
     {
       "filePath": "\/Users\/madhan\/Projects\/IAP\/InAppChargingSDKiOS\/InAppChargingSDKiOS\/InternalFlutterEngine.swift",
       "kind": "StringLiteral",
-      "offset": 19752,
+      "offset": 20031,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/madhan\/Projects\/IAP\/InAppChargingSDKiOS\/InAppChargingSDKiOS\/InternalFlutterEngine.swift",
       "kind": "StringLiteral",
-      "offset": 19790,
+      "offset": 20069,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/madhan\/Projects\/IAP\/InAppChargingSDKiOS\/InAppChargingSDKiOS\/InternalFlutterEngine.swift",
       "kind": "StringLiteral",
-      "offset": 19820,
+      "offset": 20099,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/madhan\/Projects\/IAP\/InAppChargingSDKiOS\/InAppChargingSDKiOS\/InternalFlutterEngine.swift",
       "kind": "StringLiteral",
-      "offset": 19846,
+      "offset": 20125,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/madhan\/Projects\/IAP\/InAppChargingSDKiOS\/InAppChargingSDKiOS\/InternalFlutterEngine.swift",
       "kind": "StringLiteral",
-      "offset": 19877,
+      "offset": 20156,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/madhan\/Projects\/IAP\/InAppChargingSDKiOS\/InAppChargingSDKiOS\/InternalFlutterEngine.swift",
       "kind": "StringLiteral",
-      "offset": 25299,
+      "offset": 25578,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/madhan\/Projects\/IAP\/InAppChargingSDKiOS\/InAppChargingSDKiOS\/InternalFlutterEngine.swift",
       "kind": "StringLiteral",
-      "offset": 25337,
+      "offset": 25616,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/madhan\/Projects\/IAP\/InAppChargingSDKiOS\/InAppChargingSDKiOS\/InternalFlutterEngine.swift",
       "kind": "StringLiteral",
-      "offset": 25367,
+      "offset": 25646,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/madhan\/Projects\/IAP\/InAppChargingSDKiOS\/InAppChargingSDKiOS\/InternalFlutterEngine.swift",
       "kind": "StringLiteral",
-      "offset": 25393,
+      "offset": 25672,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/madhan\/Projects\/IAP\/InAppChargingSDKiOS\/InAppChargingSDKiOS\/InternalFlutterEngine.swift",
       "kind": "StringLiteral",
-      "offset": 25424,
+      "offset": 25703,
       "length": 2,
       "value": "\"\""
     },

@@ -11,6 +11,15 @@ import _Concurrency
 import _StringProcessing
 import _SwiftConcurrencyShims
 @_hasMissingDesignatedInitializers public class InAppChargingSDkiOS {
+  public static var isIapSdkOpen: Swift.Bool {
+    get
+  }
+  public static var isDrivepaySdkOpen: Swift.Bool {
+    get
+  }
+  public static var isFastagSdkOpen: Swift.Bool {
+    get
+  }
   public static func getHelperFlowViewController(with request: InAppChargingSDKiOS.IACFlowRequest, viewController: UIKit.UIViewController) throws -> UIKit.UIViewController
   #if compiler(>=5.3) && $NonescapableTypes
   public static func requestToRegisterDevice(with request: InAppChargingSDKiOS.IACFlowRequest, completion: @escaping (Swift.Result<Swift.Bool, any Swift.Error>) -> Swift.Void)
