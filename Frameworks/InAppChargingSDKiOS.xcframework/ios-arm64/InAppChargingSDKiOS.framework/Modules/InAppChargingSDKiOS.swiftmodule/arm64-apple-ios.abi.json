@@ -615,6 +615,73 @@
           },
           {
             "kind": "Function",
+            "name": "updatePromotion",
+            "printedName": "updatePromotion(with:iraPromotionId:completion:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "IACFlowRequest",
+                "printedName": "InAppChargingSDKiOS.IACFlowRequest",
+                "usr": "s:19InAppChargingSDKiOS14IACFlowRequestV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Swift.Result<Swift.String, any Swift.Error>) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Result",
+                    "printedName": "Swift.Result<Swift.String, any Swift.Error>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Error",
+                        "printedName": "any Swift.Error",
+                        "usr": "s:s5ErrorP"
+                      }
+                    ],
+                    "usr": "s:s6ResultO"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:19InAppChargingSDKiOS0abc4SDkiE0C15updatePromotion4with03iraH2Id10completionyAA14IACFlowRequestV_SSys6ResultOySSs5Error_pGctFZ",
+            "mangledName": "$s19InAppChargingSDKiOS0abc4SDkiE0C15updatePromotion4with03iraH2Id10completionyAA14IACFlowRequestV_SSys6ResultOySSs5Error_pGctFZ",
+            "moduleName": "InAppChargingSDKiOS",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
             "name": "stopCharging",
             "printedName": "stopCharging(vin:appId:locationId:sdkType:appType:enc:evseId:stopSessionId:sessionId:partner:powerUnit:partnerId:completion:)",
             "children": [
@@ -3295,147 +3362,175 @@
     {
       "filePath": "\/Users\/madhan\/Projects\/IAP\/InAppChargingSDKiOS\/InAppChargingSDKiOS\/TTDomainService.swift",
       "kind": "StringLiteral",
-      "offset": 915,
+      "offset": 1195,
       "length": 12,
       "value": "\"clear_data\""
     },
     {
       "filePath": "\/Users\/madhan\/Projects\/IAP\/InAppChargingSDKiOS\/InAppChargingSDKiOS\/TTDomainService.swift",
       "kind": "StringLiteral",
-      "offset": 957,
+      "offset": 1237,
       "length": 17,
       "value": "\"auto_zoom_limit\""
     },
     {
       "filePath": "\/Users\/madhan\/Projects\/IAP\/InAppChargingSDKiOS\/InAppChargingSDKiOS\/TTDomainService.swift",
       "kind": "StringLiteral",
-      "offset": 1005,
+      "offset": 1285,
       "length": 19,
       "value": "\"zoom_out_per_time\""
     },
     {
       "filePath": "\/Users\/madhan\/Projects\/IAP\/InAppChargingSDKiOS\/InAppChargingSDKiOS\/TTDomainService.swift",
       "kind": "StringLiteral",
-      "offset": 1048,
+      "offset": 1328,
       "length": 10,
       "value": "\"min_zoom\""
     },
     {
       "filePath": "\/Users\/madhan\/Projects\/IAP\/InAppChargingSDKiOS\/InAppChargingSDKiOS\/TTDomainService.swift",
       "kind": "StringLiteral",
-      "offset": 1082,
+      "offset": 1362,
       "length": 10,
       "value": "\"max_zoom\""
     },
     {
       "filePath": "\/Users\/madhan\/Projects\/IAP\/InAppChargingSDKiOS\/InAppChargingSDKiOS\/TTDomainService.swift",
       "kind": "StringLiteral",
-      "offset": 1130,
+      "offset": 1410,
       "length": 25,
       "value": "\"marker_polling_duration\""
     },
     {
       "filePath": "\/Users\/madhan\/Projects\/IAP\/InAppChargingSDKiOS\/InAppChargingSDKiOS\/TTDomainService.swift",
       "kind": "StringLiteral",
-      "offset": 1191,
+      "offset": 1471,
       "length": 23,
       "value": "\"enable_marker_polling\""
     },
     {
       "filePath": "\/Users\/madhan\/Projects\/IAP\/InAppChargingSDKiOS\/InAppChargingSDKiOS\/TTDomainService.swift",
       "kind": "StringLiteral",
-      "offset": 1243,
+      "offset": 1523,
       "length": 15,
       "value": "\"max_waypoints\""
     },
     {
       "filePath": "\/Users\/madhan\/Projects\/IAP\/InAppChargingSDKiOS\/InAppChargingSDKiOS\/TTDomainService.swift",
       "kind": "StringLiteral",
-      "offset": 1291,
+      "offset": 1571,
       "length": 20,
       "value": "\"max_charging_stops\""
     },
     {
       "filePath": "\/Users\/madhan\/Projects\/IAP\/InAppChargingSDKiOS\/InAppChargingSDKiOS\/TTDomainService.swift",
       "kind": "StringLiteral",
-      "offset": 1347,
+      "offset": 1627,
       "length": 23,
       "value": "\"max_waypoints_message\""
     },
     {
       "filePath": "\/Users\/madhan\/Projects\/IAP\/InAppChargingSDKiOS\/InAppChargingSDKiOS\/TTDomainService.swift",
       "kind": "StringLiteral",
-      "offset": 1410,
+      "offset": 1690,
       "length": 28,
       "value": "\"max_charging_stops_message\""
     },
     {
       "filePath": "\/Users\/madhan\/Projects\/IAP\/InAppChargingSDKiOS\/InAppChargingSDKiOS\/TTDomainService.swift",
       "kind": "StringLiteral",
-      "offset": 1478,
+      "offset": 1758,
       "length": 28,
       "value": "\"add_charging_stops_message\""
     },
     {
       "filePath": "\/Users\/madhan\/Projects\/IAP\/InAppChargingSDKiOS\/InAppChargingSDKiOS\/TTDomainService.swift",
       "kind": "StringLiteral",
-      "offset": 1539,
+      "offset": 1819,
       "length": 19,
       "value": "\"complaint_reasons\""
     },
     {
       "filePath": "\/Users\/madhan\/Projects\/IAP\/InAppChargingSDKiOS\/InAppChargingSDKiOS\/TTDomainService.swift",
       "kind": "StringLiteral",
-      "offset": 1588,
+      "offset": 1868,
       "length": 16,
       "value": "\"route_distance\""
     },
     {
       "filePath": "\/Users\/madhan\/Projects\/IAP\/InAppChargingSDKiOS\/InAppChargingSDKiOS\/TTDomainService.swift",
       "kind": "StringLiteral",
-      "offset": 3548,
+      "offset": 1918,
+      "length": 21,
+      "value": "\"recent_search_limit\""
+    },
+    {
+      "filePath": "\/Users\/madhan\/Projects\/IAP\/InAppChargingSDKiOS\/InAppChargingSDKiOS\/TTDomainService.swift",
+      "kind": "StringLiteral",
+      "offset": 1970,
+      "length": 17,
+      "value": "\"max_suggestions\""
+    },
+    {
+      "filePath": "\/Users\/madhan\/Projects\/IAP\/InAppChargingSDKiOS\/InAppChargingSDKiOS\/TTDomainService.swift",
+      "kind": "StringLiteral",
+      "offset": 2021,
+      "length": 21,
+      "value": "\"default_search_mode\""
+    },
+    {
+      "filePath": "\/Users\/madhan\/Projects\/IAP\/InAppChargingSDKiOS\/InAppChargingSDKiOS\/TTDomainService.swift",
+      "kind": "StringLiteral",
+      "offset": 2078,
+      "length": 24,
+      "value": "\"show_search_type_label\""
+    },
+    {
+      "filePath": "\/Users\/madhan\/Projects\/IAP\/InAppChargingSDKiOS\/InAppChargingSDKiOS\/TTDomainService.swift",
+      "kind": "StringLiteral",
+      "offset": 4463,
       "length": 15,
       "value": "\"stored_domain\""
     },
     {
       "filePath": "\/Users\/madhan\/Projects\/IAP\/InAppChargingSDKiOS\/InAppChargingSDKiOS\/TTDomainService.swift",
       "kind": "StringLiteral",
-      "offset": 3596,
+      "offset": 4511,
       "length": 28,
       "value": "\"https:\/\/iotpay.tonetag.com\""
     },
     {
       "filePath": "\/Users\/madhan\/Projects\/IAP\/InAppChargingSDKiOS\/InAppChargingSDKiOS\/TTDomainService.swift",
       "kind": "StringLiteral",
-      "offset": 3662,
+      "offset": 4577,
       "length": 33,
       "value": "\"https:\/\/icp-preprod.tonetag.com\""
     },
     {
       "filePath": "\/Users\/madhan\/Projects\/IAP\/InAppChargingSDKiOS\/InAppChargingSDKiOS\/TTDomainService.swift",
       "kind": "StringLiteral",
-      "offset": 3800,
+      "offset": 4715,
       "length": 27,
       "value": "\"com.tonetag.domainservice\""
     },
     {
       "filePath": "\/Users\/madhan\/Projects\/IAP\/InAppChargingSDKiOS\/InAppChargingSDKiOS\/TTDomainService.swift",
       "kind": "StringLiteral",
-      "offset": 5407,
+      "offset": 6322,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/madhan\/Projects\/IAP\/InAppChargingSDKiOS\/InAppChargingSDKiOS\/TTDomainService.swift",
       "kind": "StringLiteral",
-      "offset": 5437,
+      "offset": 6352,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/madhan\/Projects\/IAP\/InAppChargingSDKiOS\/InAppChargingSDKiOS\/TTDomainService.swift",
       "kind": "StringLiteral",
-      "offset": 5459,
+      "offset": 6374,
       "length": 2,
       "value": "\"\""
     },
