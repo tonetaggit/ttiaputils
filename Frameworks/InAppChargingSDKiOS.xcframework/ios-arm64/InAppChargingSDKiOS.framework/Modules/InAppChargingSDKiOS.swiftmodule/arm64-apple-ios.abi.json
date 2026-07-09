@@ -3503,34 +3503,34 @@
       "filePath": "\/Users\/madhan\/Projects\/IAP\/InAppChargingSDKiOS\/InAppChargingSDKiOS\/TTDomainService.swift",
       "kind": "StringLiteral",
       "offset": 4577,
-      "length": 33,
-      "value": "\"https:\/\/icp-preprod.tonetag.com\""
+      "length": 28,
+      "value": "\"https:\/\/iotpay.tonetag.com\""
     },
     {
       "filePath": "\/Users\/madhan\/Projects\/IAP\/InAppChargingSDKiOS\/InAppChargingSDKiOS\/TTDomainService.swift",
       "kind": "StringLiteral",
-      "offset": 4715,
+      "offset": 4710,
       "length": 27,
       "value": "\"com.tonetag.domainservice\""
     },
     {
       "filePath": "\/Users\/madhan\/Projects\/IAP\/InAppChargingSDKiOS\/InAppChargingSDKiOS\/TTDomainService.swift",
       "kind": "StringLiteral",
-      "offset": 6322,
+      "offset": 6317,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/madhan\/Projects\/IAP\/InAppChargingSDKiOS\/InAppChargingSDKiOS\/TTDomainService.swift",
       "kind": "StringLiteral",
-      "offset": 6352,
+      "offset": 6347,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/madhan\/Projects\/IAP\/InAppChargingSDKiOS\/InAppChargingSDKiOS\/TTDomainService.swift",
       "kind": "StringLiteral",
-      "offset": 6374,
+      "offset": 6369,
       "length": 2,
       "value": "\"\""
     },

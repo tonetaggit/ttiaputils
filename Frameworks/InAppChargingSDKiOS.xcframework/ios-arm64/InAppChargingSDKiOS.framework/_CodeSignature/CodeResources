@@ -830,7 +830,7 @@
 		</data>
 		<key>Modules/InAppChargingSDKiOS.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
-		lvcLDRKZkq+F2TyAQV3g2kDgQbE=
+		1+osLUKgctjMQ0UZ6Cb/0TB8BSw=
 		</data>
 		<key>Modules/InAppChargingSDKiOS.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
@@ -846,7 +846,7 @@
 		</data>
 		<key>Modules/InAppChargingSDKiOS.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		xhOOFuEMrsGmsmLjV9wQK/Odzgs=
+		qRHKLgxP5rZTKyPMbq0Jm5btiyI=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -2499,11 +2499,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			lvcLDRKZkq+F2TyAQV3g2kDgQbE=
+			1+osLUKgctjMQ0UZ6Cb/0TB8BSw=
 			</data>
 			<key>hash2</key>
 			<data>
-			S6q9uorq0+wykO1v/ygerKVBUSxIAlZLfQauusyaNdQ=
+			Pvqud6q2c/bl4f/d01zICDtGfc68S4LPN7OKALsSuHc=
 			</data>
 		</dict>
 		<key>Modules/InAppChargingSDKiOS.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
@@ -2543,11 +2543,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			xhOOFuEMrsGmsmLjV9wQK/Odzgs=
+			qRHKLgxP5rZTKyPMbq0Jm5btiyI=
 			</data>
 			<key>hash2</key>
 			<data>
-			vt2cFqKsaXR4YYp87UHxyiqhnZVCOv6eQwmbBgXVXtY=
+			NjYFAnE0yFCGJov0YM30rPMltyyRh+U/MnYKLXeuPKs=
 			</data>
 		</dict>
 	</dict>
