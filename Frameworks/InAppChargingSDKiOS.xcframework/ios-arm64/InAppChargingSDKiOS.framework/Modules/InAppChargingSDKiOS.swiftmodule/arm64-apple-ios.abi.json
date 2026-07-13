@@ -3182,7 +3182,7 @@
       "kind": "StringLiteral",
       "offset": 169,
       "length": 7,
-      "value": "\"1.1.4\""
+      "value": "\"1.1.5\""
     },
     {
       "filePath": "\/Users\/madhan\/Projects\/IAP\/InAppChargingSDKiOS\/InAppChargingSDKiOS\/IACServiceHelper.swift",
