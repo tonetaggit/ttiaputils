@@ -46,7 +46,7 @@ import _SwiftConcurrencyShims
 final public class FastagSdkIos {
   public init()
   public static func setupGlobalTheme(_ theme: Swift.String)
-  public static func openFastag(from rootViewController: UIKit.UIViewController, userId: Swift.String, vrn: Swift.String, vehicleVariant: Swift.String, theme: Swift.String, vin: Swift.String, userName: Swift.String, carImageUrl: Swift.String, pplName: Swift.String)
+  public static func openFastag(from rootViewController: UIKit.UIViewController, userId: Swift.String, vrn: Swift.String, vehicleVariant: Swift.String, theme: Swift.String, vin: Swift.String, userName: Swift.String, carImageUrl: Swift.String, pplName: Swift.String) throws
   #if compiler(>=5.3) && $NonescapableTypes
   public static func closeFastag(completion: (() -> Swift.Void)? = nil)
   #endif
@@ -87,6 +87,25 @@ extension InAppChargingSDKiOS.IACFlowRequestError : Foundation.LocalizedError {
   }
   #endif
 }
+public enum FastagFlowRequestError : Swift.Error {
+  case missingUserId
+  case missingVrn
+  case missingVehicleVariant
+  case missingTheme
+  case missingVin
+  public static func == (a: InAppChargingSDKiOS.FastagFlowRequestError, b: InAppChargingSDKiOS.FastagFlowRequestError) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+extension InAppChargingSDKiOS.FastagFlowRequestError : Foundation.LocalizedError {
+  #if compiler(>=5.3) && $NonescapableTypes
+  public var errorDescription: Swift.String? {
+    get
+  }
+  #endif
+}
 public enum IACSDKMode : Swift.String, Swift.CaseIterable, Swift.Codable {
   case iap, drivepay, fastag
   #if compiler(>=5.3) && $NonescapableTypes
@@ -117,6 +136,8 @@ public enum IACVehicleType : Swift.String, Swift.CaseIterable, Swift.Codable {
 }
 extension InAppChargingSDKiOS.IACFlowRequestError : Swift.Equatable {}
 extension InAppChargingSDKiOS.IACFlowRequestError : Swift.Hashable {}
+extension InAppChargingSDKiOS.FastagFlowRequestError : Swift.Equatable {}
+extension InAppChargingSDKiOS.FastagFlowRequestError : Swift.Hashable {}
 extension InAppChargingSDKiOS.IACSDKMode : Swift.Equatable {}
 extension InAppChargingSDKiOS.IACSDKMode : Swift.Hashable {}
 extension InAppChargingSDKiOS.IACSDKMode : Swift.RawRepresentable {}

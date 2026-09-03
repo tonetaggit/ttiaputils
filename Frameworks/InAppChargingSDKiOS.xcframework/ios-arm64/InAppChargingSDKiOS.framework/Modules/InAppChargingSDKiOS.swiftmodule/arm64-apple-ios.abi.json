@@ -955,8 +955,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:19InAppChargingSDKiOS12FastagSdkIosC04openF04from6userId3vrn14vehicleVariant5theme3vin0K4Name11carImageUrl03pplR0ySo16UIViewControllerC_S8StFZ",
-            "mangledName": "$s19InAppChargingSDKiOS12FastagSdkIosC04openF04from6userId3vrn14vehicleVariant5theme3vin0K4Name11carImageUrl03pplR0ySo16UIViewControllerC_S8StFZ",
+            "usr": "s:19InAppChargingSDKiOS12FastagSdkIosC04openF04from6userId3vrn14vehicleVariant5theme3vin0K4Name11carImageUrl03pplR0ySo16UIViewControllerC_S8StKFZ",
+            "mangledName": "$s19InAppChargingSDKiOS12FastagSdkIosC04openF04from6userId3vrn14vehicleVariant5theme3vin0K4Name11carImageUrl03pplR0ySo16UIViewControllerC_S8StKFZ",
             "moduleName": "InAppChargingSDKiOS",
             "static": true,
             "declAttributes": [
@@ -964,6 +964,7 @@
               "AccessControl",
               "RawDocComment"
             ],
+            "throwing": true,
             "funcSelfKind": "NonMutating"
           },
           {
@@ -2453,6 +2454,418 @@
       },
       {
         "kind": "TypeDecl",
+        "name": "FastagFlowRequestError",
+        "printedName": "FastagFlowRequestError",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "missingUserId",
+            "printedName": "missingUserId",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(InAppChargingSDKiOS.FastagFlowRequestError.Type) -> InAppChargingSDKiOS.FastagFlowRequestError",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "FastagFlowRequestError",
+                    "printedName": "InAppChargingSDKiOS.FastagFlowRequestError",
+                    "usr": "s:19InAppChargingSDKiOS22FastagFlowRequestErrorO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "InAppChargingSDKiOS.FastagFlowRequestError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "FastagFlowRequestError",
+                        "printedName": "InAppChargingSDKiOS.FastagFlowRequestError",
+                        "usr": "s:19InAppChargingSDKiOS22FastagFlowRequestErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:19InAppChargingSDKiOS22FastagFlowRequestErrorO13missingUserIdyA2CmF",
+            "mangledName": "$s19InAppChargingSDKiOS22FastagFlowRequestErrorO13missingUserIdyA2CmF",
+            "moduleName": "InAppChargingSDKiOS"
+          },
+          {
+            "kind": "Var",
+            "name": "missingVrn",
+            "printedName": "missingVrn",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(InAppChargingSDKiOS.FastagFlowRequestError.Type) -> InAppChargingSDKiOS.FastagFlowRequestError",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "FastagFlowRequestError",
+                    "printedName": "InAppChargingSDKiOS.FastagFlowRequestError",
+                    "usr": "s:19InAppChargingSDKiOS22FastagFlowRequestErrorO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "InAppChargingSDKiOS.FastagFlowRequestError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "FastagFlowRequestError",
+                        "printedName": "InAppChargingSDKiOS.FastagFlowRequestError",
+                        "usr": "s:19InAppChargingSDKiOS22FastagFlowRequestErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:19InAppChargingSDKiOS22FastagFlowRequestErrorO10missingVrnyA2CmF",
+            "mangledName": "$s19InAppChargingSDKiOS22FastagFlowRequestErrorO10missingVrnyA2CmF",
+            "moduleName": "InAppChargingSDKiOS"
+          },
+          {
+            "kind": "Var",
+            "name": "missingVehicleVariant",
+            "printedName": "missingVehicleVariant",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(InAppChargingSDKiOS.FastagFlowRequestError.Type) -> InAppChargingSDKiOS.FastagFlowRequestError",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "FastagFlowRequestError",
+                    "printedName": "InAppChargingSDKiOS.FastagFlowRequestError",
+                    "usr": "s:19InAppChargingSDKiOS22FastagFlowRequestErrorO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "InAppChargingSDKiOS.FastagFlowRequestError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "FastagFlowRequestError",
+                        "printedName": "InAppChargingSDKiOS.FastagFlowRequestError",
+                        "usr": "s:19InAppChargingSDKiOS22FastagFlowRequestErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:19InAppChargingSDKiOS22FastagFlowRequestErrorO21missingVehicleVariantyA2CmF",
+            "mangledName": "$s19InAppChargingSDKiOS22FastagFlowRequestErrorO21missingVehicleVariantyA2CmF",
+            "moduleName": "InAppChargingSDKiOS"
+          },
+          {
+            "kind": "Var",
+            "name": "missingTheme",
+            "printedName": "missingTheme",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(InAppChargingSDKiOS.FastagFlowRequestError.Type) -> InAppChargingSDKiOS.FastagFlowRequestError",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "FastagFlowRequestError",
+                    "printedName": "InAppChargingSDKiOS.FastagFlowRequestError",
+                    "usr": "s:19InAppChargingSDKiOS22FastagFlowRequestErrorO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "InAppChargingSDKiOS.FastagFlowRequestError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "FastagFlowRequestError",
+                        "printedName": "InAppChargingSDKiOS.FastagFlowRequestError",
+                        "usr": "s:19InAppChargingSDKiOS22FastagFlowRequestErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:19InAppChargingSDKiOS22FastagFlowRequestErrorO12missingThemeyA2CmF",
+            "mangledName": "$s19InAppChargingSDKiOS22FastagFlowRequestErrorO12missingThemeyA2CmF",
+            "moduleName": "InAppChargingSDKiOS"
+          },
+          {
+            "kind": "Var",
+            "name": "missingVin",
+            "printedName": "missingVin",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(InAppChargingSDKiOS.FastagFlowRequestError.Type) -> InAppChargingSDKiOS.FastagFlowRequestError",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "FastagFlowRequestError",
+                    "printedName": "InAppChargingSDKiOS.FastagFlowRequestError",
+                    "usr": "s:19InAppChargingSDKiOS22FastagFlowRequestErrorO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "InAppChargingSDKiOS.FastagFlowRequestError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "FastagFlowRequestError",
+                        "printedName": "InAppChargingSDKiOS.FastagFlowRequestError",
+                        "usr": "s:19InAppChargingSDKiOS22FastagFlowRequestErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:19InAppChargingSDKiOS22FastagFlowRequestErrorO10missingVinyA2CmF",
+            "mangledName": "$s19InAppChargingSDKiOS22FastagFlowRequestErrorO10missingVinyA2CmF",
+            "moduleName": "InAppChargingSDKiOS"
+          },
+          {
+            "kind": "Function",
+            "name": "==",
+            "printedName": "==(_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "FastagFlowRequestError",
+                "printedName": "InAppChargingSDKiOS.FastagFlowRequestError",
+                "usr": "s:19InAppChargingSDKiOS22FastagFlowRequestErrorO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "FastagFlowRequestError",
+                "printedName": "InAppChargingSDKiOS.FastagFlowRequestError",
+                "usr": "s:19InAppChargingSDKiOS22FastagFlowRequestErrorO"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:19InAppChargingSDKiOS22FastagFlowRequestErrorO2eeoiySbAC_ACtFZ",
+            "mangledName": "$s19InAppChargingSDKiOS22FastagFlowRequestErrorO2eeoiySbAC_ACtFZ",
+            "moduleName": "InAppChargingSDKiOS",
+            "static": true,
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Var",
+            "name": "hashValue",
+            "printedName": "hashValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:19InAppChargingSDKiOS22FastagFlowRequestErrorO9hashValueSivp",
+            "mangledName": "$s19InAppChargingSDKiOS22FastagFlowRequestErrorO9hashValueSivp",
+            "moduleName": "InAppChargingSDKiOS",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:19InAppChargingSDKiOS22FastagFlowRequestErrorO9hashValueSivg",
+                "mangledName": "$s19InAppChargingSDKiOS22FastagFlowRequestErrorO9hashValueSivg",
+                "moduleName": "InAppChargingSDKiOS",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "hash",
+            "printedName": "hash(into:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Hasher",
+                "printedName": "Swift.Hasher",
+                "paramValueOwnership": "InOut",
+                "usr": "s:s6HasherV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:19InAppChargingSDKiOS22FastagFlowRequestErrorO4hash4intoys6HasherVz_tF",
+            "mangledName": "$s19InAppChargingSDKiOS22FastagFlowRequestErrorO4hash4intoys6HasherVz_tF",
+            "moduleName": "InAppChargingSDKiOS",
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Var",
+            "name": "errorDescription",
+            "printedName": "errorDescription",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:19InAppChargingSDKiOS22FastagFlowRequestErrorO16errorDescriptionSSSgvp",
+            "mangledName": "$s19InAppChargingSDKiOS22FastagFlowRequestErrorO16errorDescriptionSSSgvp",
+            "moduleName": "InAppChargingSDKiOS",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:19InAppChargingSDKiOS22FastagFlowRequestErrorO16errorDescriptionSSSgvg",
+                "mangledName": "$s19InAppChargingSDKiOS22FastagFlowRequestErrorO16errorDescriptionSSSgvg",
+                "moduleName": "InAppChargingSDKiOS",
+                "isFromExtension": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:19InAppChargingSDKiOS22FastagFlowRequestErrorO",
+        "mangledName": "$s19InAppChargingSDKiOS22FastagFlowRequestErrorO",
+        "moduleName": "InAppChargingSDKiOS",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Error",
+            "printedName": "Error",
+            "usr": "s:s5ErrorP",
+            "mangledName": "$ss5ErrorP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "SendableMetatype",
+            "printedName": "SendableMetatype",
+            "usr": "s:s16SendableMetatypeP",
+            "mangledName": "$ss16SendableMetatypeP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "LocalizedError",
+            "printedName": "LocalizedError",
+            "usr": "s:10Foundation14LocalizedErrorP",
+            "mangledName": "$s10Foundation14LocalizedErrorP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
         "name": "IACSDKMode",
         "printedName": "IACSDKMode",
         "children": [
@@ -3175,14 +3588,14 @@
       "kind": "StringLiteral",
       "offset": 542,
       "length": 7,
-      "value": "\"1.0.0\""
+      "value": "\"1.1.6\""
     },
     {
       "filePath": "\/Users\/madhan\/Projects\/IAP\/InAppChargingSDKiOS\/InAppChargingSDKiOS\/IACServiceHelper.swift",
       "kind": "StringLiteral",
       "offset": 169,
       "length": 7,
-      "value": "\"1.1.5\""
+      "value": "\"1.1.6\""
     },
     {
       "filePath": "\/Users\/madhan\/Projects\/IAP\/InAppChargingSDKiOS\/InAppChargingSDKiOS\/IACServiceHelper.swift",
@@ -3285,35 +3698,35 @@
     {
       "filePath": "\/Users\/madhan\/Projects\/IAP\/InAppChargingSDKiOS\/InAppChargingSDKiOS\/InternalFlutterEngine.swift",
       "kind": "StringLiteral",
-      "offset": 27423,
+      "offset": 27495,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/madhan\/Projects\/IAP\/InAppChargingSDKiOS\/InAppChargingSDKiOS\/InternalFlutterEngine.swift",
       "kind": "StringLiteral",
-      "offset": 27461,
+      "offset": 27533,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/madhan\/Projects\/IAP\/InAppChargingSDKiOS\/InAppChargingSDKiOS\/InternalFlutterEngine.swift",
       "kind": "StringLiteral",
-      "offset": 27491,
+      "offset": 27563,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/madhan\/Projects\/IAP\/InAppChargingSDKiOS\/InAppChargingSDKiOS\/InternalFlutterEngine.swift",
       "kind": "StringLiteral",
-      "offset": 27517,
+      "offset": 27589,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/madhan\/Projects\/IAP\/InAppChargingSDKiOS\/InAppChargingSDKiOS\/InternalFlutterEngine.swift",
       "kind": "StringLiteral",
-      "offset": 27548,
+      "offset": 27620,
       "length": 2,
       "value": "\"\""
     },
@@ -3362,175 +3775,203 @@
     {
       "filePath": "\/Users\/madhan\/Projects\/IAP\/InAppChargingSDKiOS\/InAppChargingSDKiOS\/TTDomainService.swift",
       "kind": "StringLiteral",
-      "offset": 1195,
+      "offset": 1227,
+      "length": 15,
+      "value": "\"fastag_domain\""
+    },
+    {
+      "filePath": "\/Users\/madhan\/Projects\/IAP\/InAppChargingSDKiOS\/InAppChargingSDKiOS\/TTDomainService.swift",
+      "kind": "StringLiteral",
+      "offset": 1268,
       "length": 12,
       "value": "\"clear_data\""
     },
     {
       "filePath": "\/Users\/madhan\/Projects\/IAP\/InAppChargingSDKiOS\/InAppChargingSDKiOS\/TTDomainService.swift",
       "kind": "StringLiteral",
-      "offset": 1237,
+      "offset": 1310,
       "length": 17,
       "value": "\"auto_zoom_limit\""
     },
     {
       "filePath": "\/Users\/madhan\/Projects\/IAP\/InAppChargingSDKiOS\/InAppChargingSDKiOS\/TTDomainService.swift",
       "kind": "StringLiteral",
-      "offset": 1285,
+      "offset": 1358,
       "length": 19,
       "value": "\"zoom_out_per_time\""
     },
     {
       "filePath": "\/Users\/madhan\/Projects\/IAP\/InAppChargingSDKiOS\/InAppChargingSDKiOS\/TTDomainService.swift",
       "kind": "StringLiteral",
-      "offset": 1328,
+      "offset": 1401,
       "length": 10,
       "value": "\"min_zoom\""
     },
     {
       "filePath": "\/Users\/madhan\/Projects\/IAP\/InAppChargingSDKiOS\/InAppChargingSDKiOS\/TTDomainService.swift",
       "kind": "StringLiteral",
-      "offset": 1362,
+      "offset": 1435,
       "length": 10,
       "value": "\"max_zoom\""
     },
     {
       "filePath": "\/Users\/madhan\/Projects\/IAP\/InAppChargingSDKiOS\/InAppChargingSDKiOS\/TTDomainService.swift",
       "kind": "StringLiteral",
-      "offset": 1410,
+      "offset": 1483,
       "length": 25,
       "value": "\"marker_polling_duration\""
     },
     {
       "filePath": "\/Users\/madhan\/Projects\/IAP\/InAppChargingSDKiOS\/InAppChargingSDKiOS\/TTDomainService.swift",
       "kind": "StringLiteral",
-      "offset": 1471,
+      "offset": 1544,
       "length": 23,
       "value": "\"enable_marker_polling\""
     },
     {
       "filePath": "\/Users\/madhan\/Projects\/IAP\/InAppChargingSDKiOS\/InAppChargingSDKiOS\/TTDomainService.swift",
       "kind": "StringLiteral",
-      "offset": 1523,
+      "offset": 1596,
       "length": 15,
       "value": "\"max_waypoints\""
     },
     {
       "filePath": "\/Users\/madhan\/Projects\/IAP\/InAppChargingSDKiOS\/InAppChargingSDKiOS\/TTDomainService.swift",
       "kind": "StringLiteral",
-      "offset": 1571,
+      "offset": 1644,
       "length": 20,
       "value": "\"max_charging_stops\""
     },
     {
       "filePath": "\/Users\/madhan\/Projects\/IAP\/InAppChargingSDKiOS\/InAppChargingSDKiOS\/TTDomainService.swift",
       "kind": "StringLiteral",
-      "offset": 1627,
+      "offset": 1700,
       "length": 23,
       "value": "\"max_waypoints_message\""
     },
     {
       "filePath": "\/Users\/madhan\/Projects\/IAP\/InAppChargingSDKiOS\/InAppChargingSDKiOS\/TTDomainService.swift",
       "kind": "StringLiteral",
-      "offset": 1690,
+      "offset": 1763,
       "length": 28,
       "value": "\"max_charging_stops_message\""
     },
     {
       "filePath": "\/Users\/madhan\/Projects\/IAP\/InAppChargingSDKiOS\/InAppChargingSDKiOS\/TTDomainService.swift",
       "kind": "StringLiteral",
-      "offset": 1758,
+      "offset": 1831,
       "length": 28,
       "value": "\"add_charging_stops_message\""
     },
     {
       "filePath": "\/Users\/madhan\/Projects\/IAP\/InAppChargingSDKiOS\/InAppChargingSDKiOS\/TTDomainService.swift",
       "kind": "StringLiteral",
-      "offset": 1819,
+      "offset": 1892,
       "length": 19,
       "value": "\"complaint_reasons\""
     },
     {
       "filePath": "\/Users\/madhan\/Projects\/IAP\/InAppChargingSDKiOS\/InAppChargingSDKiOS\/TTDomainService.swift",
       "kind": "StringLiteral",
-      "offset": 1868,
+      "offset": 1941,
       "length": 16,
       "value": "\"route_distance\""
     },
     {
       "filePath": "\/Users\/madhan\/Projects\/IAP\/InAppChargingSDKiOS\/InAppChargingSDKiOS\/TTDomainService.swift",
       "kind": "StringLiteral",
-      "offset": 1918,
+      "offset": 1991,
       "length": 21,
       "value": "\"recent_search_limit\""
     },
     {
       "filePath": "\/Users\/madhan\/Projects\/IAP\/InAppChargingSDKiOS\/InAppChargingSDKiOS\/TTDomainService.swift",
       "kind": "StringLiteral",
-      "offset": 1970,
+      "offset": 2043,
       "length": 17,
       "value": "\"max_suggestions\""
     },
     {
       "filePath": "\/Users\/madhan\/Projects\/IAP\/InAppChargingSDKiOS\/InAppChargingSDKiOS\/TTDomainService.swift",
       "kind": "StringLiteral",
-      "offset": 2021,
+      "offset": 2094,
       "length": 21,
       "value": "\"default_search_mode\""
     },
     {
       "filePath": "\/Users\/madhan\/Projects\/IAP\/InAppChargingSDKiOS\/InAppChargingSDKiOS\/TTDomainService.swift",
       "kind": "StringLiteral",
-      "offset": 2078,
+      "offset": 2151,
       "length": 24,
       "value": "\"show_search_type_label\""
     },
     {
       "filePath": "\/Users\/madhan\/Projects\/IAP\/InAppChargingSDKiOS\/InAppChargingSDKiOS\/TTDomainService.swift",
       "kind": "StringLiteral",
-      "offset": 4463,
+      "offset": 4631,
       "length": 15,
       "value": "\"stored_domain\""
     },
     {
       "filePath": "\/Users\/madhan\/Projects\/IAP\/InAppChargingSDKiOS\/InAppChargingSDKiOS\/TTDomainService.swift",
       "kind": "StringLiteral",
-      "offset": 4511,
+      "offset": 4679,
       "length": 28,
       "value": "\"https:\/\/iotpay.tonetag.com\""
     },
     {
       "filePath": "\/Users\/madhan\/Projects\/IAP\/InAppChargingSDKiOS\/InAppChargingSDKiOS\/TTDomainService.swift",
       "kind": "StringLiteral",
-      "offset": 4577,
+      "offset": 4745,
       "length": 28,
       "value": "\"https:\/\/iotpay.tonetag.com\""
     },
     {
       "filePath": "\/Users\/madhan\/Projects\/IAP\/InAppChargingSDKiOS\/InAppChargingSDKiOS\/TTDomainService.swift",
       "kind": "StringLiteral",
-      "offset": 4710,
+      "offset": 4815,
+      "length": 22,
+      "value": "\"stored_fastag_domain\""
+    },
+    {
+      "filePath": "\/Users\/madhan\/Projects\/IAP\/InAppChargingSDKiOS\/InAppChargingSDKiOS\/TTDomainService.swift",
+      "kind": "StringLiteral",
+      "offset": 4876,
+      "length": 24,
+      "value": "\"https:\/\/icp.voicese.in\""
+    },
+    {
+      "filePath": "\/Users\/madhan\/Projects\/IAP\/InAppChargingSDKiOS\/InAppChargingSDKiOS\/TTDomainService.swift",
+      "kind": "StringLiteral",
+      "offset": 5001,
       "length": 27,
       "value": "\"com.tonetag.domainservice\""
     },
     {
       "filePath": "\/Users\/madhan\/Projects\/IAP\/InAppChargingSDKiOS\/InAppChargingSDKiOS\/TTDomainService.swift",
       "kind": "StringLiteral",
-      "offset": 6317,
+      "offset": 6608,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/madhan\/Projects\/IAP\/InAppChargingSDKiOS\/InAppChargingSDKiOS\/TTDomainService.swift",
       "kind": "StringLiteral",
-      "offset": 6347,
+      "offset": 6638,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/madhan\/Projects\/IAP\/InAppChargingSDKiOS\/InAppChargingSDKiOS\/TTDomainService.swift",
       "kind": "StringLiteral",
-      "offset": 6369,
+      "offset": 6660,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/madhan\/Projects\/IAP\/InAppChargingSDKiOS\/InAppChargingSDKiOS\/TTDomainService.swift",
+      "kind": "StringLiteral",
+      "offset": 6687,
       "length": 2,
       "value": "\"\""
     },
