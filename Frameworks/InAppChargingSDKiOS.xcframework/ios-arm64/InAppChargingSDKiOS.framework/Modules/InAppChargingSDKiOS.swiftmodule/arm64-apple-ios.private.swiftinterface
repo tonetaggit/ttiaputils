@@ -3,6 +3,7 @@
 // swift-module-flags: -target arm64-apple-ios14 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-experimental-feature DebugDescriptionMacro -enable-bare-slash-regex -module-name InAppChargingSDKiOS
 // swift-module-flags-ignorable:  -formal-cxx-interoperability-mode=off -interface-compiler-version 6.2.3
 import SystemConfiguration.CaptiveNetwork
+import CoreText
 import Flutter
 import Swift
 import SystemConfiguration
@@ -10,6 +11,36 @@ import UIKit
 import _Concurrency
 import _StringProcessing
 import _SwiftConcurrencyShims
+public protocol HomeCardListener : AnyObject {
+  func onViewMapClick()
+  func onChargerClick(_ charger: InAppChargingSDKiOS.HomeCardCharger)
+}
+public struct HomeCardCharger : Swift.Equatable {
+  public let locationId: Swift.String
+  public let merchantId: Swift.String
+  public let merchantName: Swift.String
+  public let lat: Swift.Double
+  public let lon: Swift.Double
+  public let distance: Swift.String
+  public let eta: Swift.String
+  public let power: Swift.String
+  public let available: Swift.String
+  public let logoUrl: Swift.String?
+  public let chargerType: Swift.String
+  public let partner: Swift.String?
+  public let partyId: Swift.String?
+  public let paymentEnabled: Swift.Bool
+  public let rfidEnabled: Swift.Bool
+  public let lastUsed: Swift.String?
+  public let everifiedRating: Swift.String?
+  public let totalNoOfVisits: Swift.Int
+  public let isEverified: Swift.Bool
+  public let isTataEverified: Swift.Bool
+  public let companyDisplayName: Swift.String?
+  public let connectorPower: [Swift.Double]
+  public let rawJson: Swift.String
+  public static func == (a: InAppChargingSDKiOS.HomeCardCharger, b: InAppChargingSDKiOS.HomeCardCharger) -> Swift.Bool
+}
 @_hasMissingDesignatedInitializers public class InAppChargingSDkiOS {
   public static var isIapSdkOpen: Swift.Bool {
     get
@@ -21,6 +52,7 @@ import _SwiftConcurrencyShims
     get
   }
   public static func getHelperFlowViewController(with request: InAppChargingSDKiOS.IACFlowRequest, viewController: UIKit.UIViewController) throws -> UIKit.UIViewController
+  public static func openChargerCard(with request: InAppChargingSDKiOS.IACFlowRequest, charger: InAppChargingSDKiOS.HomeCardCharger, viewController: UIKit.UIViewController) throws -> UIKit.UIViewController
   #if compiler(>=5.3) && $NonescapableTypes
   public static func requestToRegisterDevice(with request: InAppChargingSDKiOS.IACFlowRequest, completion: @escaping (Swift.Result<Swift.Bool, any Swift.Error>) -> Swift.Void)
   #endif
@@ -38,6 +70,7 @@ import _SwiftConcurrencyShims
   #if compiler(>=5.3) && $NonescapableTypes
   public static func updatePromotion(with request: InAppChargingSDKiOS.IACFlowRequest, iraPromotionId: Swift.String, completion: @escaping (Swift.Result<Swift.String, any Swift.Error>) -> Swift.Void)
   #endif
+  public static func initHomeCard(request: InAppChargingSDKiOS.IACFlowRequest, container: UIKit.UIView, listener: any InAppChargingSDKiOS.HomeCardListener)
   #if compiler(>=5.3) && $NonescapableTypes
   public static func stopCharging(vin: Swift.String, appId: Swift.String, locationId: Swift.String, sdkType: Swift.String, appType: Swift.String, enc: Swift.Bool, evseId: Swift.String, stopSessionId: Swift.String, sessionId: Swift.String, partner: Swift.String, powerUnit: Swift.String, partnerId: Swift.String, completion: @escaping (Swift.Result<Swift.String, any Swift.Error>) -> Swift.Void)
   #endif
