@@ -1384,6 +1384,16 @@
       },
       {
         "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "InAppChargingSDKiOS",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
         "declKind": "Import",
@@ -5473,6 +5483,153 @@
       "value": "25"
     },
     {
+      "filePath": "\/Users\/madhan\/Projects\/IAP\/InAppChargingSDKiOS\/InAppChargingSDKiOS\/HomeCard\/HomeCardShimmerView.swift",
+      "kind": "StringLiteral",
+      "offset": 307,
+      "length": 12,
+      "value": "\"tt_shimmer\""
+    },
+    {
+      "filePath": "\/Users\/madhan\/Projects\/IAP\/InAppChargingSDKiOS\/InAppChargingSDKiOS\/HomeCard\/HomeCardShimmerView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 471,
+      "length": 4,
+      "value": "0x1E"
+    },
+    {
+      "filePath": "\/Users\/madhan\/Projects\/IAP\/InAppChargingSDKiOS\/InAppChargingSDKiOS\/HomeCard\/HomeCardShimmerView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 476,
+      "length": 3,
+      "value": "255"
+    },
+    {
+      "filePath": "\/Users\/madhan\/Projects\/IAP\/InAppChargingSDKiOS\/InAppChargingSDKiOS\/HomeCard\/HomeCardShimmerView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 488,
+      "length": 4,
+      "value": "0x1E"
+    },
+    {
+      "filePath": "\/Users\/madhan\/Projects\/IAP\/InAppChargingSDKiOS\/InAppChargingSDKiOS\/HomeCard\/HomeCardShimmerView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 493,
+      "length": 3,
+      "value": "255"
+    },
+    {
+      "filePath": "\/Users\/madhan\/Projects\/IAP\/InAppChargingSDKiOS\/InAppChargingSDKiOS\/HomeCard\/HomeCardShimmerView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 504,
+      "length": 4,
+      "value": "0x1E"
+    },
+    {
+      "filePath": "\/Users\/madhan\/Projects\/IAP\/InAppChargingSDKiOS\/InAppChargingSDKiOS\/HomeCard\/HomeCardShimmerView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 509,
+      "length": 3,
+      "value": "255"
+    },
+    {
+      "filePath": "\/Users\/madhan\/Projects\/IAP\/InAppChargingSDKiOS\/InAppChargingSDKiOS\/HomeCard\/HomeCardShimmerView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 521,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/madhan\/Projects\/IAP\/InAppChargingSDKiOS\/InAppChargingSDKiOS\/HomeCard\/HomeCardShimmerView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 561,
+      "length": 4,
+      "value": "0x2C"
+    },
+    {
+      "filePath": "\/Users\/madhan\/Projects\/IAP\/InAppChargingSDKiOS\/InAppChargingSDKiOS\/HomeCard\/HomeCardShimmerView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 566,
+      "length": 3,
+      "value": "255"
+    },
+    {
+      "filePath": "\/Users\/madhan\/Projects\/IAP\/InAppChargingSDKiOS\/InAppChargingSDKiOS\/HomeCard\/HomeCardShimmerView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 578,
+      "length": 4,
+      "value": "0x2C"
+    },
+    {
+      "filePath": "\/Users\/madhan\/Projects\/IAP\/InAppChargingSDKiOS\/InAppChargingSDKiOS\/HomeCard\/HomeCardShimmerView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 583,
+      "length": 3,
+      "value": "255"
+    },
+    {
+      "filePath": "\/Users\/madhan\/Projects\/IAP\/InAppChargingSDKiOS\/InAppChargingSDKiOS\/HomeCard\/HomeCardShimmerView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 594,
+      "length": 4,
+      "value": "0x2C"
+    },
+    {
+      "filePath": "\/Users\/madhan\/Projects\/IAP\/InAppChargingSDKiOS\/InAppChargingSDKiOS\/HomeCard\/HomeCardShimmerView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 599,
+      "length": 3,
+      "value": "255"
+    },
+    {
+      "filePath": "\/Users\/madhan\/Projects\/IAP\/InAppChargingSDKiOS\/InAppChargingSDKiOS\/HomeCard\/HomeCardShimmerView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 611,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/madhan\/Projects\/IAP\/InAppChargingSDKiOS\/InAppChargingSDKiOS\/HomeCard\/HomeCardShimmerView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 680,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/madhan\/Projects\/IAP\/InAppChargingSDKiOS\/InAppChargingSDKiOS\/HomeCard\/HomeCardShimmerView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 811,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/madhan\/Projects\/IAP\/InAppChargingSDKiOS\/InAppChargingSDKiOS\/HomeCard\/HomeCardShimmerView.swift",
+      "kind": "FloatLiteral",
+      "offset": 817,
+      "length": 3,
+      "value": "0.5"
+    },
+    {
+      "filePath": "\/Users\/madhan\/Projects\/IAP\/InAppChargingSDKiOS\/InAppChargingSDKiOS\/HomeCard\/HomeCardShimmerView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 866,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/madhan\/Projects\/IAP\/InAppChargingSDKiOS\/InAppChargingSDKiOS\/HomeCard\/HomeCardShimmerView.swift",
+      "kind": "FloatLiteral",
+      "offset": 872,
+      "length": 3,
+      "value": "0.5"
+    },
+    {
+      "filePath": "\/Users\/madhan\/Projects\/IAP\/InAppChargingSDKiOS\/InAppChargingSDKiOS\/HomeCard\/HomeCardShimmerView.swift",
+      "kind": "Array",
+      "offset": 911,
+      "length": 11,
+      "value": "[0, 0.5, 1]"
+    },
+    {
       "filePath": "\/Users\/madhan\/Projects\/IAP\/InAppChargingSDKiOS\/InAppChargingSDKiOS\/HomeCard\/HomeCardStorage.swift",
       "kind": "StringLiteral",
       "offset": 135,
@@ -7336,29 +7493,43 @@
     },
     {
       "filePath": "\/Users\/madhan\/Projects\/IAP\/InAppChargingSDKiOS\/InAppChargingSDKiOS\/HomeCard\/TTHomeCardView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1014,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/madhan\/Projects\/IAP\/InAppChargingSDKiOS\/InAppChargingSDKiOS\/HomeCard\/TTHomeCardView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1048,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/madhan\/Projects\/IAP\/InAppChargingSDKiOS\/InAppChargingSDKiOS\/HomeCard\/TTHomeCardView.swift",
       "kind": "Dictionary",
-      "offset": 1121,
+      "offset": 1296,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/madhan\/Projects\/IAP\/InAppChargingSDKiOS\/InAppChargingSDKiOS\/HomeCard\/TTHomeCardView.swift",
       "kind": "Dictionary",
-      "offset": 1176,
+      "offset": 1351,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/madhan\/Projects\/IAP\/InAppChargingSDKiOS\/InAppChargingSDKiOS\/HomeCard\/TTHomeCardView.swift",
       "kind": "Array",
-      "offset": 1266,
+      "offset": 1441,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/madhan\/Projects\/IAP\/InAppChargingSDKiOS\/InAppChargingSDKiOS\/HomeCard\/TTHomeCardView.swift",
       "kind": "IntegerLiteral",
-      "offset": 1301,
+      "offset": 1476,
       "length": 1,
       "value": "0"
     },
@@ -7388,14 +7559,14 @@
       "kind": "StringLiteral",
       "offset": 542,
       "length": 7,
-      "value": "\"1.1.9\""
+      "value": "\"1.2.0\""
     },
     {
       "filePath": "\/Users\/madhan\/Projects\/IAP\/InAppChargingSDKiOS\/InAppChargingSDKiOS\/IACServiceHelper.swift",
       "kind": "StringLiteral",
       "offset": 169,
       "length": 7,
-      "value": "\"1.1.9\""
+      "value": "\"1.2.0\""
     },
     {
       "filePath": "\/Users\/madhan\/Projects\/IAP\/InAppChargingSDKiOS\/InAppChargingSDKiOS\/IACServiceHelper.swift",
