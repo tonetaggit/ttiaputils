@@ -5970,7 +5970,7 @@
       "kind": "StringLiteral",
       "offset": 973,
       "length": 17,
-      "value": "\"Nearby chargers\""
+      "value": "\"nearby chargers\""
     },
     {
       "filePath": "\/Users\/madhan\/Projects\/IAP\/InAppChargingSDKiOS\/InAppChargingSDKiOS\/HomeCard\/HomeCardSubviews.swift",
@@ -7493,43 +7493,50 @@
     },
     {
       "filePath": "\/Users\/madhan\/Projects\/IAP\/InAppChargingSDKiOS\/InAppChargingSDKiOS\/HomeCard\/TTHomeCardView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1146,
+      "length": 2,
+      "value": "24"
+    },
+    {
+      "filePath": "\/Users\/madhan\/Projects\/IAP\/InAppChargingSDKiOS\/InAppChargingSDKiOS\/HomeCard\/TTHomeCardView.swift",
       "kind": "BooleanLiteral",
-      "offset": 1014,
+      "offset": 1234,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/madhan\/Projects\/IAP\/InAppChargingSDKiOS\/InAppChargingSDKiOS\/HomeCard\/TTHomeCardView.swift",
       "kind": "BooleanLiteral",
-      "offset": 1048,
+      "offset": 1268,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/madhan\/Projects\/IAP\/InAppChargingSDKiOS\/InAppChargingSDKiOS\/HomeCard\/TTHomeCardView.swift",
       "kind": "Dictionary",
-      "offset": 1296,
+      "offset": 1516,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/madhan\/Projects\/IAP\/InAppChargingSDKiOS\/InAppChargingSDKiOS\/HomeCard\/TTHomeCardView.swift",
       "kind": "Dictionary",
-      "offset": 1351,
+      "offset": 1571,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/madhan\/Projects\/IAP\/InAppChargingSDKiOS\/InAppChargingSDKiOS\/HomeCard\/TTHomeCardView.swift",
       "kind": "Array",
-      "offset": 1441,
+      "offset": 1661,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/madhan\/Projects\/IAP\/InAppChargingSDKiOS\/InAppChargingSDKiOS\/HomeCard\/TTHomeCardView.swift",
       "kind": "IntegerLiteral",
-      "offset": 1476,
+      "offset": 1696,
       "length": 1,
       "value": "0"
     },
