@@ -3325,9 +3325,96 @@
             ]
           },
           {
+            "kind": "Var",
+            "name": "viewSession",
+            "printedName": "viewSession",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:19InAppChargingSDKiOS14IACFlowRequestV11viewSessionSbvp",
+            "mangledName": "$s19InAppChargingSDKiOS14IACFlowRequestV11viewSessionSbvp",
+            "moduleName": "InAppChargingSDKiOS",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:19InAppChargingSDKiOS14IACFlowRequestV11viewSessionSbvg",
+                "mangledName": "$s19InAppChargingSDKiOS14IACFlowRequestV11viewSessionSbvg",
+                "moduleName": "InAppChargingSDKiOS",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:19InAppChargingSDKiOS14IACFlowRequestV11viewSessionSbvs",
+                "mangledName": "$s19InAppChargingSDKiOS14IACFlowRequestV11viewSessionSbvs",
+                "moduleName": "InAppChargingSDKiOS",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:19InAppChargingSDKiOS14IACFlowRequestV11viewSessionSbvM",
+                "mangledName": "$s19InAppChargingSDKiOS14IACFlowRequestV11viewSessionSbvM",
+                "moduleName": "InAppChargingSDKiOS",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
             "kind": "Constructor",
             "name": "init",
-            "printedName": "init(sdkMode:phoneNumber:userName:vehicleRegNumber:vehicleID:vehicleType:carProductLineName:carModelName:userLocation:oneSignalID:drivepayTxnId:carImageUrl:customerHash:bearerToken:vehicleLineType:xapiKey:vid:clientId:)",
+            "printedName": "init(sdkMode:phoneNumber:userName:vehicleRegNumber:vehicleID:vehicleType:carProductLineName:carModelName:userLocation:oneSignalID:drivepayTxnId:carImageUrl:customerHash:bearerToken:vehicleLineType:xapiKey:vid:clientId:viewSession:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -3500,11 +3587,18 @@
                 "name": "String",
                 "printedName": "Swift.String",
                 "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "hasDefaultArg": true,
+                "usr": "s:Sb"
               }
             ],
             "declKind": "Constructor",
-            "usr": "s:19InAppChargingSDKiOS14IACFlowRequestV7sdkMode11phoneNumber8userName010vehicleRegK00N2ID0N4Type014carProductLineM00r5ModelM00L8Location09oneSignalP013drivepayTxnId0R8ImageUrl12customerHash11bearerToken0ntQ07xapiKey3vid8clientIdAcA10IACSDKModeO_S2SSgS2SAA010IACVehicleQ0OSSAXSd8latitude_Sd9longitudetSgA2XS7Stcfc",
-            "mangledName": "$s19InAppChargingSDKiOS14IACFlowRequestV7sdkMode11phoneNumber8userName010vehicleRegK00N2ID0N4Type014carProductLineM00r5ModelM00L8Location09oneSignalP013drivepayTxnId0R8ImageUrl12customerHash11bearerToken0ntQ07xapiKey3vid8clientIdAcA10IACSDKModeO_S2SSgS2SAA010IACVehicleQ0OSSAXSd8latitude_Sd9longitudetSgA2XS7Stcfc",
+            "usr": "s:19InAppChargingSDKiOS14IACFlowRequestV7sdkMode11phoneNumber8userName010vehicleRegK00N2ID0N4Type014carProductLineM00r5ModelM00L8Location09oneSignalP013drivepayTxnId0R8ImageUrl12customerHash11bearerToken0ntQ07xapiKey3vid8clientId11viewSessionAcA10IACSDKModeO_S2SSgS2SAA010IACVehicleQ0OSSAYSd8latitude_Sd9longitudetSgA2YS7SSbtcfc",
+            "mangledName": "$s19InAppChargingSDKiOS14IACFlowRequestV7sdkMode11phoneNumber8userName010vehicleRegK00N2ID0N4Type014carProductLineM00r5ModelM00L8Location09oneSignalP013drivepayTxnId0R8ImageUrl12customerHash11bearerToken0ntQ07xapiKey3vid8clientId11viewSessionAcA10IACSDKModeO_S2SSgS2SAA010IACVehicleQ0OSSAYSd8latitude_Sd9longitudetSgA2YS7SSbtcfc",
             "moduleName": "InAppChargingSDKiOS",
             "declAttributes": [
               "AccessControl",
@@ -7200,247 +7294,163 @@
     {
       "filePath": "\/Users\/madhan\/Projects\/IAP\/InAppChargingSDKiOS\/InAppChargingSDKiOS\/HomeCard\/PromotionSheetViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 316,
-      "length": 2,
-      "value": "10"
-    },
-    {
-      "filePath": "\/Users\/madhan\/Projects\/IAP\/InAppChargingSDKiOS\/InAppChargingSDKiOS\/HomeCard\/PromotionSheetViewController.swift",
-      "kind": "IntegerLiteral",
-      "offset": 321,
-      "length": 1,
-      "value": "4"
-    },
-    {
-      "filePath": "\/Users\/madhan\/Projects\/IAP\/InAppChargingSDKiOS\/InAppChargingSDKiOS\/HomeCard\/PromotionSheetViewController.swift",
-      "kind": "IntegerLiteral",
-      "offset": 325,
+      "offset": 315,
       "length": 2,
       "value": "12"
     },
     {
       "filePath": "\/Users\/madhan\/Projects\/IAP\/InAppChargingSDKiOS\/InAppChargingSDKiOS\/HomeCard\/PromotionSheetViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 330,
+      "offset": 429,
       "length": 2,
       "value": "36"
     },
     {
       "filePath": "\/Users\/madhan\/Projects\/IAP\/InAppChargingSDKiOS\/InAppChargingSDKiOS\/HomeCard\/PromotionSheetViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 335,
+      "offset": 434,
       "length": 2,
       "value": "14"
     },
     {
       "filePath": "\/Users\/madhan\/Projects\/IAP\/InAppChargingSDKiOS\/InAppChargingSDKiOS\/HomeCard\/PromotionSheetViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 340,
-      "length": 2,
-      "value": "20"
-    },
-    {
-      "filePath": "\/Users\/madhan\/Projects\/IAP\/InAppChargingSDKiOS\/InAppChargingSDKiOS\/HomeCard\/PromotionSheetViewController.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1178,
-      "length": 2,
-      "value": "90"
-    },
-    {
-      "filePath": "\/Users\/madhan\/Projects\/IAP\/InAppChargingSDKiOS\/InAppChargingSDKiOS\/HomeCard\/PromotionSheetViewController.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1181,
+      "offset": 915,
       "length": 3,
-      "value": "255"
+      "value": "999"
     },
     {
       "filePath": "\/Users\/madhan\/Projects\/IAP\/InAppChargingSDKiOS\/InAppChargingSDKiOS\/HomeCard\/PromotionSheetViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 1193,
-      "length": 2,
-      "value": "90"
-    },
-    {
-      "filePath": "\/Users\/madhan\/Projects\/IAP\/InAppChargingSDKiOS\/InAppChargingSDKiOS\/HomeCard\/PromotionSheetViewController.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1196,
-      "length": 3,
-      "value": "255"
-    },
-    {
-      "filePath": "\/Users\/madhan\/Projects\/IAP\/InAppChargingSDKiOS\/InAppChargingSDKiOS\/HomeCard\/PromotionSheetViewController.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1207,
-      "length": 2,
-      "value": "90"
-    },
-    {
-      "filePath": "\/Users\/madhan\/Projects\/IAP\/InAppChargingSDKiOS\/InAppChargingSDKiOS\/HomeCard\/PromotionSheetViewController.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1210,
-      "length": 3,
-      "value": "255"
-    },
-    {
-      "filePath": "\/Users\/madhan\/Projects\/IAP\/InAppChargingSDKiOS\/InAppChargingSDKiOS\/HomeCard\/PromotionSheetViewController.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1222,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/madhan\/Projects\/IAP\/InAppChargingSDKiOS\/InAppChargingSDKiOS\/HomeCard\/PromotionSheetViewController.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1261,
-      "length": 1,
-      "value": "2"
-    },
-    {
-      "filePath": "\/Users\/madhan\/Projects\/IAP\/InAppChargingSDKiOS\/InAppChargingSDKiOS\/HomeCard\/PromotionSheetViewController.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1394,
+      "offset": 1721,
       "length": 2,
       "value": "15"
     },
     {
       "filePath": "\/Users\/madhan\/Projects\/IAP\/InAppChargingSDKiOS\/InAppChargingSDKiOS\/HomeCard\/PromotionSheetViewController.swift",
       "kind": "StringLiteral",
-      "offset": 1531,
+      "offset": 1858,
       "length": 5,
       "value": "\"✕\""
     },
     {
       "filePath": "\/Users\/madhan\/Projects\/IAP\/InAppChargingSDKiOS\/InAppChargingSDKiOS\/HomeCard\/PromotionSheetViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 1689,
+      "offset": 2016,
       "length": 2,
       "value": "18"
     },
     {
       "filePath": "\/Users\/madhan\/Projects\/IAP\/InAppChargingSDKiOS\/InAppChargingSDKiOS\/HomeCard\/PromotionSheetViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 1837,
+      "offset": 2164,
       "length": 2,
       "value": "42"
     },
     {
       "filePath": "\/Users\/madhan\/Projects\/IAP\/InAppChargingSDKiOS\/InAppChargingSDKiOS\/HomeCard\/PromotionSheetViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 1840,
+      "offset": 2167,
       "length": 3,
       "value": "255"
     },
     {
       "filePath": "\/Users\/madhan\/Projects\/IAP\/InAppChargingSDKiOS\/InAppChargingSDKiOS\/HomeCard\/PromotionSheetViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 1852,
+      "offset": 2179,
       "length": 2,
       "value": "42"
     },
     {
       "filePath": "\/Users\/madhan\/Projects\/IAP\/InAppChargingSDKiOS\/InAppChargingSDKiOS\/HomeCard\/PromotionSheetViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 1855,
+      "offset": 2182,
       "length": 3,
       "value": "255"
     },
     {
       "filePath": "\/Users\/madhan\/Projects\/IAP\/InAppChargingSDKiOS\/InAppChargingSDKiOS\/HomeCard\/PromotionSheetViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 1866,
+      "offset": 2193,
       "length": 2,
       "value": "42"
     },
     {
       "filePath": "\/Users\/madhan\/Projects\/IAP\/InAppChargingSDKiOS\/InAppChargingSDKiOS\/HomeCard\/PromotionSheetViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 1869,
+      "offset": 2196,
       "length": 3,
       "value": "255"
     },
     {
       "filePath": "\/Users\/madhan\/Projects\/IAP\/InAppChargingSDKiOS\/InAppChargingSDKiOS\/HomeCard\/PromotionSheetViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 1881,
+      "offset": 2208,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/madhan\/Projects\/IAP\/InAppChargingSDKiOS\/InAppChargingSDKiOS\/HomeCard\/PromotionSheetViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 1928,
+      "offset": 2255,
       "length": 2,
       "value": "12"
     },
     {
       "filePath": "\/Users\/madhan\/Projects\/IAP\/InAppChargingSDKiOS\/InAppChargingSDKiOS\/HomeCard\/PromotionSheetViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 1970,
+      "offset": 2297,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/madhan\/Projects\/IAP\/InAppChargingSDKiOS\/InAppChargingSDKiOS\/HomeCard\/PromotionSheetViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 2171,
+      "offset": 2752,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/madhan\/Projects\/IAP\/InAppChargingSDKiOS\/InAppChargingSDKiOS\/HomeCard\/PromotionSheetViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 2448,
-      "length": 2,
-      "value": "10"
-    },
-    {
-      "filePath": "\/Users\/madhan\/Projects\/IAP\/InAppChargingSDKiOS\/InAppChargingSDKiOS\/HomeCard\/PromotionSheetViewController.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2586,
-      "length": 2,
-      "value": "40"
-    },
-    {
-      "filePath": "\/Users\/madhan\/Projects\/IAP\/InAppChargingSDKiOS\/InAppChargingSDKiOS\/HomeCard\/PromotionSheetViewController.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2651,
-      "length": 1,
-      "value": "4"
-    },
-    {
-      "filePath": "\/Users\/madhan\/Projects\/IAP\/InAppChargingSDKiOS\/InAppChargingSDKiOS\/HomeCard\/PromotionSheetViewController.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2741,
-      "length": 2,
-      "value": "12"
-    },
-    {
-      "filePath": "\/Users\/madhan\/Projects\/IAP\/InAppChargingSDKiOS\/InAppChargingSDKiOS\/HomeCard\/PromotionSheetViewController.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2922,
+      "offset": 3222,
       "length": 2,
       "value": "36"
     },
     {
       "filePath": "\/Users\/madhan\/Projects\/IAP\/InAppChargingSDKiOS\/InAppChargingSDKiOS\/HomeCard\/PromotionSheetViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 2992,
+      "offset": 3292,
       "length": 2,
       "value": "36"
     },
     {
       "filePath": "\/Users\/madhan\/Projects\/IAP\/InAppChargingSDKiOS\/InAppChargingSDKiOS\/HomeCard\/PromotionSheetViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 3201,
+      "offset": 3501,
       "length": 2,
       "value": "-8"
     },
     {
       "filePath": "\/Users\/madhan\/Projects\/IAP\/InAppChargingSDKiOS\/InAppChargingSDKiOS\/HomeCard\/PromotionSheetViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 3385,
+      "offset": 3685,
       "length": 2,
       "value": "14"
+    },
+    {
+      "filePath": "\/Users\/madhan\/Projects\/IAP\/InAppChargingSDKiOS\/InAppChargingSDKiOS\/HomeCard\/PromotionSheetViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 7037,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/madhan\/Projects\/IAP\/InAppChargingSDKiOS\/InAppChargingSDKiOS\/HomeCard\/PromotionSheetViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 7111,
+      "length": 1,
+      "value": "0"
     },
     {
       "filePath": "\/Users\/madhan\/Projects\/IAP\/InAppChargingSDKiOS\/InAppChargingSDKiOS\/HomeCard\/TTHomeCardView.swift",
@@ -7566,14 +7576,14 @@
       "kind": "StringLiteral",
       "offset": 542,
       "length": 7,
-      "value": "\"1.2.0\""
+      "value": "\"1.2.1\""
     },
     {
       "filePath": "\/Users\/madhan\/Projects\/IAP\/InAppChargingSDKiOS\/InAppChargingSDKiOS\/IACServiceHelper.swift",
       "kind": "StringLiteral",
       "offset": 169,
       "length": 7,
-      "value": "\"1.2.0\""
+      "value": "\"1.2.1\""
     },
     {
       "filePath": "\/Users\/madhan\/Projects\/IAP\/InAppChargingSDKiOS\/InAppChargingSDKiOS\/IACServiceHelper.swift",
@@ -7682,38 +7692,52 @@
     },
     {
       "filePath": "\/Users\/madhan\/Projects\/IAP\/InAppChargingSDKiOS\/InAppChargingSDKiOS\/InternalFlutterEngine.swift",
+      "kind": "BooleanLiteral",
+      "offset": 22073,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/madhan\/Projects\/IAP\/InAppChargingSDKiOS\/InAppChargingSDKiOS\/InternalFlutterEngine.swift",
       "kind": "StringLiteral",
-      "offset": 27915,
+      "offset": 28088,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/madhan\/Projects\/IAP\/InAppChargingSDKiOS\/InAppChargingSDKiOS\/InternalFlutterEngine.swift",
       "kind": "StringLiteral",
-      "offset": 27953,
+      "offset": 28126,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/madhan\/Projects\/IAP\/InAppChargingSDKiOS\/InAppChargingSDKiOS\/InternalFlutterEngine.swift",
       "kind": "StringLiteral",
-      "offset": 27983,
+      "offset": 28156,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/madhan\/Projects\/IAP\/InAppChargingSDKiOS\/InAppChargingSDKiOS\/InternalFlutterEngine.swift",
       "kind": "StringLiteral",
-      "offset": 28009,
+      "offset": 28182,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/madhan\/Projects\/IAP\/InAppChargingSDKiOS\/InAppChargingSDKiOS\/InternalFlutterEngine.swift",
       "kind": "StringLiteral",
-      "offset": 28040,
+      "offset": 28213,
       "length": 2,
       "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/madhan\/Projects\/IAP\/InAppChargingSDKiOS\/InAppChargingSDKiOS\/InternalFlutterEngine.swift",
+      "kind": "BooleanLiteral",
+      "offset": 28289,
+      "length": 5,
+      "value": "false"
     },
     {
       "filePath": "\/Users\/madhan\/Projects\/IAP\/InAppChargingSDKiOS\/InAppChargingSDKiOS\/LocationHandler.swift",
@@ -8122,6 +8146,20 @@
       "value": "\"\""
     },
     {
+      "filePath": "\/Users\/madhan\/Projects\/IAP\/InAppChargingSDKiOS\/InAppChargingSDKiOS\/TTHelper.swift",
+      "kind": "BooleanLiteral",
+      "offset": 925,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/madhan\/Projects\/IAP\/InAppChargingSDKiOS\/InAppChargingSDKiOS\/TTHelper.swift",
+      "kind": "BooleanLiteral",
+      "offset": 4570,
+      "length": 5,
+      "value": "false"
+    },
+    {
       "filePath": "\/Users\/madhan\/Projects\/IAP\/InAppChargingSDKiOS\/InAppChargingSDKiOS\/TTLogger.swift",
       "kind": "BooleanLiteral",
       "offset": 313,
@@ -8211,6 +8249,20 @@
       "offset": 233,
       "length": 107,
       "value": "[\"phonepe:\/\/\", \"gpay:\/\/\", \"paytm:\/\/\", \"bhim:\/\/\", \"upi:\/\/pay\"]"
+    },
+    {
+      "filePath": "\/Users\/madhan\/Projects\/IAP\/InAppChargingSDKiOS\/InAppChargingSDKiOS\/TTUtility.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1127,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/madhan\/Projects\/IAP\/InAppChargingSDKiOS\/InAppChargingSDKiOS\/TTUtility.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2845,
+      "length": 5,
+      "value": "false"
     }
   ]
 }

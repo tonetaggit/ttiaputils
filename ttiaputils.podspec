@@ -16,8 +16,11 @@ Pod::Spec.new do |spec|
     "Frameworks/FlutterPluginRegistrant.xcframework",
     "Frameworks/google_maps_flutter_ios.xcframework",
     "Frameworks/InAppChargingSDKiOS.xcframework",
+    # "Frameworks/RoutePlanner.xcframework",
     # "/Users/madhan/Desktop/InAppChargingSDKiOS.xcframework",
   ]
+  # The route planner (Kotlin/Native) needs sqlite3.
+  # spec.libraries = "sqlite3"
   spec.xcconfig = {
     'LIBRARY_SEARCH_PATHS' => '$(inherited) $(TOOLCHAIN_DIR)/usr/lib/swift/$(PLATFORM_NAME)/ $(SDKROOT)/usr/lib/swift',
     'LD_RUNPATH_SEARCH_PATHS' => '$(inherited) /usr/lib/swift',
