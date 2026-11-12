@@ -2754,6 +2754,37 @@
       },
       {
         "kind": "Import",
+        "name": "CommonCrypto",
+        "printedName": "CommonCrypto",
+        "declKind": "Import",
+        "moduleName": "InAppChargingSDKiOS",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Security",
+        "printedName": "Security",
+        "declKind": "Import",
+        "moduleName": "InAppChargingSDKiOS",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "InAppChargingSDKiOS",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
         "name": "Security",
         "printedName": "Security",
         "declKind": "Import",
@@ -2897,6 +2928,27 @@
         "kind": "Import",
         "name": "Network",
         "printedName": "Network",
+        "declKind": "Import",
+        "moduleName": "InAppChargingSDKiOS",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "InAppChargingSDKiOS",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "CryptoKit",
+        "printedName": "CryptoKit",
         "declKind": "Import",
         "moduleName": "InAppChargingSDKiOS",
         "declAttributes": [
@@ -3412,9 +3464,120 @@
             ]
           },
           {
+            "kind": "Var",
+            "name": "deeplinkData",
+            "printedName": "deeplinkData",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:19InAppChargingSDKiOS14IACFlowRequestV12deeplinkDataSSSgvp",
+            "mangledName": "$s19InAppChargingSDKiOS14IACFlowRequestV12deeplinkDataSSSgvp",
+            "moduleName": "InAppChargingSDKiOS",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:19InAppChargingSDKiOS14IACFlowRequestV12deeplinkDataSSSgvg",
+                "mangledName": "$s19InAppChargingSDKiOS14IACFlowRequestV12deeplinkDataSSSgvg",
+                "moduleName": "InAppChargingSDKiOS",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:19InAppChargingSDKiOS14IACFlowRequestV12deeplinkDataSSSgvs",
+                "mangledName": "$s19InAppChargingSDKiOS14IACFlowRequestV12deeplinkDataSSSgvs",
+                "moduleName": "InAppChargingSDKiOS",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:19InAppChargingSDKiOS14IACFlowRequestV12deeplinkDataSSSgvM",
+                "mangledName": "$s19InAppChargingSDKiOS14IACFlowRequestV12deeplinkDataSSSgvM",
+                "moduleName": "InAppChargingSDKiOS",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
             "kind": "Constructor",
             "name": "init",
-            "printedName": "init(sdkMode:phoneNumber:userName:vehicleRegNumber:vehicleID:vehicleType:carProductLineName:carModelName:userLocation:oneSignalID:drivepayTxnId:carImageUrl:customerHash:bearerToken:vehicleLineType:xapiKey:vid:clientId:viewSession:)",
+            "printedName": "init(sdkMode:phoneNumber:userName:vehicleRegNumber:vehicleID:vehicleType:carProductLineName:carModelName:userLocation:oneSignalID:drivepayTxnId:carImageUrl:customerHash:bearerToken:vehicleLineType:xapiKey:vid:clientId:viewSession:deeplinkData:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -3453,6 +3616,7 @@
                 "kind": "TypeNominal",
                 "name": "String",
                 "printedName": "Swift.String",
+                "hasDefaultArg": true,
                 "usr": "s:SS"
               },
               {
@@ -3594,11 +3758,26 @@
                 "printedName": "Swift.Bool",
                 "hasDefaultArg": true,
                 "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
               }
             ],
             "declKind": "Constructor",
-            "usr": "s:19InAppChargingSDKiOS14IACFlowRequestV7sdkMode11phoneNumber8userName010vehicleRegK00N2ID0N4Type014carProductLineM00r5ModelM00L8Location09oneSignalP013drivepayTxnId0R8ImageUrl12customerHash11bearerToken0ntQ07xapiKey3vid8clientId11viewSessionAcA10IACSDKModeO_S2SSgS2SAA010IACVehicleQ0OSSAYSd8latitude_Sd9longitudetSgA2YS7SSbtcfc",
-            "mangledName": "$s19InAppChargingSDKiOS14IACFlowRequestV7sdkMode11phoneNumber8userName010vehicleRegK00N2ID0N4Type014carProductLineM00r5ModelM00L8Location09oneSignalP013drivepayTxnId0R8ImageUrl12customerHash11bearerToken0ntQ07xapiKey3vid8clientId11viewSessionAcA10IACSDKModeO_S2SSgS2SAA010IACVehicleQ0OSSAYSd8latitude_Sd9longitudetSgA2YS7SSbtcfc",
+            "usr": "s:19InAppChargingSDKiOS14IACFlowRequestV7sdkMode11phoneNumber8userName010vehicleRegK00N2ID0N4Type014carProductLineM00r5ModelM00L8Location09oneSignalP013drivepayTxnId0R8ImageUrl12customerHash11bearerToken0ntQ07xapiKey3vid8clientId11viewSession12deeplinkDataAcA10IACSDKModeO_S2SSgS2SAA010IACVehicleQ0OSSAZSd8latitude_Sd9longitudetSgA2ZS7SSbAZtcfc",
+            "mangledName": "$s19InAppChargingSDKiOS14IACFlowRequestV7sdkMode11phoneNumber8userName010vehicleRegK00N2ID0N4Type014carProductLineM00r5ModelM00L8Location09oneSignalP013drivepayTxnId0R8ImageUrl12customerHash11bearerToken0ntQ07xapiKey3vid8clientId11viewSession12deeplinkDataAcA10IACSDKModeO_S2SSgS2SAA010IACVehicleQ0OSSAZSd8latitude_Sd9longitudetSgA2ZS7SSbAZtcfc",
             "moduleName": "InAppChargingSDKiOS",
             "declAttributes": [
               "AccessControl",
@@ -5193,106 +5372,120 @@
     },
     {
       "filePath": "\/Users\/madhan\/Projects\/IAP\/InAppChargingSDKiOS\/InAppChargingSDKiOS\/HomeCard\/HomeCardApiService.swift",
+      "kind": "BooleanLiteral",
+      "offset": 4670,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/madhan\/Projects\/IAP\/InAppChargingSDKiOS\/InAppChargingSDKiOS\/HomeCard\/HomeCardApiService.swift",
       "kind": "StringLiteral",
-      "offset": 12853,
+      "offset": 13321,
       "length": 13,
       "value": "\"login_token\""
     },
     {
       "filePath": "\/Users\/madhan\/Projects\/IAP\/InAppChargingSDKiOS\/InAppChargingSDKiOS\/HomeCard\/HomeCardApiService.swift",
       "kind": "StringLiteral",
-      "offset": 12888,
+      "offset": 13356,
       "length": 8,
       "value": "\"app_id\""
     },
     {
       "filePath": "\/Users\/madhan\/Projects\/IAP\/InAppChargingSDKiOS\/InAppChargingSDKiOS\/HomeCard\/HomeCardApiService.swift",
       "kind": "StringLiteral",
-      "offset": 12918,
+      "offset": 13386,
       "length": 8,
       "value": "\"oem_id\""
     },
     {
       "filePath": "\/Users\/madhan\/Projects\/IAP\/InAppChargingSDKiOS\/InAppChargingSDKiOS\/HomeCard\/HomeCardApiService.swift",
       "kind": "StringLiteral",
-      "offset": 12953,
+      "offset": 13421,
       "length": 14,
       "value": "\"oem_model_id\""
     },
     {
       "filePath": "\/Users\/madhan\/Projects\/IAP\/InAppChargingSDKiOS\/InAppChargingSDKiOS\/HomeCard\/HomeCardApiService.swift",
       "kind": "StringLiteral",
-      "offset": 12993,
+      "offset": 13461,
       "length": 12,
       "value": "\"vehicle_id\""
     },
     {
       "filePath": "\/Users\/madhan\/Projects\/IAP\/InAppChargingSDKiOS\/InAppChargingSDKiOS\/HomeCard\/HomeCardApiService.swift",
       "kind": "StringLiteral",
-      "offset": 13038,
+      "offset": 13506,
       "length": 20,
       "value": "\"vehicle_reg_number\""
     },
     {
       "filePath": "\/Users\/madhan\/Projects\/IAP\/InAppChargingSDKiOS\/InAppChargingSDKiOS\/HomeCard\/HomeCardApiService.swift",
       "kind": "StringLiteral",
-      "offset": 13242,
+      "offset": 13830,
       "length": 12,
       "value": "\"session_id\""
     },
     {
       "filePath": "\/Users\/madhan\/Projects\/IAP\/InAppChargingSDKiOS\/InAppChargingSDKiOS\/HomeCard\/HomeCardApiService.swift",
       "kind": "StringLiteral",
-      "offset": 13280,
+      "offset": 13868,
       "length": 13,
       "value": "\"ios_gmp_key\""
     },
     {
       "filePath": "\/Users\/madhan\/Projects\/IAP\/InAppChargingSDKiOS\/InAppChargingSDKiOS\/HomeCard\/HomeCardApiService.swift",
       "kind": "StringLiteral",
-      "offset": 15444,
+      "offset": 13912,
+      "length": 17,
+      "value": "\"payment_enabled\""
+    },
+    {
+      "filePath": "\/Users\/madhan\/Projects\/IAP\/InAppChargingSDKiOS\/InAppChargingSDKiOS\/HomeCard\/HomeCardApiService.swift",
+      "kind": "StringLiteral",
+      "offset": 16652,
       "length": 15,
       "value": "\"vehicle_state\""
     },
     {
       "filePath": "\/Users\/madhan\/Projects\/IAP\/InAppChargingSDKiOS\/InAppChargingSDKiOS\/HomeCard\/HomeCardApiService.swift",
       "kind": "StringLiteral",
-      "offset": 15636,
+      "offset": 16844,
       "length": 13,
       "value": "\"gpsLatitude\""
     },
     {
       "filePath": "\/Users\/madhan\/Projects\/IAP\/InAppChargingSDKiOS\/InAppChargingSDKiOS\/HomeCard\/HomeCardApiService.swift",
       "kind": "StringLiteral",
-      "offset": 15678,
+      "offset": 16886,
       "length": 14,
       "value": "\"gpsLongitude\""
     },
     {
       "filePath": "\/Users\/madhan\/Projects\/IAP\/InAppChargingSDKiOS\/InAppChargingSDKiOS\/HomeCard\/HomeCardApiService.swift",
       "kind": "StringLiteral",
-      "offset": 16203,
+      "offset": 17411,
       "length": 22,
       "value": "\"ira_map_promotion_id\""
     },
     {
       "filePath": "\/Users\/madhan\/Projects\/IAP\/InAppChargingSDKiOS\/InAppChargingSDKiOS\/HomeCard\/HomeCardApiService.swift",
       "kind": "StringLiteral",
-      "offset": 16247,
+      "offset": 17455,
       "length": 15,
       "value": "\"ira_map_title\""
     },
     {
       "filePath": "\/Users\/madhan\/Projects\/IAP\/InAppChargingSDKiOS\/InAppChargingSDKiOS\/HomeCard\/HomeCardApiService.swift",
       "kind": "StringLiteral",
-      "offset": 16290,
+      "offset": 17498,
       "length": 21,
       "value": "\"ira_map_description\""
     },
     {
       "filePath": "\/Users\/madhan\/Projects\/IAP\/InAppChargingSDKiOS\/InAppChargingSDKiOS\/HomeCard\/HomeCardApiService.swift",
       "kind": "StringLiteral",
-      "offset": 16336,
+      "offset": 17544,
       "length": 19,
       "value": "\"ira_map_image_url\""
     },
@@ -5330,13 +5523,6 @@
       "offset": 116,
       "length": 7358,
       "value": "[\"iVBORw0KGgoAAAANSUhEUgAAACUAAABHCAYAAACAoo5SAAAACXBIWXMAABCcAAAQnAEmzTo0AAAAAXNSR0IArs4c6QAAAARnQU1B\", \"AACxjwv8YQUAABLLSURBVHgB7Vp5kBzVef\/1NT3Tc+59XzpWuxLS6kDLgiyDjRBIiQ8wBYllkgp2gRNwJZRDURX7j9hVMSE4savs\", \"UJhKlVNOERuHAmQcwFwWQkTmEJJASEJaoV3t7uw1u7NzT89098v33szsjlazjFxl\/0dvzUxPT\/d7v\/edv+97C3xyfHL8YQ8Fv98h\", \"FV9lxz\/KwAF13749vsGNg832zIzV3teHyclJp\/qzK09yuffR5LA3b958jdG46v6Mqq9PGy1NTHW7M0zTNMmi3x3Isoq8oziancor\", \"ViYZsuentezCsdTs5D8dPXr0ZHEcp9pk1Q6VXlbPNXu7vrDr+jf2n462RfQWpvsMSYYNVdHEIMxx4NgESpHhMAf1dc1IJGJIJFPI\", \"JGJONyblwUb13aee\/u3uxMRbcyhoya40YTX1CUCfuftf\/6PRr\/\/s5+N+w9PSIUuqIjFJgqLqkDWdJMNgMQImKzSLDF03EE\/Ekc1k\", \"IDG6IkGKMQNvnZptunVn1wO5lp2ZuTP\/d4jG1ipJTfp4QNukgfu+Ge5Pv1P3XK6PaW5N9obq0FjfSBPJMHOm+JQJDBjE+IwDtG2k\", \"0ikkU0mY2YyYJJ9KQMqmkQhP2F\/pSykvTDYcizz3vS1FYPnLASVE23DHfzp78886v5R2Ke46H5pb2hHwhcAkB1beKuJgQl2MS4re\", \"uBoLPxSOfD6HZDIBnz+IydFh2LEoUqeO4d5r3c4jh11R59ij9VhmZyupj8lb7vrubZvka58c88n+\/vXo7uyG7vLAtPJkR2RNThGI\", \"hMInSlgk+mTi3HEcIcUcqdEfCsHjDSBJ57bmxcTp96XBbX3GaML\/AZs\/c7J8crkCICE9p7br2+1NDY7VfzUaGurJflzIZHNwuTRS\", \"DwGSpAKQIiDQd\/4SICEtAqQ7oWr0bDoNVXehtrEVcOkYRx\/6mzTHMdoew0WyrQwKxvo9e3RkpaQ7KG\/fvBGtdfVIZ00hHZdLKYAi\", \"NE7ZMhbBsSJAFADyT93wIp0gmyIJqx4P\/UzThhqQMpnMbLPG37NjHcpMqRIoptT3fMETVPHM60cR9LqRI8N1yHb4xJIsL6mKFQyB\", \"MWlxqYu\/SSVVko24XDBJbbKqkZB0uqBCa2zA4089D8nNYBsN16JMWioqHZK00dtQB69LgkU2ZJG\/O5YNRVNJWsXJS3ZUPBFGzpa0\", \"IE4lLHklXwC98TFU3U1j2vDWtcKUXbDzmU3l01cEpbf1NSjk+llHEgPmhaQAj64hR3ZF1os0BfC0LcFw66j3uchj6L5cjlRENiep\", \"MMnT49EFinIJGDaBUelaKgON7MofrKHf5pFQ6iGR88ihrraqoOrqaz1ew6CJhccjR+5vWxQCPD7MxbNwTZ3EZ1o13DLUiVOH92Pq\", \"+Cji8Rhi8\/PI5m26P4ejZ8ax46bPofWam3Ek7kWsaTUymSipUoUvEIKZziIpkfN7\/AQ8F6oKSnbpSjaRhF5TT2J3MJdTSBIybtLO\", \"46s31MNjbMBDP3wM3\/zpG6QhCX6\/n0Dn0dnZDkvOksYy2HRFP7TUNDpn3sD4Ky8gv2BitPHTcH3+XsxFP4JKkuP2yY2fDE2tCsql\", \"yvbM1BwaSIVJeLEjcRCP\/NUQLsQZDh0\/jm9\/61sYH\/2ItCiLWNRc68HAhnU4c+Q1rO5uxdi8g9mZCYTDs3j6mf3oXbsWvRu2om72\", \"XbS\/\/DcY2\/q3OBwLCJPQeBLX1HxVUNPReDoViaD\/T2\/BoQfuxqqr6rHr5h\/h1OnTSPN4o1Le02VoioJ1na04Nx7Bxt4uTM3OkkHW\", \"YmhoFUkujQO\/fRa9vVtwdngEzz71OHy+ILpu\/RLMlx5FStoCbrdSLgtJ1eLl81eM6Fpz7+2qEeycfvEXSL\/\/S5z44CjmFhIIeiRo\", \"HormTMbOgTWIxuMUayzEiAmcJWCZnE2pQMWBAy9j8KqdmJmN4NChdwRTGNi4mtRl48WXDmDk\/GkExw7ADPbRAjWwueFXramTzy2a\", \"TyVQtmmfMJmOVe4IuMp51q\/zSQgEPajx+XD1+naK0irFHRWzkTi621sQI0\/z6B7kaOVd3d0C2ORkBHV1QTQ3B6C5\/JgmkH6\/G5pG\", \"C6M03BVII2+aFIGUE+XzVwSVGz\/+uovM9Yp6C21NIaIjWXJ\/huZQDda2hzAVzeDoh2Pggai1pR4TkzPYuu1K1FDkDwaDGNi8De3t\", \"nSLgDl09RNJwk7SPUxK3yQNNbNw0AIeu7WxKk9R9ZC+jb6JKRAeznDdrvSrFpDwuTC1QpneIsKWwkEzi8PtjSJtZyvoGautq4DXc\", \"ROzoXjOH8yPDmJmew+DgTpj0vbu7Bz2rNpKkKY7RPR6PTrbGcOzoUcqFpgg3LtVC2ogMoyyiLwclbMyYOxppb22kqJsTou5pDkGj\", \"bD+foJVRQN24YRsaCFBDXTvCk2EE\/D58OHwa9bX1GAuP4NfPPk2BNIueni68d+xVTIbHRXpJJszCLJQbNZeMgEdBwK1kMTwcL0pK\", \"zF\/OpwTZ0mT58f41dV8eG49ZnlCd2lyjQXUsnLzADdnClZSgZyMTROIo7agyMYcMvnTzPjLg51BD3jQ3P02GnRTurkgWspQBamqC\", \"xEQTdO6IMGIYCtEfHS53ECElYZMolUgk9o3ZqPljLqhy73N8hnbiz279k+u3DO0G89ZZUiaqjE5MoanWj5HpGDxuDTGK3HNzcWKV\", \"WTGhTrSkprYO4fFR2HYO8\/OzFN1NNDUGsWbNOgKuILoQF3kvbzqULSiam3khrb615JFGk3PPvffJTzy5f68qy7V03\/Pl6lMPHvjN\", \"6q\/d9+CvckbNZu\/63a7urlXi4d99MEbu7AjK0trURDbG4KaclyfJbdq0BYdef42kmMP4xAyyJk\/cIBs08bvDRzB8dozURlHeUURS\", \"ThFFzmTyYDTW1k0bke680TI077azo+F3brn18zcIIOUGtXXws57CWUfr1x\/+PlIBrwDF3dikGMR1cuLkOfgDHvgpNHDlz86ECSQx\", \"CYpX3Pi5VHSPShQ4KcBplN8syxFe197RivBEmMYzuGJI8m7U+N2uO+684z26sL1k1+WSspZOddnncwvjdBMXSpOnqCpDjpKyRpGc\", \"J2ifzwuXJuGjkRE0NDbC5\/WQdJJkLwaFiXZBd7gb6WTMLgq6RBwwOzsjFpmz88Ibef4TNPVi27Yr86mQprjIIHlc8ZCaeGHg0K2c\", \"b+dNW6zy\/MgEAiTJttZmdHR2UlXTjYV4guq9Bpj5NPEvJkAkY1kRr3jOVYkGm2aK+JMDN9GdHKlcVeVLKufKoJiXuJgiJEMlHsWi\", \"IOWw1bjhhhvwqR3XoK9vPerr68muCto2iapwg1H4QjjFoTk4l+c2FI1GMTk1ibNnzuCFF57DwYOHMDEeppDgEjxN07ivdZNMR6qA\", \"0oKqxPJUTFL0HRjEz\/76Wmz77N9hLjJFtpERdd3MzMxFtJi\/lYinqGVK53TRZ\/hExN\/56evgUvJ44\/Cz+Opf\/kNBUvqlEOTKksor\", \"nAHMzs3ixht3w1O3iRjCKZFYOaDCnAWJL8ldWjwXZ6K64R+FAsKm52ILC1iImchbHlxPUs9ms2RbJKn2Fqk6KDmfl8h+ssQOW1tb\", \"0HfFp8gWsgBjy26UlooXYLHMKgcIqdhuKd7kMzzo7N6MluYmkYp4MMX4rFMdVPuGvVY2QUaoIBZbEEQubxUrYsYWpcH\/ZDGEVJi0\", \"JCB646xSlPS8nCoCkmReB9qUtEOIzEfAHUbi4zU3DJRPX9mmYmlJVLjEm8ws9x5LrIqrLBDwY4FikeDsxUq4VNo4JSsrll78Ovc8\", \"v98raj0ez7jKJIXiHtWRKoF1cgmKM6HqHN297apBiyoPclcKmjkxMJ\/JS6J\/6eXX8L2H\/g21NSFRnDqOs1heFXoJBaisWD7zj3B4\", \"Cgdf\/d8CZI6WlpwXRk4ESXKpnq7VwcxYFVDZI6\/8t7zrL74sS6w4aUFhGhG7yNwc1q5ZTcWDh4y3WCnTS2IFr3OKDY7CMhipTxI1\", \"Hk\/IPh8VGMwiTk7xLpeHn2iPYgSQ+ejwm9XVNx+Z8FCXJErewulqKfZw2+D5j9uXZtnLpARR+ZRCROmaQ89wz+NS5chtuwBU1TQk\", \"4oXxkc\/OVwelWmqO95bSMQFId7vEhNywuV04RbUVXqysUi6CK4qKf1J3TUiSq5U\/b\/PoToE1S70qXSKiZ6Y5\/77I4Sp7H8flrRET\", \"uTkgpzCJTN5j5QvVkCPUhqW+VFGN5YBKn\/weixbAnVBIjA5uCgr3Rj146dwVEWkuFo3F0djURjnLXVRLQXUe6pqcOXOWmEKgzKjL\", \"VLgsmvMjHJ6khG0UFlNcieH187SPacoQROtYdVASKZ8oh21bcBOo4nqJvCVxx77bcNON1xcmLd7OCv5farQsSod\/tzkAjwGeS7kn\", \"l57RaVzZogYaD\/eSejmgSPM86HH1kYckk1SAUjrgl7gXcYK3KI1l76LRsjzw0y88z0lFSaWooHVROLDtbJHiKNWbZiQlhxcIvH\/p\", \"JiLG2UJBgIXbWdF2nIs8D0VDZ4u\/L6nVWQTHx+T5zk01Ik8xOd5b0uYvI81YKlEeW3gLB+WUN6VWPEpyQllfqvRLiTJJItI7NDaX\", \"FKc6PLxgXL0cSdmOSUSMC4bblEiaWNaYvPShxU+plIUv+nmp\/6hSsueL5TkyZ126+bCCpEwrRw0x6r4IMuamVQmXvmjyykcpklcE\", \"LRWm5IvkXsxHzFmcyY7Y1UHJzMpSPOJdXZ12FHhsWVFW0sd+XYa46BBkY7wpx+m1EFT3dUpVUKrh7shS+eSjB3XyNNGwr7AJJa2I\", \"cwVoxcs8S\/hDQeEEnDQayVhtVVBSTX1\/KmVSOPAL7lO4KF0yOqs4N1vsoS8\/RNx0+C6EhWaqgPI2T1sS0qraVhWUqrettmyqcqnw\", \"5HkvTnGKp5gl\/7ooSC1fElb8kacbQsXzZ1tHhwBpp6iF1NDVXRWUp62tm7SH5tY2EdULA5bDKXP9EpTiufOxLlrYN+Fex6mP2+OF\", \"5amF6g+uqgoqNzXazGQN+fQsSaiwn+dUCQjchnnx6iz30nK1s8U30RKSGdWAmQSs6FRTVVDQA955qtdSVL3wMXgE1jjvKW\/el73x\", \"yG7QVsfrr71Crm4sMQcsJWXBMij\/8YYHDwmM4lZkPo4c0SNb8QerglK9QWViJkq9yRHKOJJIqi7qf4skK10qIa6OVCKKB+6\/H17q\", \"Mdiswm5sMSmKYoO3qikyv3v8PeRJE7IRqB4SWCaZl1xu6qTkxQp5zVLYRlsqOEtuzwFRCwdT01PgSTzLSzGHVbRzYW88O9CjmUyW\", \"JEcpjGsgk8pdJJRKoGDFF2TbTTsIs2JV2ewCvCRhVS6WS4vAljat1vauxw9\/9ChtHhS23y5ZqLjPEf0Hm4DzHQrFThcLtORcVVCS\", \"rH9I5dUuLqlMJk08yKItlvMw3XUi0DjFkoqnHiYYZWFvbc3qHtFuLKU5Uf9JSzUh3+2i3h9JyEf8nBppSqHfoLr856qCsmfPv8jW\", \"rbonTZ23KLWia4K1ZKDNBZ4uLVGYFUMSL9WLW7clYxc0x+a0pZZaSXnM0UYA00OUPYh2n7vwRpngK4KSEpHRlwMDQeT0Wvb9h\/5Z\", \"+sGPH8WFC6OLbIEXp6VDTOuwi7AJ08HSpvCimvk1Sna9veuwh3oJ7u4rma7KVmL04KlyABU3IRE+ks7MTxzbvuuLeOLnT+Ceb9xJ\", \"0gqhs71LbGWIzZ5iec7JPwfLX0rxxW2vULZL4jsvEhqox76qZxVxMwtDV21EW0MIvo4NsCJj+3GZhxRYfe2e957+d3bbn98utoR5\", \"ltm2dR178MG\/Z8\/\/5hn24ZmzbC4aZRkzx9JmniXSJktmTJbK5sS1WCrDxsLT7Pj7x9h\/Pf5T9rW797Gm1lqhTWqDs+989zvstSd+\", \"QjsGOzagGh8qSXD37t1elsuxnzzysLOuv5uRWbHmFoVRI5i5KT7y+Ke5VNbUHGD9va1saHANG7pqDRsYaGcdHY2spdlgjQ2yuI9v\", \"v7gNiemG4OLsK\/u+yN56fr+dTmTjZRpePFb8F4Bz587lb9m5\/XNrjEBrpEZmhqpLx4+NIhDSqIunIFSjUCuRbweTM6TjGBmPIhKZ\", \"o82jOHkXbTBS45Y3xHWvTOGEVzLEDqi3f+ddt6OpfxO746a98v888+QPnvrVr1+5RE1Y+RD\/UrL3+oGHfvHwY3e9MnwsFI7Mp95+\", \"613v2fELmPhoGuNj45TDHFEu8R6Bi2\/TUoXC86VGHTrexG1orEMX7cZ2d3XYO3cMSW2hernL3zh6+\/1f\/5e33z7zCCr8z0s1XS46\", \"0fbtV3S8\/faJsT179uh6JtPSvWFdy\/D5cz0nTn7YNLRly87J8FRP76b+IDVmX5+anj6fTueiXrcnbDF7ZOLsyNh0IjF35MgRXHfd\", \"dd4DBw4soOw\/jfBHOC7LSD85\/hjH\/wPzmEsu185NQwAAAABJRU5ErkJggg==\"]"
-    },
-    {
-      "filePath": "\/Users\/madhan\/Projects\/IAP\/InAppChargingSDKiOS\/InAppChargingSDKiOS\/HomeCard\/HomeCardEndpoint.swift",
-      "kind": "StringLiteral",
-      "offset": 355,
-      "length": 54,
-      "value": "\"https:\/\/maps.googleapis.com\/maps\/api\/directions\/json\""
     },
     {
       "filePath": "\/Users\/madhan\/Projects\/IAP\/InAppChargingSDKiOS\/InAppChargingSDKiOS\/HomeCard\/HomeCardFontData.swift",
@@ -5575,6 +5761,13 @@
       "offset": 8599,
       "length": 2,
       "value": "25"
+    },
+    {
+      "filePath": "\/Users\/madhan\/Projects\/IAP\/InAppChargingSDKiOS\/InAppChargingSDKiOS\/HomeCard\/HomeCardRepository.swift",
+      "kind": "BooleanLiteral",
+      "offset": 360,
+      "length": 5,
+      "value": "false"
     },
     {
       "filePath": "\/Users\/madhan\/Projects\/IAP\/InAppChargingSDKiOS\/InAppChargingSDKiOS\/HomeCard\/HomeCardShimmerView.swift",
@@ -7576,14 +7769,14 @@
       "kind": "StringLiteral",
       "offset": 542,
       "length": 7,
-      "value": "\"1.2.1\""
+      "value": "\"1.2.2\""
     },
     {
       "filePath": "\/Users\/madhan\/Projects\/IAP\/InAppChargingSDKiOS\/InAppChargingSDKiOS\/IACServiceHelper.swift",
       "kind": "StringLiteral",
       "offset": 169,
       "length": 7,
-      "value": "\"1.2.1\""
+      "value": "\"1.2.2\""
     },
     {
       "filePath": "\/Users\/madhan\/Projects\/IAP\/InAppChargingSDKiOS\/InAppChargingSDKiOS\/IACServiceHelper.swift",
@@ -7591,13 +7784,6 @@
       "offset": 208,
       "length": 346,
       "value": "\"W8mBbbdUwhzGwo8MPzEMkcDUU9rO1y2tO0NNFH0t69NgecaOlZzIbRg\/O4UzUzuLJuDjmQMMEJxwx8H+8SwNyBaT2e\/mejkKf4dE\/FY1OwXPdWNj4G\/wF0VDVJWB53bFLTwH1yXoLUM7T9od\/BrmQyNJC9R9OhqjHOjuDgj2EMcbkipo23eQ4\/rcitlGbzjamDY7ce04Z0\/v+mPd\/NfVx+PPKEw38pt7I2l2X4wKp2pamuHpzieAUJaY7vujUmooS+Nzt2ehFcYRMQTYlNe90krqXj9Ezm39fOVBDoM5HM5nIG2LoJt0x+2WUPz4R5TPsZmn33DUmTa42cWcIMg21Q==\""
-    },
-    {
-      "filePath": "\/Users\/madhan\/Projects\/IAP\/InAppChargingSDKiOS\/InAppChargingSDKiOS\/IACServiceHelper.swift",
-      "kind": "StringLiteral",
-      "offset": 711,
-      "length": 29,
-      "value": "\"https:\/\/iot-pre.tonetag.com\""
     },
     {
       "filePath": "\/Users\/madhan\/Projects\/IAP\/InAppChargingSDKiOS\/InAppChargingSDKiOS\/InternalFlutterEngine.swift",
@@ -7700,42 +7886,42 @@
     {
       "filePath": "\/Users\/madhan\/Projects\/IAP\/InAppChargingSDKiOS\/InAppChargingSDKiOS\/InternalFlutterEngine.swift",
       "kind": "StringLiteral",
-      "offset": 28088,
+      "offset": 29720,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/madhan\/Projects\/IAP\/InAppChargingSDKiOS\/InAppChargingSDKiOS\/InternalFlutterEngine.swift",
       "kind": "StringLiteral",
-      "offset": 28126,
+      "offset": 29758,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/madhan\/Projects\/IAP\/InAppChargingSDKiOS\/InAppChargingSDKiOS\/InternalFlutterEngine.swift",
       "kind": "StringLiteral",
-      "offset": 28156,
+      "offset": 29788,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/madhan\/Projects\/IAP\/InAppChargingSDKiOS\/InAppChargingSDKiOS\/InternalFlutterEngine.swift",
       "kind": "StringLiteral",
-      "offset": 28182,
+      "offset": 29814,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/madhan\/Projects\/IAP\/InAppChargingSDKiOS\/InAppChargingSDKiOS\/InternalFlutterEngine.swift",
       "kind": "StringLiteral",
-      "offset": 28213,
+      "offset": 29845,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/madhan\/Projects\/IAP\/InAppChargingSDKiOS\/InAppChargingSDKiOS\/InternalFlutterEngine.swift",
       "kind": "BooleanLiteral",
-      "offset": 28289,
+      "offset": 29921,
       "length": 5,
       "value": "false"
     },
@@ -7745,6 +7931,41 @@
       "offset": 608,
       "length": 2,
       "value": "60"
+    },
+    {
+      "filePath": "\/Users\/madhan\/Projects\/IAP\/InAppChargingSDKiOS\/InAppChargingSDKiOS\/TTApiCrypto.swift",
+      "kind": "StringLiteral",
+      "offset": 1004,
+      "length": 798,
+      "value": "\"FApEdn6jUvVEOmm62OFBTOA3GnzIRJ\/ZKXdqcnEjgUWhQDxO1i+2Cp8FG4OaHdlozaRC7PNWbhrKLsC5g9FYh0fYNlC8vtc6ncqDnnuy+g\/IxI\/6N635WB403\/ehogfGDT6bIdnf0twuYjEdtrTxA2Z+b79OGmubazIEGn4nT\/3NmUPbmf1Ty5\/wXhjB76J\/YMHyQIOQtJYpf60tyCbnF\/6GL0X66H8l104+ZlbyU2JLkF5r6YNsiLC1VV9wOEoNJFjttYqy9EL1oVdX+RP10Xnw7AfMUTXmEgt8EeFXVWefoOrMMvyk8ftVlM9Zxz3lExKFDizErH99cN7T0fw+UlaeH9UQkrj\/nQqB48tUlLyQHU0BsH0LSsZmBVnqZMuvRLUN1XV90JL\/tQLMFQL6NB0iIiRCnMPpKJUKz01IKnPtXpeLrGtuAvWYcp5eTcqsqqfUXUp7+N0L8aYnQkYz6TN58pVzWWh8D7Km+S9w05mGg6lzRFIiP2q1amGBhJr7o+zBJ\/vbpjAlm8dVAVV0CVhgl2Lx30SP09XnFZlx9KlzQYj7KGRJP4FpL2csoHN0qBBE9UxvnMRQro85Hv88jlB\/Db4lVVm5KfsoAFhMTb1yc4MfpVHxcSdNNX4R4Q2Qc1+EI+5hvGv2XnsOD1rxb7kb8TyUlqQwgepPGkQk04SAzzzZVWNLgLp3UcIFKsCECF\/mVpYg1gOp7tZkS92PbWGD\/XHJfNDTT3B3S\/z\/kYN9tnYDoSFlXTq32BsvjhY7\/uDv06nlj6fQLCnd0XFrpkjnLAw=\""
+    },
+    {
+      "filePath": "\/Users\/madhan\/Projects\/IAP\/InAppChargingSDKiOS\/InAppChargingSDKiOS\/TTApiCrypto.swift",
+      "kind": "StringLiteral",
+      "offset": 1851,
+      "length": 62,
+      "value": "\"K70eLpczTBEFjlttqEA1mVCEwUy3SKUUhwmFKenXwkEvihjqzXG8bQREkmY=\""
+    },
+    {
+      "filePath": "\/Users\/madhan\/Projects\/IAP\/InAppChargingSDKiOS\/InAppChargingSDKiOS\/TTApiCrypto.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2054,
+      "length": 2,
+      "value": "16"
+    },
+    {
+      "filePath": "\/Users\/madhan\/Projects\/IAP\/InAppChargingSDKiOS\/InAppChargingSDKiOS\/TTApiCrypto.swift",
+      "kind": "StringLiteral",
+      "offset": 2069,
+      "length": 18,
+      "value": "\"0123456789abcdef\""
+    },
+    {
+      "filePath": "\/Users\/madhan\/Projects\/IAP\/InAppChargingSDKiOS\/InAppChargingSDKiOS\/TTApiCrypto.swift",
+      "kind": "StringLiteral",
+      "offset": 6562,
+      "length": 7,
+      "value": "\"-----\""
     },
     {
       "filePath": "\/Users\/madhan\/Projects\/IAP\/InAppChargingSDKiOS\/InAppChargingSDKiOS\/TTDeviceIDManager.swift",
@@ -7791,357 +8012,329 @@
     {
       "filePath": "\/Users\/madhan\/Projects\/IAP\/InAppChargingSDKiOS\/InAppChargingSDKiOS\/TTDomainService.swift",
       "kind": "StringLiteral",
-      "offset": 1955,
+      "offset": 2094,
       "length": 15,
       "value": "\"fastag_domain\""
     },
     {
       "filePath": "\/Users\/madhan\/Projects\/IAP\/InAppChargingSDKiOS\/InAppChargingSDKiOS\/TTDomainService.swift",
       "kind": "StringLiteral",
-      "offset": 1995,
+      "offset": 2134,
       "length": 11,
       "value": "\"base_path\""
     },
     {
       "filePath": "\/Users\/madhan\/Projects\/IAP\/InAppChargingSDKiOS\/InAppChargingSDKiOS\/TTDomainService.swift",
       "kind": "StringLiteral",
-      "offset": 2037,
+      "offset": 2176,
       "length": 17,
       "value": "\"drivepay_domain\""
     },
     {
       "filePath": "\/Users\/madhan\/Projects\/IAP\/InAppChargingSDKiOS\/InAppChargingSDKiOS\/TTDomainService.swift",
       "kind": "StringLiteral",
-      "offset": 2087,
+      "offset": 2226,
       "length": 20,
       "value": "\"drivepay_base_path\""
     },
     {
       "filePath": "\/Users\/madhan\/Projects\/IAP\/InAppChargingSDKiOS\/InAppChargingSDKiOS\/TTDomainService.swift",
       "kind": "StringLiteral",
-      "offset": 2138,
+      "offset": 2277,
       "length": 18,
       "value": "\"fastag_base_path\""
     },
     {
       "filePath": "\/Users\/madhan\/Projects\/IAP\/InAppChargingSDKiOS\/InAppChargingSDKiOS\/TTDomainService.swift",
       "kind": "StringLiteral",
-      "offset": 2182,
+      "offset": 2321,
       "length": 12,
       "value": "\"clear_data\""
     },
     {
       "filePath": "\/Users\/madhan\/Projects\/IAP\/InAppChargingSDKiOS\/InAppChargingSDKiOS\/TTDomainService.swift",
       "kind": "StringLiteral",
-      "offset": 2224,
+      "offset": 2363,
       "length": 17,
       "value": "\"auto_zoom_limit\""
     },
     {
       "filePath": "\/Users\/madhan\/Projects\/IAP\/InAppChargingSDKiOS\/InAppChargingSDKiOS\/TTDomainService.swift",
       "kind": "StringLiteral",
-      "offset": 2272,
+      "offset": 2411,
       "length": 19,
       "value": "\"zoom_out_per_time\""
     },
     {
       "filePath": "\/Users\/madhan\/Projects\/IAP\/InAppChargingSDKiOS\/InAppChargingSDKiOS\/TTDomainService.swift",
       "kind": "StringLiteral",
-      "offset": 2315,
+      "offset": 2454,
       "length": 10,
       "value": "\"min_zoom\""
     },
     {
       "filePath": "\/Users\/madhan\/Projects\/IAP\/InAppChargingSDKiOS\/InAppChargingSDKiOS\/TTDomainService.swift",
       "kind": "StringLiteral",
-      "offset": 2349,
+      "offset": 2488,
       "length": 10,
       "value": "\"max_zoom\""
     },
     {
       "filePath": "\/Users\/madhan\/Projects\/IAP\/InAppChargingSDKiOS\/InAppChargingSDKiOS\/TTDomainService.swift",
       "kind": "StringLiteral",
-      "offset": 2392,
+      "offset": 2531,
       "length": 19,
       "value": "\"cluster_threshold\""
     },
     {
       "filePath": "\/Users\/madhan\/Projects\/IAP\/InAppChargingSDKiOS\/InAppChargingSDKiOS\/TTDomainService.swift",
       "kind": "StringLiteral",
-      "offset": 2449,
+      "offset": 2588,
       "length": 25,
       "value": "\"marker_polling_duration\""
     },
     {
       "filePath": "\/Users\/madhan\/Projects\/IAP\/InAppChargingSDKiOS\/InAppChargingSDKiOS\/TTDomainService.swift",
       "kind": "StringLiteral",
-      "offset": 2510,
+      "offset": 2649,
       "length": 23,
       "value": "\"enable_marker_polling\""
     },
     {
       "filePath": "\/Users\/madhan\/Projects\/IAP\/InAppChargingSDKiOS\/InAppChargingSDKiOS\/TTDomainService.swift",
       "kind": "StringLiteral",
-      "offset": 2562,
+      "offset": 2701,
       "length": 15,
       "value": "\"max_waypoints\""
     },
     {
       "filePath": "\/Users\/madhan\/Projects\/IAP\/InAppChargingSDKiOS\/InAppChargingSDKiOS\/TTDomainService.swift",
       "kind": "StringLiteral",
-      "offset": 2610,
+      "offset": 2749,
       "length": 20,
       "value": "\"max_charging_stops\""
     },
     {
       "filePath": "\/Users\/madhan\/Projects\/IAP\/InAppChargingSDKiOS\/InAppChargingSDKiOS\/TTDomainService.swift",
       "kind": "StringLiteral",
-      "offset": 2666,
+      "offset": 2805,
       "length": 23,
       "value": "\"max_waypoints_message\""
     },
     {
       "filePath": "\/Users\/madhan\/Projects\/IAP\/InAppChargingSDKiOS\/InAppChargingSDKiOS\/TTDomainService.swift",
       "kind": "StringLiteral",
-      "offset": 2729,
+      "offset": 2868,
       "length": 28,
       "value": "\"max_charging_stops_message\""
     },
     {
       "filePath": "\/Users\/madhan\/Projects\/IAP\/InAppChargingSDKiOS\/InAppChargingSDKiOS\/TTDomainService.swift",
       "kind": "StringLiteral",
-      "offset": 2797,
+      "offset": 2936,
       "length": 28,
       "value": "\"add_charging_stops_message\""
     },
     {
       "filePath": "\/Users\/madhan\/Projects\/IAP\/InAppChargingSDKiOS\/InAppChargingSDKiOS\/TTDomainService.swift",
       "kind": "StringLiteral",
-      "offset": 2858,
+      "offset": 2997,
       "length": 19,
       "value": "\"complaint_reasons\""
     },
     {
       "filePath": "\/Users\/madhan\/Projects\/IAP\/InAppChargingSDKiOS\/InAppChargingSDKiOS\/TTDomainService.swift",
       "kind": "StringLiteral",
-      "offset": 2907,
+      "offset": 3046,
       "length": 16,
       "value": "\"route_distance\""
     },
     {
       "filePath": "\/Users\/madhan\/Projects\/IAP\/InAppChargingSDKiOS\/InAppChargingSDKiOS\/TTDomainService.swift",
       "kind": "StringLiteral",
-      "offset": 2954,
+      "offset": 3093,
       "length": 18,
       "value": "\"cs_poll_duration\""
     },
     {
       "filePath": "\/Users\/madhan\/Projects\/IAP\/InAppChargingSDKiOS\/InAppChargingSDKiOS\/TTDomainService.swift",
       "kind": "StringLiteral",
-      "offset": 3003,
+      "offset": 3142,
       "length": 18,
       "value": "\"gs_poll_duration\""
     },
     {
       "filePath": "\/Users\/madhan\/Projects\/IAP\/InAppChargingSDKiOS\/InAppChargingSDKiOS\/TTDomainService.swift",
       "kind": "StringLiteral",
-      "offset": 3052,
+      "offset": 3191,
       "length": 18,
       "value": "\"ps_poll_duration\""
     },
     {
       "filePath": "\/Users\/madhan\/Projects\/IAP\/InAppChargingSDKiOS\/InAppChargingSDKiOS\/TTDomainService.swift",
       "kind": "StringLiteral",
-      "offset": 3102,
+      "offset": 3241,
       "length": 19,
       "value": "\"charger_power_min\""
     },
     {
       "filePath": "\/Users\/madhan\/Projects\/IAP\/InAppChargingSDKiOS\/InAppChargingSDKiOS\/TTDomainService.swift",
       "kind": "StringLiteral",
-      "offset": 3153,
+      "offset": 3292,
       "length": 19,
       "value": "\"charger_power_max\""
     },
     {
       "filePath": "\/Users\/madhan\/Projects\/IAP\/InAppChargingSDKiOS\/InAppChargingSDKiOS\/TTDomainService.swift",
       "kind": "StringLiteral",
-      "offset": 3206,
+      "offset": 3345,
       "length": 21,
       "value": "\"recent_search_limit\""
     },
     {
       "filePath": "\/Users\/madhan\/Projects\/IAP\/InAppChargingSDKiOS\/InAppChargingSDKiOS\/TTDomainService.swift",
       "kind": "StringLiteral",
-      "offset": 3258,
+      "offset": 3397,
       "length": 17,
       "value": "\"max_suggestions\""
     },
     {
       "filePath": "\/Users\/madhan\/Projects\/IAP\/InAppChargingSDKiOS\/InAppChargingSDKiOS\/TTDomainService.swift",
       "kind": "StringLiteral",
-      "offset": 3309,
+      "offset": 3448,
       "length": 21,
       "value": "\"default_search_mode\""
     },
     {
       "filePath": "\/Users\/madhan\/Projects\/IAP\/InAppChargingSDKiOS\/InAppChargingSDKiOS\/TTDomainService.swift",
       "kind": "StringLiteral",
-      "offset": 3366,
+      "offset": 3505,
       "length": 24,
       "value": "\"show_search_type_label\""
     },
     {
       "filePath": "\/Users\/madhan\/Projects\/IAP\/InAppChargingSDKiOS\/InAppChargingSDKiOS\/TTDomainService.swift",
       "kind": "StringLiteral",
-      "offset": 3427,
+      "offset": 3566,
       "length": 26,
       "value": "\"home_card_distance_in_km\""
     },
     {
       "filePath": "\/Users\/madhan\/Projects\/IAP\/InAppChargingSDKiOS\/InAppChargingSDKiOS\/TTDomainService.swift",
       "kind": "StringLiteral",
-      "offset": 3486,
+      "offset": 3625,
       "length": 21,
       "value": "\"home_card_page_size\""
     },
     {
       "filePath": "\/Users\/madhan\/Projects\/IAP\/InAppChargingSDKiOS\/InAppChargingSDKiOS\/TTDomainService.swift",
       "kind": "StringLiteral",
-      "offset": 3546,
+      "offset": 3685,
       "length": 28,
       "value": "\"home_card_use_selected_pin\""
     },
     {
       "filePath": "\/Users\/madhan\/Projects\/IAP\/InAppChargingSDKiOS\/InAppChargingSDKiOS\/TTDomainService.swift",
       "kind": "StringLiteral",
-      "offset": 3613,
+      "offset": 3752,
       "length": 27,
       "value": "\"home_card_map_interaction\""
     },
     {
       "filePath": "\/Users\/madhan\/Projects\/IAP\/InAppChargingSDKiOS\/InAppChargingSDKiOS\/TTDomainService.swift",
       "kind": "StringLiteral",
-      "offset": 3684,
+      "offset": 3823,
       "length": 33,
       "value": "\"home_card_location_poll_seconds\""
     },
     {
       "filePath": "\/Users\/madhan\/Projects\/IAP\/InAppChargingSDKiOS\/InAppChargingSDKiOS\/TTDomainService.swift",
       "kind": "StringLiteral",
-      "offset": 3762,
+      "offset": 3901,
       "length": 34,
       "value": "\"home_card_location_change_meters\""
     },
     {
       "filePath": "\/Users\/madhan\/Projects\/IAP\/InAppChargingSDKiOS\/InAppChargingSDKiOS\/TTDomainService.swift",
       "kind": "StringLiteral",
-      "offset": 8205,
+      "offset": 3968,
+      "length": 19,
+      "value": "\"enable_encryption\""
+    },
+    {
+      "filePath": "\/Users\/madhan\/Projects\/IAP\/InAppChargingSDKiOS\/InAppChargingSDKiOS\/TTDomainService.swift",
+      "kind": "StringLiteral",
+      "offset": 8910,
       "length": 15,
       "value": "\"stored_domain\""
     },
     {
       "filePath": "\/Users\/madhan\/Projects\/IAP\/InAppChargingSDKiOS\/InAppChargingSDKiOS\/TTDomainService.swift",
       "kind": "StringLiteral",
-      "offset": 8253,
-      "length": 29,
-      "value": "\"https:\/\/iot-pre.tonetag.com\""
-    },
-    {
-      "filePath": "\/Users\/madhan\/Projects\/IAP\/InAppChargingSDKiOS\/InAppChargingSDKiOS\/TTDomainService.swift",
-      "kind": "StringLiteral",
-      "offset": 8320,
-      "length": 29,
-      "value": "\"https:\/\/iot-pre.tonetag.com\""
-    },
-    {
-      "filePath": "\/Users\/madhan\/Projects\/IAP\/InAppChargingSDKiOS\/InAppChargingSDKiOS\/TTDomainService.swift",
-      "kind": "StringLiteral",
-      "offset": 8391,
+      "offset": 9106,
       "length": 22,
       "value": "\"stored_fastag_domain\""
     },
     {
       "filePath": "\/Users\/madhan\/Projects\/IAP\/InAppChargingSDKiOS\/InAppChargingSDKiOS\/TTDomainService.swift",
       "kind": "StringLiteral",
-      "offset": 8452,
-      "length": 29,
-      "value": "\"https:\/\/iot-pre.tonetag.com\""
-    },
-    {
-      "filePath": "\/Users\/madhan\/Projects\/IAP\/InAppChargingSDKiOS\/InAppChargingSDKiOS\/TTDomainService.swift",
-      "kind": "StringLiteral",
-      "offset": 8519,
+      "offset": 9239,
       "length": 18,
       "value": "\"stored_base_path\""
     },
     {
       "filePath": "\/Users\/madhan\/Projects\/IAP\/InAppChargingSDKiOS\/InAppChargingSDKiOS\/TTDomainService.swift",
       "kind": "StringLiteral",
-      "offset": 8572,
-      "length": 30,
-      "value": "\"\/newbg\/sv\/connected_cars\/v4\/\""
-    },
-    {
-      "filePath": "\/Users\/madhan\/Projects\/IAP\/InAppChargingSDKiOS\/InAppChargingSDKiOS\/TTDomainService.swift",
-      "kind": "StringLiteral",
-      "offset": 8646,
+      "offset": 9372,
       "length": 24,
       "value": "\"stored_drivepay_domain\""
     },
     {
       "filePath": "\/Users\/madhan\/Projects\/IAP\/InAppChargingSDKiOS\/InAppChargingSDKiOS\/TTDomainService.swift",
       "kind": "StringLiteral",
-      "offset": 8716,
+      "offset": 9442,
       "length": 27,
       "value": "\"stored_drivepay_base_path\""
     },
     {
       "filePath": "\/Users\/madhan\/Projects\/IAP\/InAppChargingSDKiOS\/InAppChargingSDKiOS\/TTDomainService.swift",
       "kind": "StringLiteral",
-      "offset": 8787,
+      "offset": 9513,
       "length": 25,
       "value": "\"stored_fastag_base_path\""
     },
     {
       "filePath": "\/Users\/madhan\/Projects\/IAP\/InAppChargingSDKiOS\/InAppChargingSDKiOS\/TTDomainService.swift",
       "kind": "StringLiteral",
-      "offset": 8853,
-      "length": 16,
-      "value": "\"\/sv\/mob_app\/v1\""
-    },
-    {
-      "filePath": "\/Users\/madhan\/Projects\/IAP\/InAppChargingSDKiOS\/InAppChargingSDKiOS\/TTDomainService.swift",
-      "kind": "StringLiteral",
-      "offset": 8970,
+      "offset": 9722,
       "length": 27,
       "value": "\"com.tonetag.domainservice\""
     },
     {
       "filePath": "\/Users\/madhan\/Projects\/IAP\/InAppChargingSDKiOS\/InAppChargingSDKiOS\/TTDomainService.swift",
       "kind": "StringLiteral",
-      "offset": 10577,
+      "offset": 11329,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/madhan\/Projects\/IAP\/InAppChargingSDKiOS\/InAppChargingSDKiOS\/TTDomainService.swift",
       "kind": "StringLiteral",
-      "offset": 10607,
+      "offset": 11359,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/madhan\/Projects\/IAP\/InAppChargingSDKiOS\/InAppChargingSDKiOS\/TTDomainService.swift",
       "kind": "StringLiteral",
-      "offset": 10629,
+      "offset": 11381,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/madhan\/Projects\/IAP\/InAppChargingSDKiOS\/InAppChargingSDKiOS\/TTDomainService.swift",
       "kind": "StringLiteral",
-      "offset": 10656,
+      "offset": 11408,
       "length": 2,
       "value": "\"\""
     },
@@ -8155,7 +8348,7 @@
     {
       "filePath": "\/Users\/madhan\/Projects\/IAP\/InAppChargingSDKiOS\/InAppChargingSDKiOS\/TTHelper.swift",
       "kind": "BooleanLiteral",
-      "offset": 4570,
+      "offset": 4699,
       "length": 5,
       "value": "false"
     },
@@ -8244,6 +8437,48 @@
       "value": "false"
     },
     {
+      "filePath": "\/Users\/madhan\/Projects\/IAP\/InAppChargingSDKiOS\/InAppChargingSDKiOS\/TTSecureString.swift",
+      "kind": "Array",
+      "offset": 458,
+      "length": 613,
+      "value": "[[0x53, 0xd3, 0x11, 0xaf, 0x0f, 0xd1, 0x3a, 0x14, 0xb1, 0x42, 0x94, 0x67, 0x63, 0xe4, 0xa9, 0xa4, 0x3f, 0xe6, 0xb0, 0x90, 0xc5, 0x9d, 0xe4, 0xde, 0xc5, 0x10, 0x40, 0x8f, 0xbc, 0xd8, 0x84, 0x31], [0xdb, 0xdc, 0x6e, 0x2c, 0x26, 0xc3, 0x34, 0xd4, 0xea, 0x79, 0x77, 0x78, 0x17, 0x76, 0x5f, 0x05, 0xb9, 0x04, 0x84, 0x52, 0x3f, 0x62, 0x6c, 0x7d, 0xe7, 0xcd, 0xa5, 0x32, 0xdb, 0x47, 0x99, 0x7a], [0x28, 0x01, 0xec, 0x70, 0x66, 0x57, 0xf6, 0xbf, 0xe2, 0xae, 0x5e, 0xe8, 0x59, 0xee, 0xf8, 0x05, 0xbe, 0x7e, 0x9b, 0x8d, 0xe9, 0x0d, 0xa2, 0xdf, 0x87, 0x7e, 0xb2, 0x70, 0x0e, 0xef, 0x23, 0x4c]]"
+    },
+    {
+      "filePath": "\/Users\/madhan\/Projects\/IAP\/InAppChargingSDKiOS\/InAppChargingSDKiOS\/TTSecureString.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1155,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/madhan\/Projects\/IAP\/InAppChargingSDKiOS\/InAppChargingSDKiOS\/TTSecureString.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1165,
+      "length": 2,
+      "value": "32"
+    },
+    {
+      "filePath": "\/Users\/madhan\/Projects\/IAP\/InAppChargingSDKiOS\/InAppChargingSDKiOS\/TTSecureString.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1203,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/madhan\/Projects\/IAP\/InAppChargingSDKiOS\/InAppChargingSDKiOS\/TTSecureString.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1207,
+      "length": 2,
+      "value": "32"
+    },
+    {
+      "filePath": "\/Users\/madhan\/Projects\/IAP\/InAppChargingSDKiOS\/InAppChargingSDKiOS\/TTSecureString.swift",
+      "kind": "Dictionary",
+      "offset": 1328,
+      "length": 3,
+      "value": "[]"
+    },
+    {
       "filePath": "\/Users\/madhan\/Projects\/IAP\/InAppChargingSDKiOS\/InAppChargingSDKiOS\/TTUpiUtility.swift",
       "kind": "Array",
       "offset": 233,
@@ -8259,8 +8494,15 @@
     },
     {
       "filePath": "\/Users\/madhan\/Projects\/IAP\/InAppChargingSDKiOS\/InAppChargingSDKiOS\/TTUtility.swift",
+      "kind": "StringLiteral",
+      "offset": 2697,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/madhan\/Projects\/IAP\/InAppChargingSDKiOS\/InAppChargingSDKiOS\/TTUtility.swift",
       "kind": "BooleanLiteral",
-      "offset": 2845,
+      "offset": 3201,
       "length": 5,
       "value": "false"
     }
